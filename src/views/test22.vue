@@ -62,7 +62,7 @@
     }
     </script>
     
-    <style>
+    <style scoped>
     div {
         height: 100px;
     }

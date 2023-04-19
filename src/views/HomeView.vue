@@ -3,39 +3,75 @@
     <div class="container">
       <h1>随机菜品</h1>
       <p id="menu"></p>
-      <button v-on:click="generateMenu()">点击生成</button>
+      <button v-on:click="generateMenu()">随机点击生成</button>
     </div>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>现有食材和菜谱模糊列表</h1>
+    <el-table
+      :data="tableData"
+      style="width: 100%">
+      <el-table-column
+        prop="menu"
+        label="菜品"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="food"
+        label="食材"
+        width="180">
+      </el-table-column>
+ 
+    </el-table>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import menuArrJson from "@/data/menu.json";
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
   },
   data() {
     return {
-      menuArr:["宫保鸡丁", "红烧肉", "水煮鱼", "麻婆豆腐", "糖醋排骨", "回锅肉"]
-    }
+      menuArr: menuArrJson,
+      tableData: [{
+        name:'xx',
+        label: 'x'
+      }],
+    };
   },
   methods: {
     generateMenu() {
       var menu = document.getElementById("menu");
-      menu.innerHTML = this.menuArr[Math.floor(Math.random() * this.menuArr.length)];
+      menu.innerHTML =
+        this.menuArr[Math.floor(Math.random() * this.menuArr.length)];
+    },
+    generate() {
+        
+    },
+    initFood() {
+      debugger;
+      var food = JSON.parse(localStorage.getItem('food'))
+      food.forEach(foodItem => {
+        this.menuArr.forEach(menuItem => {
+          debugger;
+          if( menuItem.indexOf(foodItem.name) >= 0){
+            this.tableData.push({
+              food: foodItem.name,
+              // number: foodItem.number,
+              menu: menuItem,
+            })
+          }
+        });
+      });
     }
-   
   },
   mounted() {
-            // 菜单数组
-  
-  // 生成随机菜品
-  }
-}
+    this.initFood()
+    // 菜单数组
+    // 生成随机菜品
+  },
+};
 </script>
 <style>
 .container {
