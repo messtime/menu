@@ -9,7 +9,6 @@
       <router-link to="/menu2">menu2</router-link>
       <router-link to="/store">store</router-link>
     </nav>
-    <el-button type="primary">主要按钮</el-button>
 
     <router-view/>
   </div>

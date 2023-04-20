@@ -1,129 +1,98 @@
 <template>
-  <div>
-    <div class="box1">
-      1
-      <div class="box2">
-        2
-        <div class="box3">
-          3
-          <div class="box4">4</div>
-        </div>
-      </div>
-    </div>
+  <div class="all-menu">
+    <el-table :data="vegetable_dish" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="meat_dish" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="aquatic" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
   </div>
 </template>
-  
-  <script>
-// @ is an alias to /src
 
-// import vueConfig from 'vue.config';
+<script>
+// @ is an alias to /src
+import menuData from "@/data/menu.json";
 
 export default {
-  name: "test11",
+  name: "HomeView",
   components: {},
   data() {
     return {
-      //  menuArr:["宫保鸡丁", "红烧肉", "水煮鱼", "麻婆豆腐", "糖醋排骨", "回锅肉"]
+      menuDataArr: menuData,
+      vegetable_dish: [],
+      aquatic: [],
+      meat_dish: [],
+      早餐: [],
+      主食: [],
+      半成品加工: [],
+      汤与粥: [],
+      饮料: [],
+      酱料和其它材料: [],
+      甜品: [],
     };
   },
   methods: {
-    generateMenu() {
-      var menu = document.getElementById("menu");
-      menu.innerHTML = this.menuArr[
-        Math.floor(Math.random() * this.menuArr.length)
-      ];
-    }
-  },
+    initMenu() {
+      var vegetable_dishIndex = 0;
+      var meat_dishIndex = 0;
 
-  beforeCreate() {
-    console.log("开始");
-  },
+      var aquaticIndex = 0;
+      var breakfastIndex = 0;
 
-  created() {
-    console.log("然后");
-  },
+      this.menuDataArr.forEach((item, index) => {
+        if (item.name == "素菜") {
 
-  beforeMount() {
-    console.log("甲");
+        }
+        if (item.name == "荤菜") {
+          this.vegetable_dish = this.menuDataArr.slice(0, index);
+          vegetable_dishIndex = index;
+        }
+        if (item.name == "水产") {
+          this.meat_dish = this.menuDataArr.slice(vegetable_dishIndex, index);
+          aquaticIndex = index;
+        }
+        if (item.name == "早餐") {
+          this.aquatic = this.menuDataArr.slice(aquaticIndex, index);
+          breakfastIndex = index;
+        }
+      });
+    },
   },
-
   mounted() {
-    console.log("乙");
+    this.initMenu();
+
+    // 菜单数组
+    // 生成随机菜品
   },
-
-  beforeUpdate() {
-    console.log("丙");
-  },
-
-  updated() {
-    console.log("丁");
-  },
-
-  activated() {
-    console.log("茂");
-  },
-
-  deactivated() {
-    console.log("己");
-  },
-
-  beforeDestroy() {
-    console.log("庚");
-  },
-
-  destroyed() {
-    console.log("辛");
-  }
-
-  // errorCaptured() {
-  //   console.log("壬");
-  // }
 };
 </script>
-  <style>
-.container {
-}
-</style>
-<style>
-.box1 {
-  width: 400px;
-  height: 400px;
-  background-color: rgb(242, 72, 15);
-}
-.box2 {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(28, 181, 89);
-}
-.box3 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(78, 123, 160);
-}
-.box4 {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 240, 243);
-}
-.box1,
-.box2,
-.box3 {
+<style scoped>
+.all-menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
 }
-
-.box4 {
-  top: 0px;
-  left: 0px;
-  position: relative;
+.container {
+  text-align: center;
+  margin-top: 50px;
 }
-.box3 {
-  position: relative;
+h1 {
+  font-size: 36px;
+  color: green;
 }
-.box2 {
-  position: absolute;
+p {
+  font-size: 24px;
+}
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
 }
 </style>
-  
