@@ -1,0 +1,154 @@
+{
+  "materials": {
+    "皮蛋": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "皮蛋 2 个"
+    },
+    "青椒": {
+      "quantity": "4",
+      "unit": "根 （长 10-15cm，宽",
+      "is_optional": false,
+      "tips": [
+        "长 10-15cm，宽 2-4cm"
+      ],
+      "original": "青椒 4 根 （长 10-15cm，宽 2-4cm）"
+    },
+    "葱 （大约": {
+      "quantity": "10",
+      "unit": "cm",
+      "is_optional": false,
+      "tips": [
+        "大约 10cm 即可，葱绿最佳"
+      ],
+      "original": "葱 （大约 10cm 即可，葱绿最佳）"
+    },
+    "蒜": {
+      "quantity": "3-4",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 3-4 瓣"
+    },
+    "食用": {
+      "quantity": "10-20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 10-20ml"
+    },
+    "生": {
+      "quantity": "15-20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 15-20ml"
+    },
+    "陈": {
+      "quantity": "15-20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "陈醋 15-20ml"
+    },
+    "白": {
+      "quantity": "6-10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖 6-10g"
+    },
+    "香油": {
+      "quantity": "5-7",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "香油 5-7ml"
+    },
+    "小米辣": {
+      "quantity": "3-4",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "小米辣 3-4 颗"
+    },
+    "长条青椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "有些叫线椒，后面介绍以“青椒”代替"
+      ],
+      "original": "长条青椒（有些叫线椒，后面介绍以“青椒”代替）"
+    },
+    "葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱"
+    },
+    "小米辣(可选）": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "小米辣(可选）"
+    },
+    "食用油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "陈醋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "陈醋"
+    },
+    "白糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖"
+    },
+    "深一点的小铁盆": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "深一点的小铁盆"
+    }
+  },
+  "steps": [
+    "青椒清洗，去除根部，侧面切开，去除内部的子后在案板压平，备用（一定要去除青椒子，否则会在锅里炸开）",
+    "葱切成半厘米小段，备用",
+    "蒜去皮，切成碎末，备用",
+    "皮蛋去皮，备用",
+    "小米辣，切成 5-10mm 的小段，备用",
+    "热锅，锅内放入 10ml - 20ml 食用油",
+    "放入全部青椒，改小火保持锅子温度，煎至青椒变软（可以用筷子试一下，插入即透即可）",
+    "关火，将皮蛋和青椒放入小铁盆中",
+    "方法 1： 有擀面杖且砸东西不会吵到邻居：用擀面杖的一头在小盆中砸击皮蛋和青椒，至皮蛋与青椒混合（选项）",
+    "方法 2：将青椒用手撕开，撕成大约半厘米的条状，用叉子将皮蛋压碎（选项）",
+    "小米辣",
+    "倒入生抽，陈醋，白糖，香油，以及其他未使用的备用食材",
+    "均匀搅拌"
+  ],
+  "additional": [],
+  "desc": "雷椒皮蛋是一个非常简单的下饭凉菜，这道菜操作比较简单，且食材常见, 最终成品卖相不会很好看，但是是夏天下饭的神器之一",
+  "name": "雷椒皮蛋"
+}

@@ -1,0 +1,109 @@
+{
+  "materials": {
+    "注意：虽然给出了原料的具体用量，但室内温度、室内湿度甚至是空气中酵母菌的含量都会影响制作过程。本食谱会在制作过程中尽可能地给予调整建议。**": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "注意：虽然给出了原料的具体用量，但室内温度、室内湿度甚至是空气中酵母菌的含量都会影响制作过程。本食谱会在制作过程中尽可能地给予调整建议。**"
+    },
+    "**酵头**": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "**酵头**"
+    },
+    "面粉": {
+      "quantity": "2",
+      "unit": "½",
+      "is_optional": false,
+      "tips": [],
+      "original": "面粉 2½ cup"
+    },
+    "": {
+      "quantity": "30",
+      "unit": "℃ 温水（以不烫手为宜） 1",
+      "is_optional": false,
+      "tips": [
+        "以不烫手为宜"
+      ],
+      "original": "30 ℃ 温水（以不烫手为宜） 1 cup"
+    },
+    "酵母": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "酵母 2 g"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2 g"
+    },
+    "**面团**": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "**面团**"
+    },
+    "鸡蛋": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 1 个"
+    },
+    "糖或糖浆 ⅛ cup": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "糖或糖浆 ⅛ cup"
+    },
+    "奶制品 混合后共 ¼ cup ": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "奶粉需要和水混合。"
+      ],
+      "original": "奶制品 混合后共 ¼ cup （奶粉需要和水混合。）"
+    },
+    "黄油或玉米油 ⅛ cup": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄油或玉米油 ⅛ cup"
+    },
+    "谷朊粉 ¼ ~ ½ cup ": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "谷朊粉 ¼ ~ ½ cup （可选）"
+    },
+    "香草精": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "香草精 3 g （可选）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    ""
+  ],
+  "desc": "![牛奶面包成品](./1-1成品.jpg)面包是常见的主食。普通面包需要经过长时间的发酵及和面。但本食谱尽量简化了制作步骤，方便新手上手，并尽量保证其风味。当然，要求更高的也可以查阅其的面包食谱。本食谱**需要的额外的工具较多**，会在后面的章节详细介绍。本食谱面向**烘焙新手**，难度**中**，预计制作制作时长 **200 分钟**。",
+  "name": "基础牛奶面包"
+}

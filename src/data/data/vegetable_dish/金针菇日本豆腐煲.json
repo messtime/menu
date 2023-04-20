@@ -1,0 +1,101 @@
+{
+  "materials": {
+    "金针菇": {
+      "quantity": "1-2",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "金针菇 1-2 把"
+    },
+    "豆腐": {
+      "quantity": "2",
+      "unit": "袋",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆腐 2 袋"
+    },
+    "小米椒": {
+      "quantity": "3-5",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "小米椒 3-5 根，切碎"
+    },
+    "蒜": {
+      "quantity": "2-3",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 2-3 瓣"
+    },
+    "生抽": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 15ml"
+    },
+    "蚝油": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 5ml"
+    },
+    "老抽": {
+      "quantity": "3",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 3ml"
+    },
+    "糖": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖 3g"
+    },
+    "食用": {
+      "quantity": "10-15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 10-15ml"
+    },
+    "日本豆腐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "玉子豆腐"
+      ],
+      "original": "日本豆腐（玉子豆腐）"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "食用油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油"
+    }
+  },
+  "steps": [
+    "豆腐切片，小火煎到两面金黄出锅备用。",
+    "切蒜成蒜末；将生抽，蚝油，老抽，糖，100ml 水调汁备用。",
+    "热锅放油，油热放小米椒、蒜末爆香，先放金针菇，炒软，把煎好的豆腐平铺在金针菇上，倒入#2 配好的料汁，焖 5 分钟，大火收汁。"
+  ],
+  "additional": [
+    "金针菇一定要先炒软",
+    "豆腐尽量不要翻炒，容易碎"
+  ],
+  "desc": "金针菇日本豆腐煲是一道容易上手的日常料理。",
+  "name": "金针菇日本豆腐煲"
+}

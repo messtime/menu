@@ -1,0 +1,132 @@
+{
+  "materials": {
+    "黑鳕鱼，带皮，": {
+      "quantity": "2",
+      "unit": "片，450g",
+      "is_optional": false,
+      "tips": [
+        "本菜谱主角，所有调料可根据鳕鱼的实际重量进行比例调整"
+      ],
+      "original": "黑鳕鱼，带皮，2 片，450g（本菜谱主角，所有调料可根据鳕鱼的实际重量进行比例调整）"
+    },
+    "青葱，葱白，": {
+      "quantity": "25",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "青葱，葱白，25g。"
+    },
+    "青葱，葱绿，": {
+      "quantity": "10",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "青葱，葱绿，10g。"
+    },
+    "姜，": {
+      "quantity": "13",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜，13g。"
+    },
+    "料酒，": {
+      "quantity": "5",
+      "unit": "mL。",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒，5mL。"
+    },
+    "酱油，": {
+      "quantity": "25",
+      "unit": "mL。",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油，25mL。"
+    },
+    "芝麻油，": {
+      "quantity": "2",
+      "unit": "mL。",
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻油，2mL。"
+    },
+    "花生油，": {
+      "quantity": "50",
+      "unit": "mL。",
+      "is_optional": false,
+      "tips": [],
+      "original": "花生油，50mL。"
+    },
+    "黑鳕鱼，带皮": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黑鳕鱼，带皮"
+    },
+    "青葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青葱"
+    },
+    "姜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "姜"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "芝麻油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻油"
+    },
+    "花生油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "花生油"
+    },
+    "密封袋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "密封袋"
+    }
+  },
+  "steps": [
+    "鱼片分别放入密封袋，鱼皮向下放在盘子中。",
+    "取葱白切丝 25g，姜去皮后切丝，10g，混合在一起后分成两半，分别放在袋内鱼片上。",
+    "每个袋子倒入 2.5mL 料酒。",
+    "封好密封袋，放入微波炉中，中火（800 瓦）微波至*不透明且容易散开*时（约 3.5-5 分钟），从袋中取出鱼片。",
+    "去除青葱和姜。",
+    "取酱油 25mL，芝麻油 2mL，混合均匀后平均淋在两片鱼片上。",
+    "取葱绿切细丝 10g，姜去皮后切丝 3g，混合后分成两份撒在鱼片上。",
+    "取花生油 50mL，在小锅中加热至 190℃。",
+    "将热油淋到放油葱绿的鱼片上，立刻上桌。"
+  ],
+  "additional": [],
+  "desc": "这道菜改编自西雅图 Veil 餐厅主厨 Johnny Zhu 的母亲 Margaret Lu 的菜谱。卢女士原菜谱是使用罗非鱼来做这道菜，Johnny 改为鳕鱼，但也可以用大比目鱼鱼排，或者海鲈鱼、鳟鱼等。每种鱼的密度有差别，烹饪时间要做微调。",
+  "name": "微波葱姜黑鳕鱼"
+}

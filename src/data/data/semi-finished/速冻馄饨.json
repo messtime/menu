@@ -1,0 +1,89 @@
+{
+  "materials": {
+    "一般一个人一顿可以食": {
+      "quantity": "12～20",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "一般一个人一顿可以食用 12～20 个馄饨"
+    },
+    "当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以": {
+      "quantity": "2~3",
+      "unit": "倍的水量（一人食用的馄饨约需要 600ml",
+      "is_optional": false,
+      "tips": [
+        "一人食用的馄饨约需要 600ml 水量"
+      ],
+      "original": "当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）"
+    },
+    "未过期的一袋速冻馄饨": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "自带调味料包更佳"
+      ],
+      "original": "未过期的一袋速冻馄饨（自带调味料包更佳）"
+    },
+    "电饭煲": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "推荐品牌小米智能电饭煲"
+      ],
+      "original": "电饭煲（推荐品牌小米智能电饭煲）"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "速冻馄饨无调味料包时"
+      ],
+      "original": "盐（速冻馄饨无调味料包时）"
+    },
+    "鸡精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "速冻馄饨无调味料包时"
+      ],
+      "original": "鸡精（速冻馄饨无调味料包时）"
+    },
+    "胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "速冻馄饨无调味料包时"
+      ],
+      "original": "胡椒粉（速冻馄饨无调味料包时）"
+    },
+    "香油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "速冻馄饨无调味料包时"
+      ],
+      "original": "香油（速冻馄饨无调味料包时）"
+    },
+    "香菜 1 根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "香菜 1 根（可选）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。"
+  ],
+  "desc": "馄饨是一种起源于中国的一种民间传统面食，[饺子](./速冻水饺.md)由其分化而出，有皮薄馅嫩、汤清味鲜的特点。",
+  "name": "速冻馄饨"
+}

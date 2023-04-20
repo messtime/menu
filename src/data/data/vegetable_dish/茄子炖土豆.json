@@ -1,0 +1,116 @@
+{
+  "materials": {
+    "茄子的数量 = 份数 *": {
+      "quantity": "1",
+      "unit": "个 （每个茄子约",
+      "is_optional": false,
+      "tips": [
+        "每个茄子约 150g"
+      ],
+      "original": "茄子的数量 = 份数 * 1 个 （每个茄子约 150g）"
+    },
+    "土豆数量 = 份数 *": {
+      "quantity": "1",
+      "unit": "个（每个土豆约",
+      "is_optional": false,
+      "tips": [
+        "每个土豆约 150g"
+      ],
+      "original": "土豆数量 = 份数 * 1 个（每个土豆约 150g）"
+    },
+    "肉量 = 份数 *": {
+      "quantity": "180",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "肉量 = 份数 * 180 克"
+    },
+    "酱油量 = 份数 *": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油量 = 份数 * 15 毫升"
+    },
+    "盐量 = 份数 *": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐量 = 份数 * 5 克"
+    },
+    "辣椒量 =": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "调味，所以无论多少人都放这些。"
+      ],
+      "original": "辣椒量 = 50 克（调味，所以无论多少人都放这些。）"
+    },
+    "蒜量 =": {
+      "quantity": "3",
+      "unit": "瓣（调味，所以无论多少人都放这些。注意是里面的小瓣 3",
+      "is_optional": false,
+      "tips": [
+        "调味，所以无论多少人都放这些。注意是里面的小瓣 3 瓣，而**不是3整头**"
+      ],
+      "original": "蒜量 = 3 瓣（调味，所以无论多少人都放这些。注意是里面的小瓣 3 瓣，而**不是3整头**）"
+    },
+    "茄子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "茄子"
+    },
+    "土豆": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆"
+    },
+    "肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "肉"
+    },
+    "辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "是青辣椒，而**不是辣椒面或辣椒油**"
+      ],
+      "original": "辣椒（是青辣椒，而**不是辣椒面或辣椒油**）"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "茄子炖土豆"
+}

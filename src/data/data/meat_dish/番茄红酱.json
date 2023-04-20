@@ -1,0 +1,132 @@
+{
+  "materials": {
+    "碎牛肉": {
+      "quantity": "500",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "碎牛肉 500g"
+    },
+    "蒜瓣": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜瓣 2 个"
+    },
+    "胡萝卜 半根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡萝卜 半根"
+    },
+    "芹菜 一根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "芹菜 一根"
+    },
+    "洋葱 半个": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱 半个"
+    },
+    "橄榄油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "橄榄油"
+    },
+    "糖": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖 2g"
+    },
+    "食盐": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食盐 10g"
+    },
+    "黑胡椒粉": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒粉 5g"
+    },
+    "番茄酱": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "番茄酱 300g"
+    },
+    "牛奶": {
+      "quantity": "300",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "牛奶 300ml"
+    },
+    "胡萝卜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡萝卜"
+    },
+    "芹菜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "芹菜"
+    },
+    "洋葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱"
+    },
+    "胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉"
+    },
+    "干罗勒或百里香": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "干罗勒或百里香（可选）"
+    }
+  },
+  "steps": [
+    "将胡萝卜、芹菜、洋葱切碎，蒜瓣切片。",
+    "加入 10ml 橄榄油，热油下锅蔬菜，大火翻炒开始略微变色后盛出。",
+    "锅内加油 10ml，加蒜翻炒 10 秒，加入碎牛肉、糖、盐、胡椒粉和香料将牛肉炒脆（有颗粒感）。",
+    "加入炒好的蔬菜们和番茄酱继续翻炒，搅拌均匀。",
+    "分多次缓缓倒入牛奶，中小火煮 30 分钟，完成。"
+  ],
+  "additional": [
+    "考虑各个品牌的番茄酱内含盐量不同，建议在炒牛肉时少放盐，煮的时候尝一下再调味",
+    "煮酱料期间请搅动，以免粘锅。如果酱料变粘稠就可以出锅啦！",
+    "可根据个人口味，将碎牛肉替换成一半碎猪肉一半碎牛肉，牛奶替换成鸡汤或饮用水。"
+  ],
+  "desc": "番茄红酱香浓可口，营养丰富，咱很喜欢。可以作为薄饼、意面~~热干面~~等主食的百搭酱料。有些繁琐，适合有烹饪经验的人尝试。一次吃不完也没有关系，可以冷冻后随时拿出来加热哦。（但是千万要记得吃）",
+  "name": "番茄红酱"
+}

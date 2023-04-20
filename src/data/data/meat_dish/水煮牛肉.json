@@ -1,0 +1,106 @@
+{
+  "materials": {
+    "牛肉": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "牛肉 300g"
+    },
+    "豆芽": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆芽 100g"
+    },
+    "鸡蛋": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 1 个"
+    },
+    "香菜": {
+      "quantity": "5",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "香菜 5 根"
+    },
+    "豆瓣酱": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱 10g"
+    },
+    "料酒": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 10ml"
+    },
+    "淀粉": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 15g"
+    },
+    "干辣椒粉": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "干辣椒粉 5g"
+    },
+    "姜": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 20g"
+    },
+    "蒜": {
+      "quantity": "3",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 3 瓣"
+    },
+    "红辣椒": {
+      "quantity": "1",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "红辣椒 1 根"
+    },
+    "蚝油": {
+      "quantity": "8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 8g"
+    }
+  },
+  "steps": [
+    "牛肉洗干净切片。",
+    "加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。",
+    "香菜洗干净切好。",
+    "锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。",
+    "倒入开水，煮成红汤。",
+    "豆芽洗干净去掉尾须，放进开水里焯熟。",
+    "将豆芽铺入碗底。",
+    "将牛肉片一片一片的放进红汤中，煮熟以后捞出。",
+    "将牛肉铺在豆芽上，撒上香菜梗。",
+    "撒上香菜叶，辣椒粉，辣椒圈。",
+    "另起锅烧热油，将热油淋在菜上面，就完成了。"
+  ],
+  "additional": [
+    "参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)"
+  ],
+  "desc": "![shuizhuniurou](./sznr1.jpg)麻辣鲜香",
+  "name": "水煮牛肉"
+}

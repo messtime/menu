@@ -1,0 +1,187 @@
+{
+  "materials": {
+    "鲜面条": {
+      "quantity": "300",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [
+        "韭叶 or 二细<解释见最下方 关于面条粗细区别一栏"
+      ],
+      "original": "鲜面条 300g。"
+    },
+    "肉": {
+      "quantity": "100",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [
+        "最好为五花肉"
+      ],
+      "original": "肉 100g。"
+    },
+    "豆角": {
+      "quantity": "150",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆角 150g。"
+    },
+    "盐的用量为": {
+      "quantity": "2",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐的用量为：2g。"
+    },
+    "食用油的用量为": {
+      "quantity": "10-",
+      "unit": "18",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油的用量为 10 - 18 ml。"
+    },
+    "鸡精的用量为": {
+      "quantity": "2",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精的用量为：2g。"
+    },
+    "生抽的用量为": {
+      "quantity": "10",
+      "unit": "ml。",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽的用量为：10ml。"
+    },
+    "耗油的用量为": {
+      "quantity": "5",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "耗油的用量为：5g。"
+    },
+    "十三香的用量为": {
+      "quantity": "1",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "十三香的用量为：1g。"
+    },
+    "老抽的用量为": {
+      "quantity": "5",
+      "unit": "ml。",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽的用量为：5ml。"
+    },
+    "味精的用量为": {
+      "quantity": "1",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "味精的用量为：1g。"
+    },
+    "热水的用量为": {
+      "quantity": "150",
+      "unit": "ml。",
+      "is_optional": false,
+      "tips": [],
+      "original": "热水的用量为：150ml。"
+    },
+    "葱": {
+      "quantity": "10",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 10g。"
+    },
+    "姜": {
+      "quantity": "5",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 5g。"
+    },
+    "蒜": {
+      "quantity": "10",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 10g。"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "鸡精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精"
+    },
+    "耗油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "耗油"
+    },
+    "味精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "味精"
+    },
+    "十三香": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "十三香"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "老抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽"
+    },
+    "蒜头": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头"
+    },
+    "热水": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "热水"
+    },
+    "菜刀": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "菜刀"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "豆角焖面是一道懒人美食，操作简单，方便美味。",
+  "name": "豆角焖面"
+}

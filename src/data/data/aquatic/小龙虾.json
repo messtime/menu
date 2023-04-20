@@ -1,0 +1,228 @@
+{
+  "materials": {
+    "小龙虾 =": {
+      "quantity": "2",
+      "unit": "斤",
+      "is_optional": false,
+      "tips": [],
+      "original": "小龙虾 = 2 斤"
+    },
+    "油 =": {
+      "quantity": "70",
+      "unit": "毫升（这是平时炒菜 3",
+      "is_optional": false,
+      "tips": [
+        "这是平时炒菜 3 倍量"
+      ],
+      "original": "油 = 70 毫升（这是平时炒菜 3 倍量）"
+    },
+    "香叶 = 两片": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "香叶 = 两片"
+    },
+    "八角 = 一个": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "八角 = 一个"
+    },
+    "桂皮 =": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮 = 3 克"
+    },
+    "青花椒 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "青花椒 = 10 克"
+    },
+    "花椒 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒 = 10 克"
+    },
+    "子弹头辣椒 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "子弹头辣椒 = 5 克"
+    },
+    "葱 = 一根大葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 = 一根大葱"
+    },
+    "姜 =": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 = 30 克"
+    },
+    "蒜 =": {
+      "quantity": "7",
+      "unit": "瓣大蒜",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 = 7 瓣大蒜"
+    },
+    "郫县豆瓣 =": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "郫县豆瓣 = 30 克"
+    },
+    "黄豆酱 =": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "黄豆酱 = 30 克"
+    },
+    "啤酒 =": {
+      "quantity": "500",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "啤酒 = 500 毫升"
+    },
+    "生抽 =": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 = 30 毫升"
+    },
+    "盐 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 = 10 克"
+    },
+    "小龙虾": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "小龙虾"
+    },
+    "油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "油"
+    },
+    "香叶": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "香叶"
+    },
+    "八角": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "八角"
+    },
+    "桂皮": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮"
+    },
+    "青花椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青花椒"
+    },
+    "花椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒"
+    },
+    "子弹头辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "子弹头辣椒"
+    },
+    "葱姜蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱姜蒜"
+    },
+    "郫县豆瓣": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "郫县豆瓣"
+    },
+    "黄豆酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄豆酱"
+    },
+    "啤酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "啤酒"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    }
+  },
+  "steps": [
+    "小龙虾刷干净去虾线，葱切 2cm 葱段，姜蒜切末。",
+    "烧油，油微热, 下香叶、八角、桂皮、青花椒、花椒、子弹头辣椒。",
+    "香料出香气之后下锅葱姜蒜",
+    "葱姜蒜爆香后，加入郫县豆瓣、黄豆酱，炒出红油。",
+    "下小龙虾，翻炒至变色。",
+    "加入啤酒，等啤酒烧开后加入生抽，盐。",
+    "将小龙虾完全煮熟后出锅。"
+  ],
+  "additional": [],
+  "desc": "![成品](./成品.jpg)在家里做的小龙虾，肉质细嫩，鲜嫩多汁，干净卫生。",
+  "name": "小龙虾"
+}

@@ -1,0 +1,73 @@
+{
+  "materials": {
+    "茭白": {
+      "quantity": "2",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "茭白 2 根"
+    },
+    "瘦肉": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "瘦肉 100 g"
+    },
+    "淀粉": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 15 g"
+    },
+    "食用油": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 30 ml"
+    },
+    "鸡精": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 5 g"
+    },
+    "姜": {
+      "quantity": "1",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 1 片"
+    },
+    "蒜": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 1 个"
+    },
+    "料酒": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 5 ml"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2 g"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "最后一个步骤，可以考虑加蚝油、生抽代替盐上色"
+  ],
+  "desc": "茭白味道鲜美，有一定营养价值",
+  "name": "茭白炒肉"
+}

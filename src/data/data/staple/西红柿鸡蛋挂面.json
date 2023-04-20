@@ -1,0 +1,116 @@
+{
+  "materials": {
+    "挂面": {
+      "quantity": "1",
+      "unit": "把",
+      "is_optional": false,
+      "tips": [
+        "根据食量来"
+      ],
+      "original": "挂面 1 把（根据食量来）50-100g"
+    },
+    "西红柿": {
+      "quantity": "1",
+      "unit": "个大概 200g",
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿 1 个大概 200g 吧。"
+    },
+    "鸡蛋": {
+      "quantity": "1~2",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 1~2 个"
+    },
+    "盐": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 5g"
+    },
+    "蚝油": {
+      "quantity": "5",
+      "unit": "g 或鸡精",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 5g 或鸡精 3g"
+    },
+    "白砂糖": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "中和西红柿的酸味，西红柿如果不酸就不用加"
+      ],
+      "original": "白砂糖 2g"
+    },
+    "酱油": {
+      "quantity": "5-8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油 5-8g"
+    },
+    "食用油的用量为": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油的用量为 20g"
+    },
+    "香油": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "香油 5g"
+    },
+    "挂面或者鲜面条也行": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "挂面或者鲜面条也行"
+    },
+    "西红柿一个": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿一个"
+    },
+    "葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱"
+    },
+    "酱油、蚝油或者鸡精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油、蚝油或者鸡精"
+    },
+    "青椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "非线椒"
+      ],
+      "original": "青椒（非线椒）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "鸡蛋蛋液中可以加入 2g 黑胡椒味道更好",
+    "熬臊子过程中加入 2g 白胡椒粉提升香辛口味",
+    "煮面条如果一次性煮熟也可以，多次加水是为了让面条口感劲道，面条不粘黏，技巧在于煮沸就加冷水，循环往复两三次即可"
+  ],
+  "desc": "挂面太多怎么办？只煮个白水面味道难以下咽怎么办？简单的食材煮个美味的面条怎么操作？西红柿鸡蛋挂面只需简单的食材，快速的操作，不多的厨具，解决**不想麻烦**、**挂面太多**、**食材简单**的所有烦恼此处更要鸣谢 my mother 的在线指导:v:简单好做，开始吧！制作时间：20 分钟",
+  "name": "西红柿鸡蛋挂面"
+}

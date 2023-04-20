@@ -1,0 +1,61 @@
+{
+  "materials": {
+    "鸡蛋": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 2 个"
+    },
+    "洋葱": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱 50 g"
+    },
+    "食用油": {
+      "quantity": "50",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 50 ml"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2 g"
+    },
+    "葱 半 根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 半 根"
+    },
+    "料酒": {
+      "quantity": "2",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 2 ml"
+    },
+    "葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱"
+    }
+  },
+  "steps": [
+    "鸡蛋打入大碗中，加入洋葱片、盐后搅拌 60 S",
+    "起锅烧油，倒入鸡蛋，一面煎炸 30-45 S ，翻面继续翻炒，反复 2-3 分钟 后散上料酒出锅",
+    "鸡蛋装盘，散上葱花"
+  ],
+  "additional": [],
+  "desc": "洋葱炒鸡蛋，是中国的一道日常生活中所熟知的菜品",
+  "name": "洋葱炒鸡蛋"
+}

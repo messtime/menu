@@ -1,0 +1,272 @@
+{
+  "materials": {
+    "必须配料": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "必须配料"
+    },
+    "手枪腿（或者鸡胸脯肉） =": {
+      "quantity": "1",
+      "unit": "支（约",
+      "is_optional": false,
+      "tips": [
+        "或者鸡胸脯肉） = 1 支（约 350g"
+      ],
+      "original": "手枪腿（或者鸡胸脯肉） = 1 支（约 350g）"
+    },
+    "大葱 =": {
+      "quantity": "1",
+      "unit": "根（约",
+      "is_optional": false,
+      "tips": [
+        "约 180g"
+      ],
+      "original": "大葱 = 1 根（约 180g）"
+    },
+    "熟花生 =": {
+      "quantity": "150",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "熟花生 = 150g"
+    },
+    "姜片 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜片 = 10g"
+    },
+    "干辣椒（或者二荆条） =": {
+      "quantity": "10",
+      "unit": "g（若选择二荆条，则需要大约 4",
+      "is_optional": false,
+      "tips": [
+        "或者二荆条） = 10g（若选择二荆条，则需要大约 4 支"
+      ],
+      "original": "干辣椒（或者二荆条） = 10g（若选择二荆条，则需要大约 4 支）"
+    },
+    "生抽酱油 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽酱油 = 10g"
+    },
+    "白糖 =": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖 = 2g"
+    },
+    "盐 =": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 = 2g"
+    },
+    "植物油 =": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "植物油 = 20g"
+    },
+    "淀粉 =": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 = 15g"
+    },
+    "料酒 =": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 = 15g"
+    },
+    "进阶配料": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "进阶配料"
+    },
+    "老抽酱油 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽酱油 = 5g"
+    },
+    "花椒 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒 = 5g"
+    },
+    "香醋 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "香醋 = 5g"
+    },
+    "鸡精 =": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 = 2g"
+    },
+    "芝麻油 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻油 = 10g"
+    },
+    "淀粉（用以勾芡） =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "用以勾芡"
+      ],
+      "original": "淀粉（用以勾芡） = 10g"
+    },
+    "豆瓣酱 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱 = 10g"
+    },
+    "可选配料": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "可选配料"
+    },
+    "莴笋 = 约": {
+      "quantity": "250",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "莴笋 = 约 250g"
+    },
+    "油泼辣子 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "油泼辣子 = 5g"
+    },
+    "手枪腿": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "或者鸡胸脯肉"
+      ],
+      "original": "手枪腿（或者鸡胸脯肉）"
+    },
+    "大葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大葱"
+    },
+    "干辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "或者二荆条"
+      ],
+      "original": "干辣椒（或者二荆条）"
+    },
+    "熟花生": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "熟花生"
+    },
+    "生抽酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽酱油"
+    },
+    "香醋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "香醋"
+    },
+    "白糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "鸡精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精"
+    },
+    "淀粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉"
+    },
+    "植物油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "植物油"
+    },
+    "芝麻油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻油"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "老派川菜的简单做法分享",
+  "name": "宫保鸡丁"
+}

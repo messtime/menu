@@ -1,0 +1,43 @@
+{
+  "materials": {
+    "洋葱": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱 2 个"
+    },
+    "土豆": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆 2 个"
+    },
+    "胡萝卜": {
+      "quantity": "1",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡萝卜 1 根"
+    },
+    "蒜头": {
+      "quantity": "2~3",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 2~3 瓣"
+    },
+    "肉": {
+      "quantity": "2",
+      "unit": "斤",
+      "is_optional": false,
+      "tips": [],
+      "original": "肉 2 斤"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "日式咖喱饭"
+}

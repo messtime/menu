@@ -1,0 +1,88 @@
+{
+  "materials": {
+    "牛肉用量为": {
+      "quantity": "150",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "牛肉用量为 150 g/人"
+    },
+    "番茄用量为": {
+      "quantity": "1",
+      "unit": "个/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "番茄用量为 1 个/人"
+    },
+    "鸡蛋用量为": {
+      "quantity": "1",
+      "unit": "个/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋用量为 1 个/人"
+    },
+    "盐用量为": {
+      "quantity": "2",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐用量为 2 g/人"
+    },
+    "胡椒粉用量为": {
+      "quantity": "0",
+      "unit": ".5",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉用量为 0.5 g/人"
+    },
+    "牛肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "牛肉"
+    },
+    "番茄": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "番茄"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋"
+    },
+    "葱、姜、蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱、姜、蒜"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "可以根据口味加入一定的醋或糖来调整口感",
+    "如果喜欢辣味，可以加入一定的辣椒或辣椒酱来调味"
+  ],
+  "desc": "",
+  "name": "番茄牛肉蛋花汤"
+}

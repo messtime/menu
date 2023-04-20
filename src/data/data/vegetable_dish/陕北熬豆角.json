@@ -1,0 +1,119 @@
+{
+  "materials": {
+    "豆角": {
+      "quantity": "300",
+      "unit": "g * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆角 300g * 2 人"
+    },
+    "土豆": {
+      "quantity": "1",
+      "unit": "个 * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆 1 个 * 2 人"
+    },
+    "西红柿": {
+      "quantity": "1",
+      "unit": "个 * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿 1 个 * 2 人"
+    },
+    "螺丝椒（可选）": {
+      "quantity": "2",
+      "unit": "个 * 2",
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "螺丝椒（可选）2 个 * 2 人"
+    },
+    "盐": {
+      "quantity": "6",
+      "unit": "g * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 6g * 2 人"
+    },
+    "生抽": {
+      "quantity": "6",
+      "unit": "ml * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 6ml * 2 人"
+    },
+    "五香粉": {
+      "quantity": "3",
+      "unit": "g * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "五香粉 3g * 2 人"
+    },
+    "蚝油": {
+      "quantity": "6",
+      "unit": "ml * 2",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 6ml * 2 人"
+    },
+    "葱": {
+      "quantity": "3",
+      "unit": "圈",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 3 圈"
+    },
+    "姜": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 2g"
+    },
+    "蒜": {
+      "quantity": "2",
+      "unit": "颗",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 2 颗"
+    },
+    "香菜碎": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "香菜碎（可选）根据口味加"
+    },
+    "螺丝椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "螺丝椒（可选）"
+    }
+  },
+  "steps": [
+    "葱切花，蒜切沫，姜切丝，备用。",
+    "豆角去筋，切*2-10cm*小段，备用。",
+    "土豆去皮，切*1cm³*小块，备用。",
+    "西红柿去皮，切*1cm³*小块，备用。",
+    "辣椒去仔，切*0.15cm 宽*条，备用。",
+    "起锅烧油(10ml - 15ml)，冒烟后放入葱姜蒜，翻炒至闻到葱姜蒜香味；",
+    "加入豆角，翻炒至变色（青绿色变为翠绿色）；",
+    "加入土豆块，翻炒 30s；",
+    "加入热水（水面刚刚漫过菜），盖上锅盖熬至土豆*变软*（可以用筷子确认）；",
+    "加入西红柿块，加入盐，生抽，蚝油，五香粉，辣椒，熬至西红柿成汁（注意搅拌，防止糊锅）；",
+    "加入香菜碎，出锅。"
+  ],
+  "additional": [
+    "加入西红柿后开始继续熬制后，需要偶尔翻搅防止糊底"
+  ],
+  "desc": "陕北熬豆角是一种对初学者极其友善的菜，因其制作方式使用`熬`的方式，食材可多可少，可有可无，几乎不存在失败的可能性。",
+  "name": "陕北熬豆角"
+}

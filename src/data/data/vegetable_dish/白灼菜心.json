@@ -1,0 +1,74 @@
+{
+  "materials": {
+    "新鲜菜心": {
+      "quantity": "250",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "新鲜菜心 250g"
+    },
+    "食用油": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 10g"
+    },
+    "调一个灵魂料汁儿": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "调一个灵魂料汁儿"
+    },
+    "生抽": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 5g"
+    },
+    "蚝油": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 5g"
+    },
+    "盐、糖": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐、糖 5g"
+    },
+    "大蒜四五瓣、小米辣一两根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜四五瓣、小米辣一两根"
+    },
+    "生抽、蚝油、盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽、蚝油、盐"
+    },
+    "大蒜、小米辣": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜、小米辣"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "选择菜心一定要比较新鲜！新鲜！",
+    "锅内烧清水要加油和盐"
+  ],
+  "desc": "<!-- 标题必须是 `菜名` + `的做法`。和文件名一致。 -->![白灼菜心](./白灼菜心.jpg)> 没有拍照，上图是网图，不过做出来都差不多啦白灼菜心是经典粤菜，白灼是粤菜的一种烹饪技法，用煮沸的水或汤将生的食物烫熟，称为白灼。这种烹饪手法能保持原有的鲜味，粤菜常用此法烹制虾和蔬菜。总之吧，减肥或者是**快速解决绿叶菜的绝佳方式**。",
+  "name": "白灼菜心"
+}

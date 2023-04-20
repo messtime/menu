@@ -1,0 +1,140 @@
+{
+  "materials": {
+    "牛肉高汤": {
+      "quantity": "500",
+      "unit": "mL",
+      "is_optional": false,
+      "tips": [
+        "可用〇汤宝代替"
+      ],
+      "original": "牛肉高汤 500 mL"
+    },
+    "牛肉": {
+      "quantity": "250",
+      "unit": "g",
+      "is_optional": true,
+      "tips": [
+        "可选用牛腩肉或牛尾肉",
+        "可选牛腩肉或牛尾肉"
+      ],
+      "original": "牛肉 250 g （可选用牛腩肉或牛尾肉）"
+    },
+    "番茄罐头": {
+      "quantity": "2",
+      "unit": "罐",
+      "is_optional": false,
+      "tips": [
+        "可用番茄替代、但风味欠佳"
+      ],
+      "original": "番茄罐头 2 罐 （可用番茄替代、但风味欠佳）"
+    },
+    "番茄膏": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "增加番茄风味"
+      ],
+      "original": "番茄膏 5 g （增加番茄风味）"
+    },
+    "马铃薯": {
+      "quantity": "400",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "马铃薯 400 g"
+    },
+    "洋葱": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱 100 g"
+    },
+    "胡萝卜": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡萝卜 100 g"
+    },
+    "欧芹": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "欧芹 100 g"
+    },
+    "包菜": {
+      "quantity": "200",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "包菜 200 g"
+    },
+    "红肠": {
+      "quantity": "100-",
+      "unit": "200",
+      "is_optional": false,
+      "tips": [],
+      "original": "红肠 100 - 200 g"
+    },
+    "橄榄油": {
+      "quantity": "5",
+      "unit": "mL",
+      "is_optional": false,
+      "tips": [
+        "橄榄油用于蔬菜的烹制，可以用植物油代替"
+      ],
+      "original": "橄榄油 5 mL （橄榄油用于蔬菜的烹制，可以用植物油代替）"
+    },
+    "植物油": {
+      "quantity": "5",
+      "unit": "mL",
+      "is_optional": false,
+      "tips": [
+        "植物油用于牛肉的烹制，不能用橄榄油代替"
+      ],
+      "original": "植物油 5 mL （植物油用于牛肉的烹制，不能用橄榄油代替）"
+    },
+    "盐": {
+      "quantity": "18",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 18 g"
+    },
+    "黑胡椒": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒 3 g"
+    },
+    "蔬菜高汤": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "欧芹、胡萝卜、洋葱三件套"
+      ],
+      "original": "蔬菜高汤（欧芹、胡萝卜、洋葱三件套）"
+    },
+    "番茄": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "番茄膏、番茄罐头"
+      ],
+      "original": "番茄（番茄膏、番茄罐头）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "番茄尽量不用新鲜番茄代替，番茄罐头+番茄膏的组合风味更足",
+    "除了胡萝卜、洋葱、欧芹、牛肉是必备食材外，其余可自由搭配"
+  ],
+  "desc": "罗宋汤是一道源自俄罗斯甜菜汤的汤品，在传入上海后有了本土化的做法。其制作较为简单，初学者只需要 2-3 小时即可完成。",
+  "name": "罗宋汤"
+}

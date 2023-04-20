@@ -1,0 +1,152 @@
+{
+  "materials": {
+    "鸭肉半只（约": {
+      "quantity": "1",
+      "unit": "kg",
+      "is_optional": false,
+      "tips": [
+        "约 1kg"
+      ],
+      "original": "鸭肉半只（约 1kg）"
+    },
+    "啤酒": {
+      "quantity": "800",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "啤酒 800ml"
+    },
+    "生抽酱": {
+      "quantity": "10-15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽酱油 10-15ml"
+    },
+    "老抽酱": {
+      "quantity": "5-10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽酱油 5-10ml"
+    },
+    "姜": {
+      "quantity": "5",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 5 片"
+    },
+    "蒜头": {
+      "quantity": "12",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 12 瓣"
+    },
+    "冰糖": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "冰糖 10g"
+    },
+    "干辣椒": {
+      "quantity": "5",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "干辣椒 5 个"
+    },
+    "料酒": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 30ml"
+    },
+    "盐": {
+      "quantity": "8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 8g"
+    },
+    "鸡精": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 5g"
+    },
+    "丁香": {
+      "quantity": "4",
+      "unit": "颗",
+      "is_optional": false,
+      "tips": [],
+      "original": "丁香 4 颗"
+    },
+    "八角": {
+      "quantity": "3",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "八角 3 个"
+    },
+    "香叶": {
+      "quantity": "3",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "香叶 3 片"
+    },
+    "豆瓣酱": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱 20g"
+    },
+    "鸭肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸭肉"
+    },
+    "生抽酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽酱油"
+    },
+    "老抽酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽酱油"
+    },
+    "蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜"
+    }
+  },
+  "steps": [
+    "把鸭子切成 3 cm 小块，鸭肉冷水下锅，加姜片、料酒，焯一遍水，盛出沥干水分，备用。",
+    "炒锅烧热，放入约 100ml 食用油，大火待油烧开，鸭肉入锅翻炒至上色。",
+    "待鸭肉完全变色（肉眼可见泛白），将鸭肉拨到锅的一边，倒入豆瓣酱和糖，小火翻炒出香味和糖色。",
+    "加入丁香、八角、香叶、干辣椒、生抽、老抽、蒜，翻炒出香味。",
+    "倒入啤酒，没过鸭肉，加入盐、鸡精，然后将鸭子烧 30 分钟（牙口不好的话可以再多烧 5 分钟）。",
+    "出锅盛盘，上桌食用。"
+  ],
+  "additional": [
+    "啤酒的量一定要足够把所有鸭肉没过，啤酒最好选择清香型的。"
+  ],
+  "desc": "![啤酒鸭成品](./啤酒鸭.jpg)啤酒鸭不仅入口鲜香,还带有一股啤酒清香。肉久吃不腻,汤久涮而不淡。风味独特,具有热而不浮,香而不腻的独特口味让人赞口不绝。一般初学者需要 1 小时即可完成。",
+  "name": "啤酒鸭"
+}

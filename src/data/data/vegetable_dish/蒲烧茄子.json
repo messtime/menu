@@ -1,0 +1,107 @@
+{
+  "materials": {
+    "根据锅的类型决策不同量的油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "根据锅的类型决策不同量的油"
+    },
+    "不粘锅:油汇聚成滴后要散布在茄子的面积": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "不粘锅:油汇聚成滴后要散布在茄子的面积"
+    },
+    "铁锅:摊开后油可以刚好覆盖锅底": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "铁锅:摊开后油可以刚好覆盖锅底"
+    },
+    "": {
+      "quantity": "100",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "100 ml 水"
+    },
+    "茄子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "茄子"
+    },
+    "蒲烧汁": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒲烧汁"
+    },
+    "蜂蜜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蜂蜜"
+    },
+    "白糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "老抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "水": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "水"
+    }
+  },
+  "steps": [
+    "茄子削皮、横着切成两段",
+    "蒸 5  分钟",
+    "纵向切开，不要切断，在两边切面各划 2~3 刀至可以摊平",
+    "煎至两面金黄",
+    "往茄子上浇蒲烧汁至没过 1/2 茄子高度",
+    "煎至背面上色，翻面",
+    "同时收汁，若无法收汁可以加入水淀粉（生粉和水的比例在 1:4 到 1:10 根据收汁情况而定）",
+    "把剩下的蒲烧汁浇在茄子上",
+    "出锅，一份茄子烧蒲烧汁就烧好了"
+  ],
+  "additional": [
+    "这个蒲焼き其实很中国，日式的蒲烧其实是烤的。",
+    "灵魂其实在于蒲烧汁？也可以买现成的蒲烧汁。",
+    "如果觉得腻可以在装盘后撒点切成 2~5 mm 的小葱，颜色搭配上也能不那么单调。",
+    "炒茄子（鱼香茄子、酱爆茄子）墙裂推荐浙茄，细长所以切成滚刀块刚刚好，皮很嫩不像这里需要去皮，茄子的味道适中。"
+  ],
+  "desc": "众所皆知，茄子🍆和土豆🥔是两种荤菜。这一道蒲烧茄子，从外观上之于鳗鱼正如`土豆炖.*`中的生姜之于土豆。",
+  "name": "蒲烧茄子"
+}

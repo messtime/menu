@@ -1,0 +1,59 @@
+{
+  "materials": {
+    "凉皮用量为": {
+      "quantity": "300",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "凉皮用量为 300 g/人 向下取整。"
+    },
+    "芝麻酱的用量为": {
+      "quantity": "30",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻酱的用量为 30 g/人 向下取整。"
+    },
+    "黄瓜": {
+      "quantity": "100",
+      "unit": "g/人、绿豆芽",
+      "is_optional": false,
+      "tips": [],
+      "original": "黄瓜 100g/人、绿豆芽 50g/人。"
+    },
+    "凉皮、面筋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "凉皮、面筋"
+    },
+    "盐、鸡精、蚝油、生抽、老抽、香油、香醋、芝麻酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "原味芝麻酱最佳"
+      ],
+      "original": "盐、鸡精、蚝油、生抽、老抽、香油、香醋、芝麻酱（原味芝麻酱最佳）"
+    },
+    "黄瓜、大蒜、绿豆芽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄瓜、大蒜、绿豆芽"
+    },
+    "盆、碗、盘子、蒜臼": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盆、碗、盘子、蒜臼"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "凉皮"
+}

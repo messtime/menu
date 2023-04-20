@@ -1,0 +1,149 @@
+{
+  "materials": {
+    "鳊鱼": {
+      "quantity": "550",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "鱼可以让摊主帮忙处理好"
+      ],
+      "original": "鳊鱼：550 克"
+    },
+    "老豆腐": {
+      "quantity": "400",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "老豆腐：400 克"
+    },
+    "姜": {
+      "quantity": "5",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜：5 片"
+    },
+    "葱": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "50 克"
+      ],
+      "original": "葱：半根（50 克）"
+    },
+    "蒜": {
+      "quantity": "4",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜：4 个"
+    },
+    "老抽": {
+      "quantity": "2",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [
+        "不太喜欢重口的可以不放"
+      ],
+      "original": "老抽：2ml（不太喜欢重口的可以不放）"
+    },
+    "桂皮": {
+      "quantity": "1",
+      "unit": "块",
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "桂皮：1 块"
+    },
+    "冰糖": {
+      "quantity": "5",
+      "unit": "块",
+      "is_optional": false,
+      "tips": [],
+      "original": "冰糖：5 块"
+    },
+    "干辣椒": {
+      "quantity": "4-6",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [
+        "根据个人口味选择",
+        "不吃辣可以不放"
+      ],
+      "original": "干辣椒：4-6 个（根据个人口味选择）"
+    },
+    "料酒": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒：5ml"
+    },
+    "生抽": {
+      "quantity": "4",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽：4ml"
+    },
+    "盐": {
+      "quantity": "5-8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "根据个人口味选择"
+      ],
+      "original": "盐：5-8 克（根据个人口味选择）"
+    },
+    "八角": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "八角：1 个"
+    },
+    "香叶": {
+      "quantity": "1-3",
+      "unit": "",
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "香叶：1-3 片"
+    },
+    "食用油": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油：10ml"
+    },
+    "热水": {
+      "quantity": "400",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "热水：400 克"
+    }
+  },
+  "steps": [
+    "鳊鱼改刀,放上姜片和料酒腌制 5-10 分钟",
+    "老豆腐切块后放入水中备用",
+    "锅中加油，可以放点盐在锅里，防止煎鱼的时候粘锅，把腌制的鱼用厨房纸擦干水分，把鱼放到锅中，两面都煎一下",
+    "等两面都煎好时，把鱼推向锅边一点，留点空间放入葱姜蒜，干辣椒，香叶，八角炒出味道",
+    "炒出佐料香味后，加入料酒，生抽，老抽，冰糖，桂皮，倒入热水，水量和鱼平齐或者少点",
+    "大火烧开后，放入老豆腐，豆腐贴在锅边，加入食盐，转小火",
+    "小火烧 10-15 分钟，然后大火收点汁，即可出锅"
+  ],
+  "additional": [
+    "鱼的两面，各煎 2-4 分钟即可",
+    "煎鱼的时候全程中小火",
+    "最后出锅时，加入一些切碎的大蒜，味道会更好"
+  ],
+  "desc": "# 鳊鱼炖豆腐的做法![鳊鱼炖豆腐](./鳊鱼炖豆腐.jpg)",
+  "name": "鳊鱼炖豆腐"
+}

@@ -1,0 +1,89 @@
+{
+  "materials": {
+    "干辣椒面": {
+      "quantity": "60",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "粗细都准备"
+      ],
+      "original": "干辣椒面 60 克"
+    },
+    "孜然粉": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "孜然粉 20 克"
+    },
+    "胡椒粉": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉 10 克"
+    },
+    "五香粉": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "五香粉 15 克"
+    },
+    "食盐": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食盐 20 克"
+    },
+    "花椒粉": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒粉 15 克"
+    },
+    "鸡精": {
+      "quantity": "8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 8 克"
+    },
+    "十三香": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "十三香 5 克"
+    },
+    "麻辣鲜": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "麻辣鲜 5 克"
+    },
+    "白芝麻": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白芝麻 30 克"
+    }
+  },
+  "steps": [
+    "所有原料在容器内混合，搅拌均匀。",
+    "锅里烧热油，油的用量以在容器内没过所有原材料为佳。",
+    "分三次淋入热油，每次 1/3，同时搅拌。",
+    "最后放入香油 10ml，生抽 10ml，花椒油 10ml，蚝油 10ml。"
+  ],
+  "additional": [
+    "最后一步的调味可按自己喜好添加。",
+    "不得一次性倒入所有热油，必须分次倒入并搅拌。",
+    "原料可按比例缩减。"
+  ],
+  "desc": "# 炸串酱料的做法炸串酱料，号称淋袜子都好吃，新手友好，预计用时 10 分钟。",
+  "name": "炸串酱料"
+}

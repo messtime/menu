@@ -1,0 +1,130 @@
+{
+  "materials": {
+    "面粉": {
+      "quantity": "200",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "非自发粉"
+      ],
+      "original": "面粉 200g"
+    },
+    "肉沫": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "肉沫 50g"
+    },
+    "油": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "油 30ml"
+    },
+    "盐": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 3g"
+    },
+    "糖": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖 5g"
+    },
+    "生粉": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生粉 10g"
+    },
+    "酱油": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油 5g"
+    },
+    "风味调料": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": true,
+      "tips": [
+        "如鸡粉、孜然、椒盐，可选"
+      ],
+      "original": "风味调料 3g"
+    },
+    "蒜头": {
+      "quantity": "2",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 2 瓣"
+    },
+    "大葱": {
+      "quantity": "1/4",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [
+        "靠叶部分"
+      ],
+      "original": "大葱 1/4 根（靠叶部分）"
+    },
+    "鸡蛋 （可选，": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": true,
+      "tips": [
+        "可选，1 个"
+      ],
+      "original": "鸡蛋 （可选，1 个）"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "鸡蛋（可选）"
+    },
+    "胡萝卜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "胡萝卜（可选）"
+    },
+    "平底锅": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "平底锅"
+    },
+    "炒锅": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "可以使用同一个平底锅替代"
+      ],
+      "original": "炒锅（可以使用同一个平底锅替代）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "将肉沫和胡萝卜末加入面糊后，应该尽量搅匀，保证味道扩散到饼内各处。",
+    "肉沫和胡萝卜末即馅料可以使用各类熟馅料替代。"
+  ],
+  "desc": "",
+  "name": "中式馅饼"
+}

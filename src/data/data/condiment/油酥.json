@@ -1,0 +1,60 @@
+{
+  "materials": {
+    "油 = （要烙饼的张数 *": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [
+        "要烙饼的张数 * 10ml"
+      ],
+      "original": "油 = （要烙饼的张数 * 10ml）"
+    },
+    "盐 = （要烙饼的张数 /": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "要烙饼的张数 / 2"
+      ],
+      "original": "盐 = （要烙饼的张数 / 2）g"
+    },
+    "面粉 = （要烙饼的张数 /": {
+      "quantity": "0",
+      "unit": ".13）g",
+      "is_optional": false,
+      "tips": [
+        "要烙饼的张数 / 0.13"
+      ],
+      "original": "面粉 = （要烙饼的张数 / 0.13）g"
+    },
+    "面粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "面粉"
+    },
+    "油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "油"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    }
+  },
+  "steps": [
+    "面粉盛小碗里，加入盐",
+    "加入 200 度的热油",
+    "用筷子将其搅拌成无固状物体的糊状。"
+  ],
+  "additional": [],
+  "desc": "油酥是由面粉与热油混合调制的，通常在烙饼时涂点油酥，可以使得饼子层层分明，外酥里软，口感更佳。",
+  "name": "油酥"
+}

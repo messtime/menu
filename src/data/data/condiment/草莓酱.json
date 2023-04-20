@@ -1,0 +1,46 @@
+{
+  "materials": {
+    "草莓": {
+      "quantity": "1200",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "草莓 1200 克"
+    },
+    "白糖": {
+      "quantity": "400",
+      "unit": "克 （如需要低糖饮食，可以考虑降低到",
+      "is_optional": false,
+      "tips": [
+        "如需要低糖饮食，可以考虑降低到 200g"
+      ],
+      "original": "白糖 400 克 （如需要低糖饮食，可以考虑降低到 200g）"
+    },
+    "白砂糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白砂糖"
+    },
+    "保鲜膜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "保鲜膜"
+    }
+  },
+  "steps": [
+    "草莓洗净去叶",
+    "将草莓切碎放入合适的碗中",
+    "将白糖倒入碗中与草莓搅拌均匀",
+    "碗用保鲜膜覆盖静置 1 小时",
+    "将静置的草莓和糖的混合物倒入不粘锅中开大火烧开",
+    "烧开后转小火不断搅拌直至果酱呈粘稠状关火",
+    "待草莓酱冷却后装入准备好的密封罐中"
+  ],
+  "additional": [],
+  "desc": "可以买那种一筐一筐卖的小草莓，主要是便宜。做成酱抹在面包上非常好吃。",
+  "name": "草莓酱"
+}

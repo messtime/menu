@@ -1,0 +1,99 @@
+{
+  "materials": {
+    "猪蹄": {
+      "quantity": "2~3",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "猪蹄：2~3 根"
+    },
+    "食用油": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油：30ml"
+    },
+    "香叶": {
+      "quantity": "2",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "香叶 2 片"
+    },
+    "姜": {
+      "quantity": "5",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 5 片"
+    },
+    "葱半根": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱半根"
+    },
+    "桂皮": {
+      "quantity": "1",
+      "unit": "块",
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮 1 块"
+    },
+    "冰糖": {
+      "quantity": "7-8",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "冰糖 7-8 粒"
+    },
+    "料酒": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 30 ml"
+    },
+    "生抽": {
+      "quantity": "20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 20 ml"
+    },
+    "老抽": {
+      "quantity": "20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 20 ml"
+    },
+    "盐": {
+      "quantity": "8",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 8 克"
+    },
+    "八角": {
+      "quantity": "4",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "八角 4 个"
+    },
+    "葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "![红烧猪蹄](./红烧猪蹄.jpg)红烧猪蹄营养丰富，味道香，汤汁浓郁、下饭强。",
+  "name": "红烧猪蹄"
+}

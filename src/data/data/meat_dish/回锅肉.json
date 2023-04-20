@@ -1,0 +1,110 @@
+{
+  "materials": {
+    "五花肉的用量为": {
+      "quantity": "0",
+      "unit": ".5 斤/男人 0.3 斤/女人",
+      "is_optional": false,
+      "tips": [
+        "正宗回锅肉使用二刀肉[俗称：臀尖]制作，肉质坚实，肥瘦合适"
+      ],
+      "original": "五花肉的用量为 0.5 斤/男人 0.3 斤/女人 （正宗回锅肉使用二刀肉[俗称：臀尖]制作，肉质坚实，肥瘦合适）"
+    },
+    "小葱": {
+      "quantity": "2",
+      "unit": "棵",
+      "is_optional": false,
+      "tips": [],
+      "original": "小葱 2 棵"
+    },
+    "生": {
+      "quantity": "10-40",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生姜 10-40g"
+    },
+    "青红椒（根据受辣程度选择": {
+      "quantity": "0-30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "根据受辣程度选择, 0-30g"
+      ],
+      "original": "青红椒（根据受辣程度选择, 0-30g）"
+    },
+    "蒜苗": {
+      "quantity": "1",
+      "unit": "把",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜苗 1 把"
+    },
+    "料酒": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 5ml"
+    },
+    "豆瓣酱": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱 10ml"
+    },
+    "味精": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "味精 5g"
+    },
+    "生抽": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 5ml"
+    },
+    "五花肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "五花肉"
+    },
+    "生姜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生姜"
+    },
+    "青红椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青红椒"
+    },
+    "生抽酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽酱油"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "不喜欢蒜苗可以换成洋葱或者其他蔬菜，但是要注意蔬菜的易熟程度将蔬菜提前炒至，不然会出现蔬菜半生不熟的情况",
+    "如果回锅肉比较大块可以切成 5 厘米见方的块，五花肉煮至筷子稍微用力即可插入猪皮即可",
+    "回锅肉过冷水晾凉后肉质会更紧致",
+    "回锅肉擦干水是为了避免炒至的时候爆油溅伤",
+    "回锅肉切记不要切厚了，不然很腻",
+    "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+  ],
+  "desc": "",
+  "name": "回锅肉"
+}

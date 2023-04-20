@@ -1,0 +1,50 @@
+{
+  "materials": {
+    "叶菜类蔬菜": {
+      "quantity": "300",
+      "unit": "g ~",
+      "is_optional": false,
+      "tips": [],
+      "original": "叶菜类蔬菜：300g ~ 500g"
+    },
+    "食用油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "蚝油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "蚝油（可选）"
+    }
+  },
+  "steps": [
+    "洗净蔬菜",
+    "锅中加入 150ml 水，并烧开。（水不需要能完全没过蔬菜）",
+    "加入 3g 盐",
+    "（可选）加入 3ml 蚝油",
+    "加入 2ml 食用油",
+    "下菜， 翻拌一下，然后盖上锅盖焖 1 分钟",
+    "盛盘"
+  ],
+  "additional": [
+    "不确定咸淡的情况， 可以先少放盐， 在出锅前尝味， 考虑调整加盐",
+    "可以用鸡汤、骨头汤等替代水， 更好吃",
+    "焖的时间不可过长"
+  ],
+  "desc": "水油焖蔬菜中添加了油，这提升了口感，并且可提升脂溶性维生素的摄入。相比生吃蔬菜，好处更多。",
+  "name": "水油焖蔬菜"
+}

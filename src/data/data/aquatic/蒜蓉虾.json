@@ -1,0 +1,41 @@
+{
+  "materials": {
+    "海虾": {
+      "quantity": "8",
+      "unit": "只",
+      "is_optional": false,
+      "tips": [],
+      "original": "海虾 8 只"
+    },
+    "蒜蓉酱": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜蓉酱 50 g"
+    },
+    "食用油": {
+      "quantity": "20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 20 ml"
+    },
+    "生抽": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 5 ml"
+    }
+  },
+  "steps": [
+    "用刀从从虾头中间切开，切到距离虾尾 1 cm",
+    "将蒜蓉酱铺在虾身中间，放在盘子中",
+    "锅中倒入热水，将盘子放入锅中，大火蒸 3 分钟",
+    "烧热油，倒入虾盘中，倒入生抽"
+  ],
+  "additional": [],
+  "desc": "蒜蓉虾是广东省地方传统名菜，色香味俱全。",
+  "name": "蒜蓉虾"
+}

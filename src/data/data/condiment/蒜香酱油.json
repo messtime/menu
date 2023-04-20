@@ -1,0 +1,48 @@
+{
+  "materials": {
+    "蒜头": {
+      "quantity": "2",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 2 瓣"
+    },
+    "白芝麻": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白芝麻 5 克"
+    },
+    "花生油": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "花生油 15 毫升"
+    },
+    "酱油": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油 30 毫升"
+    },
+    "蘸料碟": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "蘸料碟 1 个"
+    }
+  },
+  "steps": [
+    "拍碎蒜头",
+    "往蘸料碟中加入酱油",
+    "起锅，加入花生油，等到油温滚烫后加入拍好的蒜头，炸半分钟",
+    "半分钟后，关火，把热油倒入蘸料碟，用筷子搅拌即可"
+  ],
+  "additional": [],
+  "desc": "",
+  "name": "蒜香酱油"
+}

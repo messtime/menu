@@ -1,0 +1,73 @@
+{
+  "materials": {
+    "方便面用量为": {
+      "quantity": "1",
+      "unit": ".2 包/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "方便面用量为 1.2 包/人 向下取整。"
+    },
+    "鸡蛋的用量为": {
+      "quantity": "1",
+      "unit": ".4 个/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋的用量为 1.4 个/人 向下取整。"
+    },
+    "盐的用量为 鸡蛋的用量 *": {
+      "quantity": "2",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐的用量为 鸡蛋的用量 * 2g。"
+    },
+    "火腿肠的用量为": {
+      "quantity": "0",
+      "unit": ".7 个/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "火腿肠的用量为 0.7 个/人 向上取整。"
+    },
+    "食用油的用量为": {
+      "quantity": "10-",
+      "unit": "18 ml /",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油的用量为 10 - 18 ml / 人。"
+    },
+    "方便面": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "方便面"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋"
+    },
+    "火腿肠": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "火腿肠（可选）"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "这是在探究了传统煮方便面的改良方向之后，进行的一次最成功的尝试。它能够让方便面的美味程度提升很大程度，简单好做。开始炒吧！",
+  "name": "炒方便面"
+}

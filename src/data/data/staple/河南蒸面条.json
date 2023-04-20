@@ -1,0 +1,167 @@
+{
+  "materials": {
+    "挂面": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "挂面 300g"
+    },
+    "五花肉": {
+      "quantity": "350",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "五花肉 350g"
+    },
+    "蒜薹": {
+      "quantity": "150",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜薹 150g"
+    },
+    "食用": {
+      "quantity": "10-15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 10-15ml"
+    },
+    "生抽": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 15ml"
+    },
+    "老抽": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 10ml"
+    },
+    "蚝油": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 5ml"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2g"
+    },
+    "鸡精": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 2g"
+    },
+    "十三香": {
+      "quantity": "1",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "十三香 1g"
+    },
+    "葱": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 10g"
+    },
+    "姜": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 5g"
+    },
+    "蒜": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 10g"
+    },
+    "料酒": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 5ml"
+    },
+    "麻油": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "麻油 5ml"
+    },
+    "挂面 ": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "推荐圆的"
+      ],
+      "original": "挂面 （推荐圆的）"
+    },
+    "葱 + 姜 + 蒜 + 料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 + 姜 + 蒜 + 料酒"
+    },
+    "盐 + 鸡精 + 十三香": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 + 鸡精 + 十三香"
+    },
+    "生抽 + 老抽 + 蚝油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 + 老抽 + 蚝油"
+    },
+    "油 + 锅 + 菜刀 + 铲子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "油 + 锅 + 菜刀 + 铲子"
+    },
+    "蒸篦子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒸篦子"
+    },
+    "额外的盆": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "额外的盆"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "细的、圆的 （超市大部分都是这种，口感更加劲道）",
+    "宽的、扁的 （口感比较软）"
+  ],
+  "desc": "# 河南蒸面条的做法![示例菜成品](./河南蒸面条.png)河南蒸面条是一道在河南坊间流行的小吃，也可以用家里的挂面制作。简单来讲，是先将挂面裹油放入蒸笼蒸熟，再加蔬菜配以调料炒，最后二次蒸制，以达到入味劲道的效果。",
+  "name": "河南蒸面条"
+}

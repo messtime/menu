@@ -1,0 +1,33 @@
+{
+  "materials": {
+    "毛豆": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "毛豆 300 g"
+    },
+    "话梅": {
+      "quantity": "6",
+      "unit": "颗",
+      "is_optional": false,
+      "tips": [],
+      "original": "话梅 6 颗"
+    },
+    "食用盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用盐 2 g"
+    }
+  },
+  "steps": [
+    "清水加入食用盐，毛豆浸泡 15 分钟",
+    "加入开水，倒入毛豆、话梅，水煮 20-30 分钟",
+    "起锅开吃"
+  ],
+  "additional": [],
+  "desc": "酸甜可口、营养价值高的一种简易美食",
+  "name": "话梅煮毛豆"
+}

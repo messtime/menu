@@ -1,0 +1,81 @@
+{
+  "materials": {
+    "花菜": {
+      "quantity": "400",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "花菜 400 g"
+    },
+    "五花肉": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "五花肉 100 g"
+    },
+    "辣椒": {
+      "quantity": "1-2",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "辣椒 1-2 根"
+    },
+    "生抽": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 10 ml"
+    },
+    "白糖": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖 5g"
+    },
+    "蒜瓣": {
+      "quantity": "3-4",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜瓣 3-4 个"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2 g"
+    },
+    "油": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "油 10 ml"
+    },
+    "蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜"
+    }
+  },
+  "steps": [
+    "花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵",
+    "入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用",
+    "五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段",
+    "锅烧热放油，油热下大葱白爆香",
+    "下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分",
+    "倒入红辣椒段和花菜，翻炒几下",
+    "加入 10 ml 生抽",
+    "再加入 5 g 白糖，转大火不断翻炒 1 分钟",
+    "把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可"
+  ],
+  "additional": [],
+  "desc": "![干锅花菜成品](./干锅花菜.jpg)干锅花菜是湘菜常见的一道菜。",
+  "name": "干锅花菜"
+}

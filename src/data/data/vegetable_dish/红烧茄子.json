@@ -1,0 +1,157 @@
+{
+  "materials": {
+    "青茄子的数量 = 份数 *": {
+      "quantity": "0",
+      "unit": ".7",
+      "is_optional": false,
+      "tips": [],
+      "original": "青茄子的数量 = 份数 * 0.7 个"
+    },
+    "青辣椒 = 份数 *": {
+      "quantity": "0",
+      "unit": ".5",
+      "is_optional": false,
+      "tips": [],
+      "original": "青辣椒 = 份数 * 0.5 个"
+    },
+    "洋葱 = 份数 *": {
+      "quantity": "0",
+      "unit": ".3",
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱 = 份数 * 0.3 个"
+    },
+    "西红柿 =": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿 = 1 个"
+    },
+    "大葱 = 半颗": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大葱 = 半颗"
+    },
+    "大蒜 =": {
+      "quantity": "3",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜 = 3 瓣"
+    },
+    "鸡蛋 =": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 = 1 个"
+    },
+    "面粉 = 青茄子数量 *": {
+      "quantity": "150",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "面粉 = 青茄子数量 * 150 克"
+    },
+    "淀粉 = 面粉 /": {
+      "quantity": "4",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 = 面粉 / 4 克"
+    },
+    "酱油 = 茄子数量 *": {
+      "quantity": "7",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "向上取整"
+      ],
+      "original": "酱油 = 茄子数量 * 7 克（向上取整）"
+    },
+    "大蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜"
+    },
+    "大葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大葱"
+    },
+    "青辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青辣椒"
+    },
+    "洋葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱"
+    },
+    "西红柿": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿"
+    },
+    "青茄子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青茄子"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋"
+    },
+    "面粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "面粉"
+    },
+    "淀粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "红烧茄子"
+}

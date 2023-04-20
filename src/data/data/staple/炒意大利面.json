@@ -1,0 +1,61 @@
+{
+  "materials": {
+    "意大利面": {
+      "quantity": "50",
+      "unit": "克 /",
+      "is_optional": false,
+      "tips": [],
+      "original": "意大利面 50 克 / 人"
+    },
+    "肥牛": {
+      "quantity": "5",
+      "unit": "片 /",
+      "is_optional": false,
+      "tips": [],
+      "original": "肥牛 5 片 / 人"
+    },
+    "食用油": {
+      "quantity": "5",
+      "unit": "ml / 50",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 5ml / 50 克意面"
+    },
+    "肥牛片": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "肥牛片"
+    },
+    "番茄酱 / 黑胡椒酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "选其一即可"
+      ],
+      "original": "番茄酱 / 黑胡椒酱（选其一即可）"
+    },
+    "菜籽油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "其他植物油也可"
+      ],
+      "original": "菜籽油（其他植物油也可）"
+    }
+  },
+  "steps": [
+    "加入 250 克水 / 人",
+    "待水烧开，下入面条，中火煮 15 - 20 分钟（这个面通常比较硬，捞起来之前最好尝一下，中心如果有一点硬，需要继续煮）",
+    "捞出面条，盛入盘中备用",
+    "热锅倒入食用油，待油温中热，下入面条翻炒一分钟（如果太干，加入少量水）",
+    "放入 10 克番茄酱、肥牛、加入 2g 食盐，继续翻炒一分钟",
+    "起锅"
+  ],
+  "additional": [],
+  "desc": "# 炒意大利面的做法![意大利面](./a.jpg)这是一道软糯爽口的意大利面的做法，非常简单，用时大概 30 分钟。",
+  "name": "炒意大利面"
+}

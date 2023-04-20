@@ -1,0 +1,104 @@
+{
+  "materials": {
+    "五花肉": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "五花肉 300 g"
+    },
+    "白砂糖": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白砂糖 100 g"
+    },
+    "食用油": {
+      "quantity": "200",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 200 g"
+    },
+    "生抽": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 10 ml"
+    },
+    "蚝油": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 5 ml"
+    },
+    "老抽": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 5 ml"
+    },
+    "姜片": {
+      "quantity": "2",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜片 2 片"
+    },
+    "蒜头": {
+      "quantity": "3",
+      "unit": "颗",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 3 颗"
+    },
+    "料酒": {
+      "quantity": "100",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 100 ml"
+    },
+    "葱": {
+      "quantity": "1",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 1 根"
+    },
+    "五香粉": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "五香粉 10 g"
+    },
+    "盐": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 10 g"
+    }
+  },
+  "steps": [
+    "五花肉切块，每块 2-3 cm 大小",
+    "锅中加入 150 ml 食用油，倒入五花肉，煎炸 2 分钟 后，加入盐，翻炒五花肉，2 分钟 后出锅",
+    "锅中加入 50 ml 食用油，倒入白砂糖，翻炒到咖啡色",
+    "倒入五花肉，翻炒 30 S ，加入姜片、蒜头后翻炒 30 S",
+    "加入料酒，五香粉、葱，加入水没过五花肉，盖上锅盖煮 10 分钟",
+    "加入生抽、老抽、蚝油，中火煮 20 分钟",
+    "开锅，大火烧汁，端盘"
+  ],
+  "additional": [
+    "葱是整根，不需要切碎",
+    "步骤二加盐的目的是锁住五花肉的油脂",
+    "制作过程，用部分五花肉做了水煮处理，跟未处理的一起做后续制作，发现未水煮的肉质更 Q 弹"
+  ],
+  "desc": "徽式红烧肉是一道由五花肉等食材制成的菜肴。",
+  "name": "徽派红烧肉"
+}

@@ -1,0 +1,110 @@
+{
+  "materials": {
+    "黄瓜 =": {
+      "quantity": "1",
+      "unit": "根（约",
+      "is_optional": false,
+      "tips": [
+        "约 200g"
+      ],
+      "original": "黄瓜 = 1 根（约 200g）"
+    },
+    "鸡蛋 =": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 = 2 个"
+    },
+    "火腿肠 =": {
+      "quantity": "1",
+      "unit": "根（约",
+      "is_optional": false,
+      "tips": [
+        "约 40g"
+      ],
+      "original": "火腿肠 = 1 根（约 40g）"
+    },
+    "红尖椒 =": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "红尖椒 = 1 个"
+    },
+    "食用油 =": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 = 10ml"
+    },
+    "生抽": {
+      "quantity": "3",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 3ml"
+    },
+    "盐": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 2g"
+    },
+    "黄瓜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄瓜"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋"
+    },
+    "火腿肠": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "火腿肠"
+    },
+    "食用油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油"
+    },
+    "红尖椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "红尖椒（可选）"
+    }
+  },
+  "steps": [
+    "黄瓜洗净，切半圆形，备用",
+    "火腿切半圆形，备用",
+    "红尖椒（可选）切碎，备用",
+    "将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`",
+    "热锅里倒 5ml 食用油",
+    "油热后转小火，倒入打散的`鸡蛋液`，用筷子划散，翻炒至鸡蛋结为固体且颜色微微发黄，即为 `半熟鸡蛋`，盛出备用",
+    "不用洗锅**，往锅内倒入 5ml 食用油，倒入黄瓜片大火**翻炒 1 分钟",
+    "把 `半熟鸡蛋` 倒入锅中，调入 2g 盐、3ml 生抽，立刻倒入火腿片和辣椒碎（可选）翻炒均匀",
+    "关火，盛盘"
+  ],
+  "additional": [
+    "火腿是咸的，要在调味后才加入，这样不会让火腿也沾上盐"
+  ],
+  "desc": "",
+  "name": "鸡蛋火腿炒黄瓜"
+}

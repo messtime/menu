@@ -1,0 +1,96 @@
+{
+  "materials": {
+    "排骨": {
+      "quantity": "200",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "排骨 200 g"
+    },
+    "白砂糖": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白砂糖 10 g"
+    },
+    "食用油": {
+      "quantity": "500",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 500 ml"
+    },
+    "鱼露": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "鱼露 5 ml"
+    },
+    "芝麻": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "芝麻 5 g"
+    },
+    "番茄酱": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "番茄酱 5 g"
+    },
+    "香醋": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "香醋  5 ml"
+    },
+    "蒜头": {
+      "quantity": "2",
+      "unit": "粒",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜头 2 粒"
+    },
+    "葱": {
+      "quantity": "1",
+      "unit": "根",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 1 根"
+    },
+    "地瓜粉": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "地瓜粉 30 g"
+    },
+    "鸡蛋黄": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋黄 1 个"
+    }
+  },
+  "steps": [
+    "排骨中加入 5 g 地瓜粉和水进行搅拌，清洗 2-3 遍后放入大碗备用",
+    "排骨中加入鱼露、地瓜粉、鸡蛋黄 充分搅拌",
+    "将排骨一个一个放入锅中（切记不可以整碗倒入），保证每个不要粘在一起",
+    "全部放入后，每 30 S 用勺子来回两面翻转瘦肉块，直至排骨表面金黄",
+    "取出排骨，一分钟后倒入油锅中继续炸，直至瘦肉块表面出现焦黄后，取出放入大碗备用",
+    "准备一个小碗，加入蒜末、香醋、白砂糖、鱼露、番茄酱、葱花、芝麻搅拌均匀，倒入 5 ml 热油",
+    "将汤汁浇灌入排骨，在充分搅拌后倒入盘中"
+  ],
+  "additional": [
+    "鱼露，又称鱼酱油，是一种广东，福建等地常见的调味品。效果类似于生抽",
+    "本次制作过程中，由于疫情原因没有雨露，只能用老抽代替，所以排骨颜色偏黑，正常是金黄色"
+  ],
+  "desc": "醉排骨是福建省福州市特色传统名菜",
+  "name": "醉排骨"
+}

@@ -1,0 +1,80 @@
+{
+  "materials": {
+    "一个带皮玉米": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "一个带皮玉米"
+    },
+    "淹过玉米约半节指头的水": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "淹过玉米约半节指头的水"
+    },
+    "煮玉米的时候，开始和淡盐水，差不多": {
+      "quantity": "2",
+      "unit": "克盐加 50ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "煮玉米的时候，开始和淡盐水，差不多 2 克盐加 50ml 的水"
+    },
+    "根据口味选择加或者不加糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "根据口味选择加或者不加糖（可选）"
+    },
+    "新鲜玉米": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "新鲜玉米"
+    },
+    "放得下玉米的锅": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "放得下玉米的锅"
+    },
+    "水": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "水"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "糖（可选）"
+    }
+  },
+  "steps": [
+    "将新鲜玉米剥去外皮，剩部分玉米皮入锅",
+    "加入淹过玉米约半节指头的水，加盐和糖",
+    "水煮开之后转至小火，加盖继续煮 15-20 分钟，玉米煮久点没事。",
+    "煮熟后沥干水分，冷却后食用。"
+  ],
+  "additional": [],
+  "desc": "大约 15 分钟可以完成制作。",
+  "name": "水煮玉米"
+}

@@ -1,0 +1,31 @@
+{
+  "materials": {
+    "水": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "水 100 克"
+    },
+    "白砂糖": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白砂糖 100 克"
+    },
+    "可密封容器": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "建议使用高硼硅试剂瓶，便宜"
+      ],
+      "original": "可密封容器（建议使用高硼硅试剂瓶，便宜）"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "将糖事先溶解好便于在配制饮料（特别是冷饮）时给饮料增甜",
+  "name": "蔗糖糖浆"
+}

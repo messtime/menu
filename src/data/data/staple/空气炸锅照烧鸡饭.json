@@ -1,0 +1,77 @@
+{
+  "materials": {
+    "鸡肉": {
+      "quantity": "900",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡肉 900g"
+    },
+    "": {
+      "quantity": "60-65",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖 60-65g"
+    },
+    "白": {
+      "quantity": "30-35",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "白醋 30-35ml"
+    },
+    "丽滋饼干（咸味曲奇可替代）": {
+      "quantity": "16",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [
+        "咸味曲奇可替代"
+      ],
+      "original": "丽滋饼干（咸味曲奇可替代） 16 个(48g)"
+    },
+    "鸡蛋": {
+      "quantity": "2",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋 2 个"
+    },
+    "丽滋饼干(Ritz crackers)": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "丽滋饼干(Ritz crackers)"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "白沙糖"
+      ],
+      "original": "糖（白沙糖）"
+    }
+  },
+  "steps": [
+    "将酱油、糖和醋混合在一起,搅匀料汁备用",
+    "另一个碗中加入鸡肉、鸡蛋、1/2 料汁和压碎的丽滋饼干。搅拌均匀",
+    "空气炸锅用箔纸碗铺底，加入肉饼混合物，将剩余的料汁均匀的倒在上面",
+    "350°** 炸**40 分钟**。最好在米饭上食用<!-- 在描述过程时不得加入上文或原材料中未提及的食材。 -->",
+    "在外观*呈金黄酥脆*后出锅，切块盛盘"
+  ],
+  "additional": [
+    "操作时，需要注意温度以免烫伤。",
+    "参考资料：[库克美食教程](https://cookpad.com/)"
+  ],
+  "desc": "# 空气炸锅照烧鸡饭的做法![空气炸锅照烧鸡饭成品](./空气炸锅照烧鸡饭.jpg)空气炸锅照烧鸡饭是一道简单易做的菜。是一道既便利又便宜的美食，而且在品尝美味的同时，新手也能完全掌握！",
+  "name": "空气炸锅照烧鸡饭"
+}

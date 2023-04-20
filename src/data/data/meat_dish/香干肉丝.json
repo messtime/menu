@@ -1,0 +1,126 @@
+{
+  "materials": {
+    "香干 = 份数 *": {
+      "quantity": "75",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "香干 = 份数 * 75g"
+    },
+    "青椒的数量 = 份数 *": {
+      "quantity": "5",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "青椒的数量 = 份数 * 5 个"
+    },
+    "肉量 = 份数 *": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "肉量 = 份数 * 100g"
+    },
+    "盐量 = 份数 *": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐量 = 份数 * 3g"
+    },
+    "生抽 = 份数 *": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 = 份数 * 5ml"
+    },
+    "淀粉 = 份数 *": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 = 份数 * 5g"
+    },
+    "大蒜 = 份数 *": {
+      "quantity": "5",
+      "unit": "g（大约 3",
+      "is_optional": false,
+      "tips": [
+        "大约 3 个蒜瓣"
+      ],
+      "original": "大蒜 = 份数 * 5g（大约 3 个蒜瓣）"
+    },
+    "鸡精 =": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精 = 2g"
+    },
+    "猪里脊": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "可以买超市切好且称重好的肉丝"
+      ],
+      "original": "猪里脊（可以买超市切好且称重好的肉丝）"
+    },
+    "香干": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "香干"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "淀粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉"
+    },
+    "大蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜"
+    },
+    "青椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青椒"
+    },
+    "鸡精": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡精"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "辣椒选择青椒，螺丝椒为最优解，喜欢辣的可以加入小米椒切细碎，同青椒一起加入！"
+  ],
+  "desc": "",
+  "name": "香干肉丝"
+}

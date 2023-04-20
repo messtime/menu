@@ -1,0 +1,119 @@
+{
+  "materials": {
+    "洋葱 一颗 ": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "是主角，喜欢吃洋葱可以多半颗～一颗"
+      ],
+      "original": "洋葱 一颗 （是主角，喜欢吃洋葱可以多半颗～一颗）"
+    },
+    "猪肉 (": {
+      "quantity": "250",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "猪肉 (250g)"
+    },
+    "蒜头 （": {
+      "quantity": "3",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [
+        "3 瓣"
+      ],
+      "original": "蒜头 （3 瓣）"
+    },
+    "食用油 (": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 (15ml)"
+    },
+    "黑胡椒 (": {
+      "quantity": "1",
+      "unit": ".25g",
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒 (1.25g)"
+    },
+    "酱油 (": {
+      "quantity": "30",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油 (30ml)"
+    },
+    "糖 (": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖 (15g)"
+    },
+    "麻油 (": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "麻油 (5ml)"
+    },
+    "番茄酱 (": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "番茄酱 (15ml)"
+    },
+    "料酒 (": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 (15ml)"
+    },
+    "洋葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "洋葱"
+    },
+    "猪肉片": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "猪肉片"
+    },
+    "蕃茄酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蕃茄酱"
+    },
+    "麻油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "麻油"
+    }
+  },
+  "steps": [
+    "洋葱切片，猪肉，蒜头拍碎，以及混合上述调味料备用",
+    "炒锅内倒入 1 大匙食用油（等待 10 秒让油温升高），倒入猪肉",
+    "炒至变色后下蒜头炒香盛起备用",
+    "原锅下洋葱翻炒 3~4 分钟后加入调味料炒匀",
+    "下刚盛起备用的猪肉翻炒至猪肉熟后",
+    "待猪肉熟后再翻炒 1、2 分钟即可起锅"
+  ],
+  "additional": [
+    "猪肉可选猪肩肉片或是切好的肉丝看个人喜好"
+  ],
+  "desc": "咸中带甜，简单上手，一不小心可能让人多吃一碗饭。一般只需 15 分钟即可完成。",
+  "name": "洋葱炒猪肉"
+}

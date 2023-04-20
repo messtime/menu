@@ -1,0 +1,95 @@
+{
+  "materials": {
+    "牛肉用量为": {
+      "quantity": "250",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "牛肉用量为 250 g/人"
+    },
+    "葱的用量为": {
+      "quantity": "0",
+      "unit": ".5",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱的用量为 0.5 根/人"
+    },
+    "姜的用量为": {
+      "quantity": "1",
+      "unit": "个/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜的用量为 1 个/人"
+    },
+    "盐的用量为": {
+      "quantity": "3",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐的用量为 3 g/人"
+    },
+    "糖的用量为": {
+      "quantity": "1",
+      "unit": ".5",
+      "is_optional": false,
+      "tips": [],
+      "original": "糖的用量为 1.5 g/人"
+    },
+    "酱油的用量为": {
+      "quantity": "9",
+      "unit": "ml/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油的用量为 9 ml/人"
+    },
+    "牛肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "牛肉"
+    },
+    "葱、姜、蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱、姜、蒜"
+    },
+    "尖椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "尖椒"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "糖"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "腌制可以加入小苏打使牛肉变嫩，牛肉苏打比例为 500g：3g。",
+    "腌制的时候姜片可用料酒代替，料酒的用量为 3 g/人"
+  ],
+  "desc": "",
+  "name": "尖椒炒牛肉"
+}

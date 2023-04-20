@@ -1,0 +1,219 @@
+{
+  "materials": {
+    "米粉（": {
+      "quantity": "250",
+      "unit": "g 记得 50",
+      "is_optional": false,
+      "tips": [
+        "250g 记得 50 度的温水泡半小时"
+      ],
+      "original": "米粉（250g 记得 50 度的温水泡半小时）"
+    },
+    "猪肉(": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "猪肉(50g)"
+    },
+    "酸笋(": {
+      "quantity": "50",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "酸笋(50g)"
+    },
+    "剁椒（": {
+      "quantity": "15",
+      "unit": "g 辣椒剁完后, 个人需求适当放。",
+      "is_optional": false,
+      "tips": [
+        "15g 辣椒剁完后, 个人需求适当放。 "
+      ],
+      "original": "剁椒（15g 辣椒剁完后, 个人需求适当放。 ）"
+    },
+    "豆豉(": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "豆豉(30g)"
+    },
+    "大蒜(": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜(10g)"
+    },
+    "料": {
+      "quantity": "10-20",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒(10-20ml)"
+    },
+    "生抽(": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽(15ml)"
+    },
+    "白糖（": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "5g 如果不喜欢糖，可以考虑不放"
+      ],
+      "original": "白糖（5g 如果不喜欢糖，可以考虑不放）"
+    },
+    "米醋(": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "米醋(5ml)"
+    },
+    "盐(": {
+      "quantity": "5",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐(5ml)"
+    },
+    "油(": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "油(15ml)"
+    },
+    "生粉(": {
+      "quantity": "15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生粉(15ml)"
+    },
+    "胡椒粉(": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉(10ml)"
+    },
+    "米粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "米粉"
+    },
+    "猪肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "猪肉"
+    },
+    "酸笋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酸笋"
+    },
+    "剁椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "剁椒"
+    },
+    "豆豉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "豆豉"
+    },
+    "大蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "白糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖"
+    },
+    "米醋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "米醋"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "油"
+    },
+    "生粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生粉"
+    },
+    "胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉"
+    }
+  },
+  "steps": [
+    "全部猪肉用料酒、盐、生抽、生粉、胡椒粉倒在一个碗里调味,备用",
+    "热锅不放油,下全部酸笋把水份炒干，炒干的酸笋中间留点空间",
+    "放入 10ml - 15ml 食用油与全部大蒜、 剁椒、 豆豉到炒干的酸笋中间到炒干的酸笋中间,全部推到中间炒出香味",
+    "放入全部调味好的猪肉,持续放入 10ml 生抽炒一分钟",
+    "放入 5ml 米醋、 10ml 生抽、450ml 清水一起煮开",
+    "水煮开后,放入温水泡好的米粉,继续煮 3 分钟就可以盛盘"
+  ],
+  "additional": [
+    "记得米粉必须是泡过的才好吃,没有泡过的话是很难吃的！"
+  ],
+  "desc": "![示例菜成品](老友猪肉粉.jpg)",
+  "name": "老友猪肉粉"
+}

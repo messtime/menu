@@ -1,0 +1,117 @@
+{
+  "materials": {
+    "食用油": {
+      "quantity": "10",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油：10ml"
+    },
+    "姜": {
+      "quantity": "3",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜：3 片"
+    },
+    "蒜": {
+      "quantity": "3",
+      "unit": "瓣",
+      "is_optional": false,
+      "tips": [
+        "切成块"
+      ],
+      "original": "蒜：3 瓣（切成块）"
+    },
+    "鲤鱼": {
+      "quantity": "1",
+      "unit": ".2 斤",
+      "is_optional": false,
+      "tips": [
+        "清理过的"
+      ],
+      "original": "鲤鱼：1.2 斤（清理过的）"
+    },
+    "娃娃菜": {
+      "quantity": "13",
+      "unit": "片",
+      "is_optional": false,
+      "tips": [
+        "可以多放一些，一顿就缩小了"
+      ],
+      "original": "娃娃菜：13 片（可以多放一些，一顿就缩小了）"
+    },
+    "盐": {
+      "quantity": "5-8",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐：5-8 克"
+    },
+    "老抽": {
+      "quantity": "3",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽：3ml"
+    },
+    "生抽": {
+      "quantity": "6",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽：6ml"
+    },
+    "桂皮": {
+      "quantity": "1",
+      "unit": "块",
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮：1 块"
+    },
+    "八角": {
+      "quantity": "3",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "八角：3 个"
+    },
+    "郫县豆瓣酱": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "郫县豆瓣酱：20 克"
+    },
+    "干辣椒": {
+      "quantity": "4-6",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [
+        "根据个人口味选择",
+        "不吃辣可以不放"
+      ],
+      "original": "干辣椒：4-6 个（根据个人口味选择）"
+    },
+    "白菜心/娃娃菜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白菜心/娃娃菜"
+    }
+  },
+  "steps": [
+    "鲤鱼清洗干净，改刀（在鱼身上多划几个伤口，方便入味）",
+    "娃娃菜清洗干净放入盘中备用",
+    "锅中加油，等油热放入“少盐” “姜” “蒜” “郫县豆瓣酱” “桂皮” “八角” 炒出香味",
+    "把鱼放锅里煎（3 分钟）每（30 秒）需要翻面",
+    "加入“水”（水量尽量和鱼平齐，可以少一点点） 放入 “生抽” “老抽” “娃娃菜”",
+    "大火炖 15-20 分钟，汤汁快干时添加 “盐” 即可出锅"
+  ],
+  "additional": [
+    "也可以放一些粉条，粉条先凉水/热水，需要泡软，可以和娃娃菜一起放入"
+  ],
+  "desc": "![鲤鱼炖白菜](./鲤鱼炖白菜.jpeg)",
+  "name": "鲤鱼炖白菜"
+}

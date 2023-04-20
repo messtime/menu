@@ -1,0 +1,73 @@
+{
+  "materials": {
+    "鸡蛋的用量为": {
+      "quantity": "1",
+      "unit": "个。",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋的用量为 1 个。"
+    },
+    "盐的用量为 鸡蛋的个数 -": {
+      "quantity": "1",
+      "unit": "g。",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐的用量为 鸡蛋的个数 - 1g。"
+    },
+    "油的用量为 鸡蛋的个数 -": {
+      "quantity": "5",
+      "unit": "ml。",
+      "is_optional": false,
+      "tips": [],
+      "original": "油的用量为 鸡蛋的个数 - 5ml。"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡蛋"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "油"
+    },
+    "分可控火候微波炉或不可控火候微波炉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "定义和分辨方式请见附加内容"
+      ],
+      "original": "分可控火候微波炉或不可控火候微波炉（定义和分辨方式请见附加内容）"
+    },
+    "筷子或牙签": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "筷子或牙签"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "不可控火候微波炉：",
+    "定义： 即无法控制火候仅能控制时长的微波炉。",
+    "辨别方法： 若在微波炉操作面板上无法找到小火，中火， 大火等字样即为不可控火候微波炉",
+    "可控火候微波炉：",
+    "定义：即能控制火候又能控制时长的微波炉，",
+    "辨别方法： 若在微波炉操作面板上能找到小火，中火，大火等字样即为可控火候微波炉"
+  ],
+  "desc": "",
+  "name": "太阳蛋"
+}

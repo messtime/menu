@@ -1,0 +1,61 @@
+{
+  "materials": {
+    "西红柿": {
+      "quantity": "1",
+      "unit": "个",
+      "is_optional": false,
+      "tips": [],
+      "original": "西红柿 1 个"
+    },
+    "鸡蛋": {
+      "quantity": "1-2",
+      "unit": "个（依照自己的口味而定，喜欢吃鸡蛋就放 2 个，一般就放 1",
+      "is_optional": false,
+      "tips": [
+        "依照自己的口味而定，喜欢吃鸡蛋就放 2 个，一般就放 1 个"
+      ],
+      "original": "鸡蛋 1-2 个（依照自己的口味而定，喜欢吃鸡蛋就放 2 个，一般就放 1 个）"
+    },
+    "香油": {
+      "quantity": "2",
+      "unit": "滴",
+      "is_optional": false,
+      "tips": [],
+      "original": "香油 2 滴"
+    },
+    "味素": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "可选"
+      ],
+      "original": "味素 5 克（可选）"
+    },
+    "盐": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 15 克"
+    },
+    "葱、姜、蒜共": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "葱、姜、蒜共 15 克"
+    },
+    "葱、姜、蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱、姜、蒜"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "西红柿鸡蛋汤"
+}

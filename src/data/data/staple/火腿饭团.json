@@ -1,0 +1,132 @@
+{
+  "materials": {
+    "火腿(": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "火腿(100g)"
+    },
+    "米饭(": {
+      "quantity": "125",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "米饭(125g)"
+    },
+    "水(": {
+      "quantity": "90",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "水(90ml)"
+    },
+    "冷冻青豆(": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "冷冻青豆(30g)"
+    },
+    "冷冻玉米粒(": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "冷冻玉米粒(30g)"
+    },
+    "海苔碎(": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "海苔碎(10g)"
+    },
+    "喜欢的沙拉酱(": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "喜欢的沙拉酱(20g)"
+    },
+    "食用": {
+      "quantity": "10-15",
+      "unit": "ml",
+      "is_optional": false,
+      "tips": [],
+      "original": "食用油 10-15ml"
+    },
+    "火腿": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "火腿"
+    },
+    "米饭": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "米饭"
+    },
+    "水": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "水"
+    },
+    "冷冻青豆": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "冷冻青豆（可选）"
+    },
+    "冷冻玉米粒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "冷冻玉米粒（可选）"
+    },
+    "海苔碎": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": true,
+      "tips": [
+        "可选"
+      ],
+      "original": "海苔碎（可选）"
+    },
+    "喜欢的沙拉酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "推荐日式 mayo！"
+      ],
+      "original": "喜欢的沙拉酱（推荐日式 mayo！）"
+    }
+  },
+  "steps": [
+    "将米饭和水放到电饭锅里，点击米饭模式，等待完成",
+    "冷冻玉米粒和青豆放到锅里，加水没过所有食材，沸腾后静待 2 分钟后，捞出。",
+    "火腿切成 1cm 的方块",
+    "与此同时，加入 10ml 食用油，加入火腿翻炒至火腿上色",
+    "将米饭，火腿，海苔碎，青豆，玉米粒，沙拉酱放入碗中，混合均匀即可",
+    "装盘（如果有的话）"
+  ],
+  "additional": [
+    "沙拉酱的程度可以根据个人口味酌情删减。",
+    "可以尝试混合沙拉酱。",
+    "参考资料：小红书 - 干饭选手又困了"
+  ],
+  "desc": "![火腿饭团](./饭团.png)好吃！富含碳水和蛋白质还有维生素。有手就行的制作难度，预计制作时间 1 h 。",
+  "name": "火腿饭团"
+}

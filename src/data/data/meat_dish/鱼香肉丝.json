@@ -1,0 +1,115 @@
+{
+  "materials": {
+    "里脊肉 200g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "里脊肉 200g"
+    },
+    "胡萝卜 100g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "胡萝卜 100g"
+    },
+    "青椒 100g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "青椒 100g"
+    },
+    "木耳": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "干"
+      ],
+      "original": "木耳（干） 5g"
+    },
+    "生抽 10ml": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 10ml"
+    },
+    "料酒 5ml": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 5ml"
+    },
+    "蛋清 1 个": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蛋清 1 个"
+    },
+    "淀粉 10g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 10g"
+    },
+    "醋 15ml": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "醋 15ml"
+    },
+    "白糖 10g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖 10g"
+    },
+    "盐 5g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐 5g"
+    },
+    "姜 20g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 20g"
+    },
+    "葱 20g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱 20g"
+    },
+    "蒜 2 瓣": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜 2 瓣"
+    },
+    "豆瓣酱 15g": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱 15g"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "鱼香肉丝"
+}

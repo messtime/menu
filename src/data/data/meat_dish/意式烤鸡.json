@@ -1,0 +1,110 @@
+{
+  "materials": {
+    "鸡腿肉用量通常来说为": {
+      "quantity": "1-2",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡腿肉用量通常来说为 1-2 个/人"
+    },
+    "盐用量为": {
+      "quantity": "2",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐用量为 2 g/人"
+    },
+    "黑胡椒用量为": {
+      "quantity": "0",
+      "unit": ".5",
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒用量为 0.5 g/人"
+    },
+    "橄榄油用量为": {
+      "quantity": "5",
+      "unit": "ml/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "橄榄油用量为 5 ml/人"
+    },
+    "蒜用量为": {
+      "quantity": "1",
+      "unit": "瓣/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜用量为 1 瓣/人"
+    },
+    "柠檬汁用量为": {
+      "quantity": "5",
+      "unit": "ml/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "柠檬汁用量为 5ml/人"
+    },
+    "欧芹用量为": {
+      "quantity": "1",
+      "unit": "根/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "欧芹用量为 1 根/人"
+    },
+    "鸡腿肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡腿肉"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "黑胡椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒"
+    },
+    "橄榄油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "橄榄油"
+    },
+    "蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜"
+    },
+    "柠檬汁": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "柠檬汁"
+    },
+    "欧芹": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "欧芹"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感",
+    "烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透",
+    "鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。"
+  ],
+  "desc": "",
+  "name": "意式烤鸡"
+}

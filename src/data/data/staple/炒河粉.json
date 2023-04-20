@@ -1,0 +1,87 @@
+{
+  "materials": {
+    "河粉用量为": {
+      "quantity": "250",
+      "unit": "g/人，如果需要更大食量，可再加 100g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "河粉用量为 250 g/人，如果需要更大食量，可再加 100g/人 向下取整。"
+    },
+    "黄瓜丝": {
+      "quantity": "30",
+      "unit": "g/人、面筋块 30g/人、绿豆芽 30g/人、打碎的鸡蛋 1",
+      "is_optional": false,
+      "tips": [],
+      "original": "黄瓜丝 30g/人、面筋块 30g/人、绿豆芽 30g/人、打碎的鸡蛋 1 个/人。"
+    },
+    "拍碎的蒜瓣": {
+      "quantity": "2",
+      "unit": "个/人、小葱 1",
+      "is_optional": false,
+      "tips": [],
+      "original": "拍碎的蒜瓣 2 个/人、小葱 1 根/人"
+    },
+    "河粉料可按": {
+      "quantity": "20",
+      "unit": "g/人添加，若自行准备炒料可 10g 盐+2g 味精+3g",
+      "is_optional": false,
+      "tips": [],
+      "original": "河粉料可按 20g/人添加，若自行准备炒料可 10g 盐+2g 味精+3g 孜然粉。"
+    },
+    "淀粉可准备每": {
+      "quantity": "100",
+      "unit": "g 肉+5g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉可准备每 100g 肉+5g 淀粉比例准备。"
+    },
+    "老抽/生抽，分别为每": {
+      "quantity": "250",
+      "unit": "g 河粉",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽/生抽，分别为每 250g 河粉 10ml/15ml。"
+    },
+    "炒河粉、猪肉/牛肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "炒河粉、猪肉/牛肉"
+    },
+    "炒料：盐、味精、老抽、生抽、孜然粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "或直接用河粉料"
+      ],
+      "original": "炒料：盐、味精、老抽、生抽、孜然粉（或直接用河粉料）"
+    },
+    "其他调味料：胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "其他调味料：胡椒粉"
+    },
+    "黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉"
+    },
+    "盆、盘子": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盆、盘子"
+    }
+  },
+  "steps": [],
+  "additional": [],
+  "desc": "",
+  "name": "炒河粉"
+}

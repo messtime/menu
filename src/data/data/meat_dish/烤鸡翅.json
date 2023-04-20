@@ -1,0 +1,88 @@
+{
+  "materials": {
+    "鸡翅用量为": {
+      "quantity": "3-4",
+      "unit": "",
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡翅用量为 3-4 个/人"
+    },
+    "盐的用量为": {
+      "quantity": "2",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐的用量为 2 g/人"
+    },
+    "黑胡椒粉的用量为": {
+      "quantity": "1",
+      "unit": "g/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒粉的用量为 1 g/人"
+    },
+    "酱油的用量为": {
+      "quantity": "3",
+      "unit": "ml/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油的用量为 3 ml/人"
+    },
+    "料酒的用量为": {
+      "quantity": "3",
+      "unit": "ml/人",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒的用量为 3 ml/人"
+    },
+    "鸡翅中": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸡翅中"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "黑胡椒粉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黑胡椒粉"
+    },
+    "酱油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "酱油"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "烤箱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "烤箱"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "可以在腌制鸡翅时加入蜂蜜、酱油、姜蒜粉、五香粉等作为调味料，提升口感和香气",
+    "烤鸡翅时，建议将烤盘底部垫上一层锡纸，便于清洁烤盘"
+  ],
+  "desc": "",
+  "name": "烤鸡翅"
+}

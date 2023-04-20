@@ -1,0 +1,97 @@
+{
+  "materials": {
+    "鸡蛋": {
+      "quantity": "400",
+      "unit": "g（约 8",
+      "is_optional": false,
+      "tips": [
+        "约 8 颗"
+      ],
+      "original": "鸡蛋 400g（约 8 颗）"
+    },
+    "八角": {
+      "quantity": "4",
+      "unit": "g（约 2",
+      "is_optional": false,
+      "tips": [
+        "约 2 颗"
+      ],
+      "original": "八角 4g（约 2 颗）"
+    },
+    "香叶": {
+      "quantity": "0",
+      "unit": ".5-1g（约 2",
+      "is_optional": false,
+      "tips": [
+        "约 2 片"
+      ],
+      "original": "香叶 0.5-1g（约 2 片）"
+    },
+    "桂皮": {
+      "quantity": "3",
+      "unit": "g（1",
+      "is_optional": false,
+      "tips": [
+        "1 小块"
+      ],
+      "original": "桂皮 3g（1 小块）"
+    },
+    "茴香": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "茴香 5g"
+    },
+    "冰糖": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "冰糖 15g"
+    },
+    "红茶": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "红茶 20g"
+    },
+    "生抽": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 15g"
+    },
+    "老抽": {
+      "quantity": "25",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 25g"
+    },
+    "食盐": {
+      "quantity": "3",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食盐 3g"
+    }
+  },
+  "steps": [
+    "用冷水将鸡蛋煮熟，大火大约 8 分钟（根据自家厨具决定）",
+    "鸡蛋捞出，过冷水",
+    "将鸡蛋互相碰撞，使每个鸡蛋产生裂缝",
+    "将鸡蛋下锅，放入八角，香叶，桂皮，茴香，冰糖，红茶，生抽，老抽，食盐",
+    "加水直至没过鸡蛋",
+    "大火煮开之后，转中小火煮 15 分钟"
+  ],
+  "additional": [
+    "鸡蛋捞出过冷水是为了让鸡蛋和壳之间产生间隙",
+    "食盐可根据个人口味选择不加",
+    "八角，香叶，桂皮，茴香，冰糖，自己没有这么多食材可以买现成的卤料包"
+  ],
+  "desc": "茶香浓郁，鲜香可口的高蛋白快速营养早餐，大约耗时 30 分钟。烹饪略微耗时，可以周末尝试，做一次大约够 2-3 个人吃。",
+  "name": "茶叶蛋"
+}

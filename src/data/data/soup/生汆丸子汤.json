@@ -1,0 +1,31 @@
+{
+  "materials": {
+    "盐量 = 猪肉斤数 *": {
+      "quantity": "6",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "盐量 = 猪肉斤数 * 6 克"
+    },
+    "胡椒粉量 = 猪肉斤数 *": {
+      "quantity": "2",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "胡椒粉量 = 猪肉斤数 * 2 克"
+    },
+    "土豆淀粉 = 多少人的用量 *": {
+      "quantity": "40",
+      "unit": "克，本教程以一人用量算",
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆淀粉 = 多少人的用量 * 40 克，本教程以一人用量算"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "辣椒油可以根据口味放"
+  ],
+  "desc": "生汆丸子汤，吃的就是一个鲜、嫩、弹。",
+  "name": "生汆丸子汤"
+}

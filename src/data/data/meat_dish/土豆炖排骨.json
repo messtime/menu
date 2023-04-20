@@ -1,0 +1,214 @@
+{
+  "materials": {
+    "肋排 =": {
+      "quantity": "750",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "肋排 = 750g"
+    },
+    "土豆 =": {
+      "quantity": "300",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆 = 300g"
+    },
+    "姜 =": {
+      "quantity": "30",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "姜 = 30g"
+    },
+    "小葱 =": {
+      "quantity": "25",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "小葱 = 25g"
+    },
+    "料酒 =": {
+      "quantity": "25",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒 = 25g"
+    },
+    "白糖 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖 = 10g"
+    },
+    "干辣椒 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "干辣椒 = 5g"
+    },
+    "八角 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "八角 = 5g"
+    },
+    "花椒 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒 = 5g"
+    },
+    "桂皮 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮 = 5g"
+    },
+    "生抽 =": {
+      "quantity": "10",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽 = 10g"
+    },
+    "老抽 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽 = 5g"
+    },
+    "蚝油 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油 = 5g"
+    },
+    "黄豆酱 =": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "黄豆酱 = 5g"
+    },
+    "肋排": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "肋排"
+    },
+    "土豆": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆"
+    },
+    "姜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "姜"
+    },
+    "小葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "小葱"
+    },
+    "料酒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "料酒"
+    },
+    "白糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "白糖"
+    },
+    "干辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "干辣椒"
+    },
+    "八角": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "八角"
+    },
+    "花椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "花椒"
+    },
+    "桂皮": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "老抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "老抽"
+    },
+    "蚝油": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蚝油"
+    },
+    "黄豆酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "黄豆酱"
+    }
+  },
+  "steps": [
+    "土豆两个滚刀切片，姜片切片",
+    "排骨 750g 冷水下锅，加入姜片、葱段、料酒焯水 2 分钟，焯干水后捞出清洗干净（一定要用热水，不能用冷水）",
+    "热锅凉油，将白糖倒入锅中，翻炒至融化为焦糖色",
+    "加入排骨煎至两面金黄，让排骨裹满焦糖",
+    "加入干辣椒、八角、花椒、桂皮、姜片（建议买超市的香料包）、10ml 生抽、5ml 老抽、5ml 料酒、5ml 蚝油、5ml 黄豆酱",
+    "大火翻炒均匀后加入 700ml 开水，大火烧开后转小火焖煮 1 小时",
+    "最后加入土豆煮 10 分钟就可以出锅啦（喜欢吃青红椒的也可以按自己喜好加入）",
+    "![成果展示](./排骨1.jpg)",
+    "![成果展示](./排骨2.jpg)"
+  ],
+  "additional": [],
+  "desc": "",
+  "name": "土豆炖排骨"
+}

@@ -1,0 +1,105 @@
+{
+  "materials": {
+    "茄子": {
+      "quantity": "100",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "茄子 100g"
+    },
+    "土豆": {
+      "quantity": "150",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "土豆 150g"
+    },
+    "尖椒": {
+      "quantity": "3-",
+      "unit": "4",
+      "is_optional": false,
+      "tips": [],
+      "original": "尖椒 3 - 4 个"
+    },
+    "淀粉": {
+      "quantity": "20",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "淀粉 20g"
+    },
+    "葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "葱"
+    },
+    "姜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "姜"
+    },
+    "蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜"
+    },
+    "豆瓣酱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "豆瓣酱"
+    },
+    "生抽": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生抽"
+    },
+    "盐": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "盐"
+    },
+    "糖": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "糖"
+    }
+  },
+  "steps": [
+    "土豆洗净、去皮。茄子、尖椒洗净。",
+    "葱 3g 切 0.5cm 小段。蒜 10g 剁碎。姜 10g 切沫。",
+    "茄子、土豆、尖椒均切成 15g 的小块。",
+    "热锅，加入 25ml 油。",
+    "加入土豆，煎炸大约 3 分钟，待其到大约 8 分熟，以显示金黄色为准。",
+    "捞出土豆，留下油。",
+    "加入茄子，煎炸大约 40 秒，待其到大约 7 分熟，以显示金黄色为准。",
+    "如果锅内已经没有流动的油，可以考虑补充 15ml 油。",
+    "放入葱 3g。姜 10g。",
+    "放入豆瓣酱 20ml。",
+    "放入生抽 10ml。",
+    "放入盐 8g。",
+    "放入糖 10g。",
+    "放入之前处理的土豆。",
+    "放入尖椒。",
+    "翻炒 1 分钟。",
+    "放入蒜 10g",
+    "加入 200ml 水和 20g 淀粉。",
+    "待水开后，汤减少一半时，关火盛盘。"
+  ],
+  "additional": [],
+  "desc": "",
+  "name": "地三鲜"
+}

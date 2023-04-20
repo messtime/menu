@@ -1,0 +1,129 @@
+{
+  "materials": {
+    "鸭肉（半只,": {
+      "quantity": "1",
+      "unit": "kg,让市场老板剁成小块",
+      "is_optional": false,
+      "tips": [
+        "半只,1 kg,让市场老板剁成小块"
+      ],
+      "original": "鸭肉（半只,1 kg,让市场老板剁成小块）"
+    },
+    "啤酒": {
+      "quantity": "1000",
+      "unit": "ml （可以买 500 ml",
+      "is_optional": false,
+      "tips": [
+        "可以买 500 ml 的罐装啤酒两瓶"
+      ],
+      "original": "啤酒 1000 ml （可以买 500 ml 的罐装啤酒两瓶）"
+    },
+    "青椒": {
+      "quantity": "2",
+      "unit": "条,红椒 1 条 （ 长度 10 厘米到 15 厘米 之间都可以）（切段 或者切片都可以, 2",
+      "is_optional": false,
+      "tips": [
+        " 长度 10 厘米到 15 厘米 之间都可以）（切段 或者切片都可以, 2 厘米一段"
+      ],
+      "original": "青椒 2 条,红椒 1 条 （ 长度 10 厘米到 15 厘米 之间都可以）（切段 或者切片都可以, 2 厘米一段）"
+    },
+    "鸭肉": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "鸭肉"
+    },
+    "32 厘米以上的炒锅一个(锅太小难炒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "32 厘米以上的炒锅一个(锅太小难炒"
+    },
+    "红椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "红椒"
+    },
+    "大蒜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大蒜"
+    },
+    "生姜": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "生姜"
+    },
+    "小米椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "小米椒"
+    },
+    "蒜苗": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "蒜苗"
+    },
+    "大葱": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "大葱"
+    },
+    "草果": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "草果"
+    },
+    "桂皮": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "桂皮"
+    },
+    "八角": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "八角"
+    },
+    "香叶": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "香叶"
+    },
+    "干辣椒": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "干辣椒"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "操作时，需要注意观察沸腾的水位线，如发现低于 2/3 的食材应加热水或者加啤酒。",
+    "[厨师长：用土灶烧“乡村啤酒鸭”，味道安逸得不摆了](https://www.bilibili.com/video/BV1R4411u7po?spm_id_from=333.999.0.0)"
+  ],
+  "desc": "![乡村啤酒鸭](https://jphuang-image.oss-cn-beijing.aliyuncs.com/beer/duck/%E6%88%90%E5%93%812.jpg)将鸭肉与啤酒一同炖煮成菜，使滋补的鸭肉味道更加浓厚，鸭肉不仅入口鲜香，还带有一股啤酒清香。一般初学者只需要 1 小时即可完成。",
+  "name": "乡村啤酒鸭"
+}

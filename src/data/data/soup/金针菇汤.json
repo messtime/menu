@@ -1,0 +1,50 @@
+{
+  "materials": {
+    "金": {
+      "quantity": "400-500",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [
+        "市场里面售卖的一袋即可"
+      ],
+      "original": "金针菇 400-500 克 （市场里面售卖的一袋即可）"
+    },
+    "食盐": {
+      "quantity": "15",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "食盐 15 克"
+    },
+    "味精": {
+      "quantity": "5",
+      "unit": "g",
+      "is_optional": false,
+      "tips": [],
+      "original": "味精 5 克"
+    },
+    "金针菇": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [],
+      "original": "金针菇"
+    },
+    "鸡蛋": {
+      "quantity": null,
+      "unit": null,
+      "is_optional": false,
+      "tips": [
+        "如需要"
+      ],
+      "original": "鸡蛋（如需要）"
+    }
+  },
+  "steps": [],
+  "additional": [
+    "如果喜欢在汤里加入鸡蛋，可在步骤 3 中水沸腾之后将打散的鸡蛋液倒入锅中。",
+    "出锅后可加入 3-4 滴香油（或者麻油）增香。"
+  ],
+  "desc": "",
+  "name": "金针菇汤"
+}
