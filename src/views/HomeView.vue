@@ -2,38 +2,38 @@
   <div class="home">
     <h1>基础菜单</h1>
     <el-tabs v-model="activeName" @tab-click="handleClick">
-      <el-tab-pane :label="this.typeMap.vegetable_dish" name="vegetable_dish">
+      <el-tab-pane :label="this.typeMap.vegetable_dish + ': '+ vegetable_dish.length" name="vegetable_dish">
         <Detail :dataArr="vegetable_dish"> </Detail>
       </el-tab-pane>
-      <el-tab-pane :label="this.typeMap.meat_dish" name="meat_dish">
+      <el-tab-pane :label="this.typeMap.meat_dish+ ': '+ meat_dish.length" name="meat_dish">
         <Detail :dataArr="meat_dish"> </Detail>
       </el-tab-pane>
-      <el-tab-pane :label="this.typeMap.aquatic" name="aquatic">
+      <el-tab-pane :label="this.typeMap.aquatic+ ': '+ aquatic.length" name="aquatic">
         <Detail :dataArr="aquatic"> </Detail>
       </el-tab-pane>
-      <el-tab-pane :label="this.typeMap.breakfast" name="breakfast">
+      <el-tab-pane :label="this.typeMap.breakfast+ ': '+ breakfast.length" name="breakfast">
         <Detail :dataArr="breakfast"> </Detail>
       </el-tab-pane>
-      <el-tab-pane :label="this.typeMap.staple" name="staple">
+      <el-tab-pane :label="this.typeMap.staple+ ': '+ staple.length" name="staple">
         <Detail :dataArr="staple"> </Detail>
       </el-tab-pane>
 
-      <el-tab-pane :label="this.typeMap.semi_finished" name="semi_finished">
+      <el-tab-pane :label="this.typeMap.semi_finished+ ': '+ semi_finished.length" name="semi_finished">
         <Detail :dataArr="semi_finished"> </Detail>
       </el-tab-pane>
 
-      <el-tab-pane :label="this.typeMap.soup" name="soup">
+      <el-tab-pane :label="this.typeMap.soup+ ': '+ soup.length" name="soup">
         <Detail :dataArr="soup"> </Detail>
       </el-tab-pane>
 
-      <el-tab-pane :label="this.typeMap.drink" name="drink">
+      <el-tab-pane :label="this.typeMap.drink+ ': '+ drink.length" name="drink">
         <Detail :dataArr="drink"> </Detail>
       </el-tab-pane>
 
-      <el-tab-pane :label="this.typeMap.condiment" name="condiment">
+      <el-tab-pane :label="this.typeMap.condiment+ ': '+ condiment.length" name="condiment">
         <Detail :dataArr="condiment"> </Detail>
       </el-tab-pane>
-      <el-tab-pane :label="this.typeMap.dessert" name="dessert">
+      <el-tab-pane :label="this.typeMap.dessert+ ': '+ dessert.length" name="dessert">
         <Detail :dataArr="dessert"> </Detail>
       </el-tab-pane>
     </el-tabs>

@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       jsonDataArr: [jsonData],
-      menuArr:[],
+      menuArr:menuArrJson,
       tableData: [
         {
           name: "xx",
