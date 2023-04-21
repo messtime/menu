@@ -1,12 +1,13 @@
 <template>
   <div class="store">
     <el-button type="success" @click="handleAdd">新增</el-button>
+    <!-- <el-button type="success" @click="handleReset">录入初始值</el-button> -->
 
     <el-table :data="tableData" style="width: 100%">
       <el-table-column label="录入日期" width="200">
-        <template slot-scope="scope">
+        <template slot-scope="scope">      
           <el-date-picker
-            v-model="scope.row.date"
+            v-model="scope.row.date"    
             align="right"
             type="date"
             size="small"
@@ -15,10 +16,14 @@
             placeholder="选择日期"
             :picker-options="pickerOptions"
           >
-            <!-- picker-option 选择禁用时间 -->
+          <!-- picker-option 选择禁用时间 -->
           </el-date-picker>
-          <i class="el-icon-edit" @click="editPicker(scope.$index, scope.row)">
-          </i>
+          <i
+            class="el-icon-edit"
+            @click="editPicker(scope.$index, scope.row)"
+          > 
+          
+        </i>
         </template>
       </el-table-column>
       <el-table-column label="食材" width="100">
@@ -26,7 +31,6 @@
           <div slot="reference" class="name-wrapper">
             <el-tag size="medium">{{ scope.row.name }}</el-tag>
           </div>
-          
         </template>
       </el-table-column>
       <el-table-column label="数量" width="180">
@@ -35,7 +39,7 @@
             scope.row.number
           }}</span>
           <el-input
-            class="content-number"
+          class="content-number"
             v-show="scope.row.numberEdit"
             size="mini"
             v-model="scope.row.number"
@@ -64,14 +68,15 @@
 </template>         
     <!-- 画面展示块 -->
 <script>
+
 export default {
-  name: "store", //标识作用
+  name: "store",       //标识作用
   components: {},
   data() {
     return {
       pickerOptions: {
         disabledDate(time) {
-          return time.getTime() > Date.now();
+          return time.getTime() > Date.now();    
         },
         shortcuts: [
           {
@@ -98,10 +103,9 @@ export default {
           },
         ],
       },
-
-      tableData: [
-        //作为数组输入数据
-
+      value1: "",
+      value2: "",
+      tableData: [    //作为数组输入数据
         {
           date: "2022-04-19",
           name: "鸡蛋",
@@ -113,7 +117,7 @@ export default {
         {
           date: "2022-04-19",
           name: "洋葱",
-          number: "3",
+          number: "2",
           disabled: true,
           numberEdit: false,
 
@@ -180,7 +184,7 @@ export default {
         {
           date: "2022-04-19",
           name: "牛排",
-          number: "",
+          number: "2",
           disabled: true,
           numberEdit: false,
         },
@@ -221,49 +225,54 @@ export default {
         },
       ],
     };
-  },
-  methods: {
-    
+  },                   
+  methods: {           //
     generateMenu() {
       var menu = document.getElementById("menu");
       menu.innerHTML =
         this.menuArr[Math.floor(Math.random() * this.menuArr.length)];
     },
     handleSave(index, row) {
-      localStorage.setItem("food", JSON.stringify(this.tableData)); //将tabledata里数据转变为字符串类型，并将其存入local
-    },
+      row.disabled = true;
+      row.numberEdit = false;
+      localStorage.setItem('food', JSON.stringify(this.tableData))   //将tabledata里数据转变为字符串类型，并将其存入local
+     
+    }, 
     handleDelete(index, row) {
-      this.tableData.splice(index, 1); //splice数组方法，删除从当前行开始的1行数据
+      this.tableData.splice(index,1); //splice数组方法，两个参数删除任意数量数据--三个可以实现替换增改
     },
     editPicker(index, row) {
-      row.disabled = !row.disabled; //将不当前数据变为可见数据
+      row.disabled = !row.disabled;  
     },
-   
 
     editNumber(index, row) {
-      row.numberEdit = !row.numberEdit; //当前行数据变为可编辑状态
+      row.numberEdit = !row.numberEdit;
     },
-    initData() {
-      var food = localStorage.getItem("food");
+    initData () {
+    
+      var food = localStorage.getItem('food');
+      if(food) {
       this.tableData = JSON.parse(food);
+      }
     },
     handleAdd() {
-      this.tableData.unshift({
-        //unshift() 方法不创建新的创建，而是直接修改原有的数组，
-        //unshift() 方法将把它的参数插入 arrayObject 的头部，并将已经存在的元素顺次地移到较高的下标处
-
-        date: new Date(),
-        name: "?",
-        number: "?",
-        disabled: true,
-        numberEdit: false,
-      });
+       this.tableData.unshift({        //unshift() 方法不创建新的创建，而是直接修改原有的数组，
+                                     //unshift() 方法将把它的参数插入 arrayObject 的头部，并将已经存在的元素顺次地移到较高的下标处
+                                     
+          date: new Date(),
+          name: "?",
+          number: "?",
+          disabled: true,
+          numberEdit: false,          
+        
+       });
     },
+
   },
 
   mounted() {
-    this.initData();
-    console.log("乙"); //
+   this.initData();
+    console.log("乙");               //
   },
 };
 </script>
@@ -283,6 +292,7 @@ export default {
     margin-right: 10px;
     input {
       padding: 0;
+
     }
   }
   .picker {

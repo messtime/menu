@@ -21,11 +21,11 @@
       </el-table-column>
     </el-table>
     <el-table :data="hf" style="width: 100%">
-      <el-table-column prop="name" label="菜譜名" width="180">
+      <el-table-column prop="name" :label="hf[0].name" width="180">
       </el-table-column>
     </el-table>
     <el-table :data="sup" style="width: 100%">
-      <el-table-column prop="name" label="菜譜名" width="180">
+      <el-table-column prop="name" :label="sup[0].name" width="180">
       </el-table-column>
     </el-table>
     <el-table :data="dk" style="width: 100%">
@@ -33,6 +33,10 @@
       </el-table-column>
     </el-table>
     <el-table :data="ss" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="dzt" style="width: 100%">
       <el-table-column prop="name" label="菜譜名" width="180">
       </el-table-column>
     </el-table>
@@ -64,9 +68,7 @@ export default {
   methods: {
     initMenu() {
       var vegetable_dishIndex = 0;
-
       var meat_dishIndex = 0;
-
       var aquaticIndex = 0;
       var breakfastIndex = 0;
       var mfIndex = 0;
@@ -75,11 +77,10 @@ export default {
       var dkIndex = 0;
       var ssIndex = 0;
       var dztIndex = 0;
+
       this.menuDataArr.forEach((item, index) => {
-        if (item.name == "素菜") {
-        }
         if (item.name == "荤菜") {
-          this.vegetable_dish = this.menuDataArr.slice(0, index);
+          this.vegetable_dish = this.menuDataArr.slice(0, index); //从零开始索引
           vegetable_dishIndex = index;
         }
         if (item.name == "水产") {
@@ -107,15 +108,23 @@ export default {
           dkIndex = index;
         }
         if (item.name == "酱料和其它材料") {
+          debugger;
           this.dk = this.menuDataArr.slice(dkIndex, index);
           ssIndex = index;
         }
-        if (item.name == "甜点") {
-          this.ss = this.menuDataArr.slice(ssIndex, index);
-          ssIndex = index;
+        if (item.name == "甜品") {
+          debugger;
+
+          this.ss = this.menuDataArr.slice(ssIndex, index);   //酱料和其它材料
+          dztIndex = index;
         }
-       
+
+        this.dzt = this.menuDataArr.slice(   //甜点数组
+          dztIndex,
+          this.menuDataArr.length - 1
+        );
       });
+      debugger;
     },
   },
   mounted() {
