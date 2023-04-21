@@ -1,67 +1,107 @@
 <template>
   <div class="home">
+    <h1>基础菜单</h1>
+    <el-tabs v-model="activeName" @tab-click="handleClick">
+      <el-tab-pane :label="this.typeMap.vegetable_dish" name="vegetable_dish">
+        <Detail :dataArr="vegetable_dish"> </Detail>
+      </el-tab-pane>
+      <el-tab-pane :label="this.typeMap.meat_dish" name="meat_dish">
+        <Detail :dataArr="meat_dish"> </Detail>
+      </el-tab-pane>
+      <el-tab-pane :label="this.typeMap.aquatic" name="aquatic">
+        <Detail :dataArr="aquatic"> </Detail>
+      </el-tab-pane>
+      <el-tab-pane :label="this.typeMap.breakfast" name="breakfast">
+        <Detail :dataArr="breakfast"> </Detail>
+      </el-tab-pane>
+      <el-tab-pane :label="this.typeMap.staple" name="staple">
+        <Detail :dataArr="staple"> </Detail>
+      </el-tab-pane>
 
-    <el-table :data="jsonDataArr" style="width: 100%">
-      <el-table-column prop="materials" label="材料" width="180">
-      </el-table-column>
-      <el-table-column prop="steps" label="操作" width="180"> </el-table-column>
-      <el-table-column prop="additional" label="附加内容" width="180">
-      </el-table-column>
-      <el-table-column prop="desc" label="食材" width="180"> </el-table-column>
-      <el-table-column prop="name" label="菜品名" width="180"> </el-table-column>
-    </el-table>
+      <el-tab-pane :label="this.typeMap.semi_finished" name="semi_finished">
+        <Detail :dataArr="semi_finished"> </Detail>
+      </el-tab-pane>
+
+      <el-tab-pane :label="this.typeMap.soup" name="soup">
+        <Detail :dataArr="soup"> </Detail>
+      </el-tab-pane>
+
+      <el-tab-pane :label="this.typeMap.drink" name="drink">
+        <Detail :dataArr="drink"> </Detail>
+      </el-tab-pane>
+
+      <el-tab-pane :label="this.typeMap.condiment" name="condiment">
+        <Detail :dataArr="condiment"> </Detail>
+      </el-tab-pane>
+      <el-tab-pane :label="this.typeMap.dessert" name="dessert">
+        <Detail :dataArr="dessert"> </Detail>
+      </el-tab-pane>
+    </el-tabs>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import jsonData from "@/data/data/aquatic/白灼虾.json";
+import breakfast from "@/data/breakfast.js";
+import aquatic from "@/data/aquatic.js";
+import soup from "@/data/soup.js";
+import dessert from "@/data/dessert.js";
+import staple from "@/data/staple.js";
+import condiment from "@/data/condiment.js";
+import meat_dish from "@/data/meat_dish.js";
+import drink from "@/data/drink.js";
+import semi_finished from "@/data/semi_finished.js";
+import vegetable_dish from "@/data/vegetable_dish.js";
+import Detail from "@/components/Detail.vue";
 export default {
   name: "HomeView",
-  components: {},
+  components: {
+    Detail,
+  },
   data() {
     return {
-      jsonDataArr: [jsonData],
-      tableData: [
-        {
-          name: "xx",
-          label: "x",
-        },
-      ],
+      breakfast: breakfast,
+      meat_dish: meat_dish,
+      aquatic: aquatic,
+      soup: soup,
+      dessert: dessert,
+      staple: staple,
+      condiment: condiment,
+      drink: drink,
+      semi_finished: semi_finished,
+      vegetable_dish: vegetable_dish,
+      activeName: "vegetable_dish",
+      typeMap: {
+        aquatic: "水产",
+        meat_dish: "荤菜",
+        soup: "汤与粥",
+        breakfast: "早餐",
+        dessert: "甜品",
+        staple: "主食",
+        condiment: "酱料和其它材料",
+        drink: "饮料",
+        semi_finished: "半成品加工",
+        vegetable_dish: "素菜",
+      },
     };
   },
   methods: {
-    generateMenu() {
-      var menu = document.getElementById("menu");
-      menu.innerHTML =
-        this.menuArr[Math.floor(Math.random() * this.menuArr.length)];
-    },
-    generate() {},
-    initFood() {
-      debugger;
-      var food = JSON.parse(localStorage.getItem("food"));
-      food.forEach((foodItem) => {
-        this.menuArr.forEach((menuItem) => {
-          debugger;
-          if (menuItem.indexOf(foodItem.name) >= 0) {
-            this.tableData.push({
-              food: foodItem.name,
-              // number: foodItem.number,
-              menu: menuItem,
-            });
-          }
-        });
-      });
+    handleClick(tab, event) {
+      console.log(tab, event);
     },
   },
   mounted() {
-    this.initFood();
     // 菜单数组
     // 生成随机菜品
   },
 };
 </script>
 <style>
+.home {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
 .container {
   text-align: center;
   margin-top: 50px;
