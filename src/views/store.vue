@@ -1,6 +1,7 @@
 <template>
   <div class="store">
     <el-button type="success" @click="handleAdd">新增</el-button>
+    <!-- <el-button type="success" @click="handleReset">录入初始值</el-button> -->
 
     <el-table :data="tableData" style="width: 100%">
       <el-table-column label="录入日期" width="200">
@@ -246,8 +247,11 @@ export default {
       row.numberEdit = !row.numberEdit;
     },
     initData () {
+    
       var food = localStorage.getItem('food');
+      if(food) {
       this.tableData = JSON.parse(food);
+      }
     },
     handleAdd() {
        this.tableData.unshift({        //unshift() 方法不创建新的创建，而是直接修改原有的数组，
@@ -260,7 +264,8 @@ export default {
           numberEdit: false,          
         
        });
-    }
+    },
+
   },
 
   mounted() {
