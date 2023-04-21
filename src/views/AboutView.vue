@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       jsonDataArr: [jsonData],
-      menuArr:[],
+      menuArr:menuArrJson,
       tableData: [
         {
           name: "xx",
@@ -38,11 +38,36 @@ export default {
       menu.innerHTML =
         this.menuArr[Math.floor(Math.random() * this.menuArr.length)];
     },
+    initMenu() {
+      localStorage.getItem('food')
+  },
     generate() {},
 
-
+    initFood() {
+      debugger;
+      var food = JSON.parse(localStorage.getItem("food"));
+      if (food.length > 0) {
+        food.forEach((foodItem) => {
+          if (this.menuArr.length > 0) {
+            this.menuArr.forEach((menuItem) => {
+              debugger;
+              if (menuItem.indexOf(foodItem.name) >= 0) {
+                this.tableData.push({
+                  food: foodItem.name,
+                  // number: foodItem.number,
+                  menu: menuItem,
+                });
+              }
+            });
+          }
+        });
+      }
+    },
   },
+
   mounted() {
+    this.initMenu();
+    this.initFood();
     // 菜单数组
     // 生成随机菜品
   },
