@@ -12,6 +12,30 @@
       <el-table-column prop="name" label="菜譜名" width="180">
       </el-table-column>
     </el-table>
+    <el-table :data="bk" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="mf" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="hf" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="sup" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="dk" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
+    <el-table :data="ss" style="width: 100%">
+      <el-table-column prop="name" label="菜譜名" width="180">
+      </el-table-column>
+    </el-table>
   </div>
 </template>
 
@@ -28,26 +52,31 @@ export default {
       vegetable_dish: [],
       aquatic: [],
       meat_dish: [],
-      早餐: [],
-      主食: [],
-      半成品加工: [],
-      汤与粥: [],
-      饮料: [],
-      酱料和其它材料: [],
-      甜品: [],
+      bk: [],
+      mf: [],
+      hf: [],
+      sup: [],
+      dk: [],
+      ss: [],
+      dzt: [],
     };
   },
   methods: {
     initMenu() {
       var vegetable_dishIndex = 0;
+
       var meat_dishIndex = 0;
 
       var aquaticIndex = 0;
       var breakfastIndex = 0;
-
+      var mfIndex = 0;
+      var hfIndex = 0;
+      var supIndex = 0;
+      var dkIndex = 0;
+      var ssIndex = 0;
+      var dztIndex = 0;
       this.menuDataArr.forEach((item, index) => {
         if (item.name == "素菜") {
-
         }
         if (item.name == "荤菜") {
           this.vegetable_dish = this.menuDataArr.slice(0, index);
@@ -61,6 +90,31 @@ export default {
           this.aquatic = this.menuDataArr.slice(aquaticIndex, index);
           breakfastIndex = index;
         }
+        if (item.name == "主食") {
+          this.bk = this.menuDataArr.slice(breakfastIndex, index);
+          mfIndex = index;
+        }
+        if (item.name == "半成品加工") {
+          this.mf = this.menuDataArr.slice(mfIndex, index);
+          hfIndex = index;
+        }
+        if (item.name == "汤与粥") {
+          this.hf = this.menuDataArr.slice(hfIndex, index);
+          supIndex = index;
+        }
+        if (item.name == "饮料") {
+          this.sup = this.menuDataArr.slice(supIndex, index);
+          dkIndex = index;
+        }
+        if (item.name == "酱料和其它材料") {
+          this.dk = this.menuDataArr.slice(dkIndex, index);
+          ssIndex = index;
+        }
+        if (item.name == "甜点") {
+          this.ss = this.menuDataArr.slice(ssIndex, index);
+          ssIndex = index;
+        }
+       
       });
     },
   },
