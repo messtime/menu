@@ -22,7 +22,7 @@
           </el-date-picker>
         </template>
       </el-table-column>
-      <el-table-column class-name="food" label="食材" width="150">
+      <el-table-column label="食材" width="100">
         <template slot-scope="scope">
           <i
             class="el-icon-edit"
@@ -36,14 +36,14 @@
             <el-tag size="medium">{{ scope.row.name }}</el-tag>
           </div>
           <el-input
-            class="content-food"
+            class="content-number"
             v-show="scope.row.foodEdit"
             size="mini"
             v-model="scope.row.name"
           ></el-input>
         </template>
       </el-table-column>
-      <el-table-column class-name="number" label="数量" width="100">
+      <el-table-column label="数量" width="180">
         <template slot-scope="scope">
           <i
             class="el-icon-edit"
@@ -311,7 +311,7 @@ export default {
   margin-bottom: 100px;
   .content {
     display: inline-block;
-    // margin-left: 10px;
+	// margin-left: 10px;
     // margin-right: 10px;
   }
   .addBtn {
@@ -324,15 +324,7 @@ export default {
   .name-wrapper {
     display: inline-block;
   }
-  .content-food {
-    display: inline-block;
-    width: 82px;
-	height: 28px;
-    line-height: 28px;
-  }
   .content-number {
-    height: 30px;
-    line-height: 28px;
     display: inline-block;
     width: 30px;
     // margin-right: 10px;
@@ -345,24 +337,7 @@ export default {
   }
   .el-icon-edit {
     cursor: pointer;
-    padding-right: 10px;
-  }
-  .el-tag--medium {
-    line-height: 28px;
-	height: 28px;
-  }
-  .food {
-    .el-input__inner {
-      width: 82px;
-      padding: 10px;
-    }
-  }
-  .number {
-    .el-input__inner {
-    //   width: 82px;
-    //   padding: 10px;
-      font-size: 14px;
-    }
+	padding-right: 10px;
   }
 }
 </style>

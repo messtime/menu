@@ -6,8 +6,6 @@
     <el-table :data="tableData" height="600" style="width: 100%">
       <el-table-column label="录入日期" width="200">
         <template slot-scope="scope">
-          <i class="el-icon-edit" @click="editPicker(scope.$index, scope.row)">
-          </i>
           <el-date-picker
             v-model="scope.row.date"
             align="right"
@@ -20,14 +18,12 @@
           >
             <!-- picker-option 选择禁用时间 -->
           </el-date-picker>
+          <i class="el-icon-edit" @click="editPicker(scope.$index, scope.row)">
+          </i>
         </template>
       </el-table-column>
-      <el-table-column class-name="food" label="食材" width="150">
+      <el-table-column label="食材" width="150">
         <template slot-scope="scope">
-          <i
-            class="el-icon-edit"
-            @click="editFood(scope.$index, scope.row)"
-          ></i>
           <div
             slot="reference"
             v-show="!scope.row.foodEdit"
@@ -36,19 +32,17 @@
             <el-tag size="medium">{{ scope.row.name }}</el-tag>
           </div>
           <el-input
-            class="content-food"
+            class="content-number"
             v-show="scope.row.foodEdit"
             size="mini"
             v-model="scope.row.name"
           ></el-input>
+          <i class="el-icon-edit" @click="editFood(scope.$index, scope.row)"></i
+          >
         </template>
       </el-table-column>
-      <el-table-column class-name="number" label="数量" width="100">
+      <el-table-column label="数量" width="180">
         <template slot-scope="scope">
-          <i
-            class="el-icon-edit"
-            @click="editNumber(scope.$index, scope.row)"
-          ></i>
           <span class="content-number" v-show="!scope.row.numberEdit">{{
             scope.row.number
           }}</span>
@@ -58,6 +52,10 @@
             size="mini"
             v-model="scope.row.number"
           ></el-input>
+          <i
+            class="el-icon-edit"
+            @click="editNumber(scope.$index, scope.row)"
+          ></i>
         </template>
       </el-table-column>
       <el-table-column label="操作">
@@ -311,8 +309,7 @@ export default {
   margin-bottom: 100px;
   .content {
     display: inline-block;
-    // margin-left: 10px;
-    // margin-right: 10px;
+    margin-right: 10px;
   }
   .addBtn {
     margin-left: 100%;
@@ -321,21 +318,10 @@ export default {
     z-index: 5;
     position: fixed;
   }
-  .name-wrapper {
-    display: inline-block;
-  }
-  .content-food {
-    display: inline-block;
-    width: 82px;
-	height: 28px;
-    line-height: 28px;
-  }
   .content-number {
-    height: 30px;
-    line-height: 28px;
     display: inline-block;
     width: 30px;
-    // margin-right: 10px;
+    margin-right: 10px;
     input {
       padding: 0;
     }
@@ -345,24 +331,6 @@ export default {
   }
   .el-icon-edit {
     cursor: pointer;
-    padding-right: 10px;
-  }
-  .el-tag--medium {
-    line-height: 28px;
-	height: 28px;
-  }
-  .food {
-    .el-input__inner {
-      width: 82px;
-      padding: 10px;
-    }
-  }
-  .number {
-    .el-input__inner {
-    //   width: 82px;
-    //   padding: 10px;
-      font-size: 14px;
-    }
   }
 }
 </style>

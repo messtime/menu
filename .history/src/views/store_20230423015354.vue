@@ -22,7 +22,7 @@
           </el-date-picker>
         </template>
       </el-table-column>
-      <el-table-column class-name="food" label="食材" width="150">
+      <el-table-column label="食材" width="150">
         <template slot-scope="scope">
           <i
             class="el-icon-edit"
@@ -43,7 +43,7 @@
           ></el-input>
         </template>
       </el-table-column>
-      <el-table-column class-name="number" label="数量" width="100">
+      <el-table-column label="数量" width="100">
         <template slot-scope="scope">
           <i
             class="el-icon-edit"
@@ -327,11 +327,9 @@ export default {
   .content-food {
     display: inline-block;
     width: 82px;
-	height: 28px;
-    line-height: 28px;
   }
   .content-number {
-    height: 30px;
+    height: 28px;
     line-height: 28px;
     display: inline-block;
     width: 30px;
@@ -349,20 +347,11 @@ export default {
   }
   .el-tag--medium {
     line-height: 28px;
-	height: 28px;
   }
-  .food {
-    .el-input__inner {
-      width: 82px;
-      padding: 10px;
-    }
-  }
-  .number {
-    .el-input__inner {
-    //   width: 82px;
-    //   padding: 10px;
-      font-size: 14px;
-    }
+  .el-input__inner {
+    width: 82px;
+    padding: 10px;
+    font-size: 14px;
   }
 }
 </style>

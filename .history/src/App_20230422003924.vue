@@ -8,8 +8,6 @@
       <router-link to="/menu">menu</router-link>
       <router-link to="/menu2">menu2</router-link>
       <router-link to="/store">store</router-link>
-	  <router-link to="/ButtonView">ButtonView</router-link>
-
     </nav>
 
     <router-view/>

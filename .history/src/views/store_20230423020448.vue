@@ -327,11 +327,9 @@ export default {
   .content-food {
     display: inline-block;
     width: 82px;
-	height: 28px;
-    line-height: 28px;
   }
   .content-number {
-    height: 30px;
+    height: 28px;
     line-height: 28px;
     display: inline-block;
     width: 30px;
@@ -349,18 +347,18 @@ export default {
   }
   .el-tag--medium {
     line-height: 28px;
-	height: 28px;
   }
   .food {
     .el-input__inner {
       width: 82px;
       padding: 10px;
+      font-size: 14px;
     }
   }
   .number {
     .el-input__inner {
-    //   width: 82px;
-    //   padding: 10px;
+      width: 82px;
+      padding: 10px;
       font-size: 14px;
     }
   }

@@ -331,7 +331,7 @@ export default {
     line-height: 28px;
   }
   .content-number {
-    height: 30px;
+    height: 28px;
     line-height: 28px;
     display: inline-block;
     width: 30px;
@@ -355,6 +355,7 @@ export default {
     .el-input__inner {
       width: 82px;
       padding: 10px;
+      font-size: 14px;
     }
   }
   .number {
