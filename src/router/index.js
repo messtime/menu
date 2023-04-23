@@ -6,7 +6,7 @@ import test22 from '../views/test22.vue'
 import menu from '../views/menu.vue'
 import menu2 from '../views/menu2.vue'
 import store from '../views/store.vue'
-// import ButtonView from '../views/ButtonView.vue'
+import ButtonView from '../views/ButtonView.vue'
 
 Vue.use(VueRouter)
 
@@ -16,11 +16,11 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-//   {
-//     path: '/ButtonView',
-//     name: 'ButtonView',
-//     component: ButtonView
-//   },
+  {
+    path: '/ButtonView',
+    name: 'ButtonView',
+    component: ButtonView
+  },
 //   {
 //     path: '/test11',
 //     name: 'test11',
