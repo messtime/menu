@@ -7,6 +7,8 @@
       
       
       <router-link to="/store">store</router-link>
+	  <router-link to="/ButtonView">ButtonView</router-link>
+
     </nav>
 
     <router-view/>
