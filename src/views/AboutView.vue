@@ -11,7 +11,8 @@
       >
     </div>
 
-        <Detail :dataArr="selectArr"> </Detail>
+        <Detail :dataArr="selectArr"> </Detail> 
+        
 
     <h1>现有食材和菜谱模糊列表</h1>
     <el-tabs v-model="activeName" @tab-click="handleClick">

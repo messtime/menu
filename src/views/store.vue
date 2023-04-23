@@ -3,33 +3,34 @@
     <el-button type="success" @click="handleAdd">新增</el-button>
     <!-- <el-button type="success" @click="handleReset">录入初始值</el-button> -->
 
-    <el-table :data="tableData" style="width: 100%">
-      <el-table-column label="录入日期" width="200">
-        <template slot-scope="scope">      
-          <el-date-picker
-            v-model="scope.row.date"    
-            align="right"
-            type="date"
-            size="small"
-            class="picker content"
-            :disabled="scope.row.disabled"
-            placeholder="选择日期"
-            :picker-options="pickerOptions"
+    <el-table :data="tableData" style="width: 80%">
+      <el-table-column label="操作">
+        <template slot-scope="scope">
+          <el-button size="mini" @click="handleSave(scope.$index, scope.row)"
+            >保存</el-button
           >
-          <!-- picker-option 选择禁用时间 -->
-          </el-date-picker>
-          <i
-            class="el-icon-edit"
-            @click="editPicker(scope.$index, scope.row)"
-          > 
-          
-        </i>
+          <el-button
+            size="mini"
+            type="danger"
+            @click="handleDelete(scope.$index, scope.row)"
+            >删除</el-button
+          >
         </template>
       </el-table-column>
       <el-table-column label="食材" width="100">
         <template slot-scope="scope">
           <div slot="reference" class="name-wrapper">
             <el-tag size="medium">{{ scope.row.name }}</el-tag>
+            <el-input
+          class="name-wrapper"
+            v-show="scope.row.numberEdit"
+            size="mini"
+            v-model="scope.row.name"
+          ></el-input>
+          <i
+            
+            @click="editname(scope.$index, scope.row)"
+          ></i>
           </div>
         </template>
       </el-table-column>
@@ -50,17 +51,27 @@
           ></i>
         </template>
       </el-table-column>
-      <el-table-column label="操作">
-        <template slot-scope="scope">
-          <el-button size="mini" @click="handleSave(scope.$index, scope.row)"
-            >保存</el-button
+     
+      <el-table-column label="录入日期" width="200">
+        <template slot-scope="scope">      
+          <el-date-picker
+            v-model="scope.row.date"    
+            align="right"
+            type="date"
+            size="small"
+            class="picker content"
+            :disabled="scope.row.disabled"
+            placeholder="选择日期"
+            :picker-options="pickerOptions"
           >
-          <el-button
-            size="mini"
-            type="danger"
-            @click="handleDelete(scope.$index, scope.row)"
-            >删除</el-button
-          >
+          <!-- picker-option 选择禁用时间 -->
+          </el-date-picker>
+          <i
+            class="el-icon-edit"
+            @click="editPicker(scope.$index, scope.row)"
+          > 
+          
+        </i>
         </template>
       </el-table-column>
     </el-table>
@@ -244,7 +255,9 @@ export default {
     editPicker(index, row) {
       row.disabled = !row.disabled;  
     },
-
+    editname(index, row) {
+      row.numbername = !row.numbername;
+    },
     editNumber(index, row) {
       row.numberEdit = !row.numberEdit;
     },

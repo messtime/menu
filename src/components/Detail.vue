@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      //  menuArr:["宫保鸡丁", "红烧肉", "水煮鱼", "麻婆豆腐", "糖醋排骨", "回锅肉"]
+      
     };
   },
   methods: {

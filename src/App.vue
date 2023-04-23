@@ -4,9 +4,8 @@
       <router-link to="/">Home</router-link> 
       <router-link to="/about">About</router-link> 
       <router-link to="/test11">test11</router-link>  
-      <router-link to="/test22">test22</router-link> 
-      <router-link to="/menu">menu</router-link>
-      <router-link to="/menu2">menu2</router-link>
+      
+      
       <router-link to="/store">store</router-link>
     </nav>
 
