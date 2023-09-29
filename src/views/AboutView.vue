@@ -180,7 +180,7 @@ export default {
     initFood() {
       debugger;
       var food = JSON.parse(localStorage.getItem("food"));
-      if (food.length > 0) {
+      if (food && food.length > 0) {
         food.forEach((foodItem) => {
           if (this.allArr.length > 0) {
             this.allArr.forEach((menuItem) => {

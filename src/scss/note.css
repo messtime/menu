@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+  }
+  
+  /* a,div {   
+      padding: 20px 40px 20px 40px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      margin: 10px auto;
+      width: 30%;
+  } */
+  .srcLink,.test {
+    padding: 20px 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 30%;
+  }
+  
+  .srcLink {
+    display: block;
+  }
+  
+  .titleLink {
+    /* color: -webkit-link; */
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* 新增项 */
+  .note {
+    width: 85%;
+    text-align: left;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .triangle {
+    list-style-type: disclosure-closed;
+  }
+  
+  .tips {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 242, 0);
+    width: 60%;
+  }
+  
+  .letterLi {
+    list-style-type: upper-alpha;
+  }
+  
+  /* ↓鼠标移入移出过渡动画↓ */
+  .imgText {
+    /* display: none; */
+    display: inline-block;
+    /* background-image: url("./img/红曲米.jpg"); */
+    /* background-size: contain; */
+    font-size: 18px;
+    width: 250px;
+    min-height: 130px;
+    color: transparent;
+    position: relative;
+    transition: all 0.5s;
+    white-space: break-spaces;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  
+  .imgText:hover {
+    color: black;
+  }
+  
+  .imgHover {
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+  }
+  
+  .imgText:hover .imgHover {
+    opacity: 0.3;
+  }
+  
+  /* ↑鼠标移入移出过渡动画↑ */
+  
+  /* 目录列表 */
+  .background {
+    overflow: hidden;
+    background-color: aquamarine;
+  }
+  
+  .contentList {
+    width: 130px;
+    padding: 40px;
+    margin: auto 10px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 1s;
+    background-color: blueviolet;
+  
+    /* transform: translateX(-120%); */
+  }
+  
+  /* .dir-content{
+     float: left;
+    width: 230px;
+    height: 100%;
+    margin-left: -200px; 
+    transition: all 1s; 
+  
+  } */
+  
+  .mulu {
+    position: fixed;
+    float: left;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: -200px;
+    transition: all 1s;
+  }
+  
+  .hide {
+    float: left;
+    width: 230px;
+    height: 1px;
+    margin-left: -200px;
+    transition: all 1s;
+  
+  }
+  .dir-content:hover  .hide{
+    margin-left: -26px;
+  }
+  /* .dir-content:hover  {
+    margin-left: -26px;
+  } */
+  .dir-content:hover .mulu {
+    margin-left: -26px;
+  }

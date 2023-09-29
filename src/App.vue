@@ -1,20 +1,158 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> 
+      <router-link to="/home">Home</router-link> 
       <router-link to="/about">About</router-link> 
       <router-link to="/test11">test11</router-link>  
-      
-      
       <router-link to="/store">store</router-link>
-	  <router-link to="/ButtonView">ButtonView</router-link>
+	    <router-link to="/ButtonView">ButtonView</router-link>
+	    <router-link to="/BookStore">BookStore</router-link>
+	    <router-link to="/Alfred">Alfred</router-link>
+	    <router-link to="/Flavor">Flavor</router-link>
+	    <router-link to="/CookBook">CookBook</router-link>
 
     </nav>
 
     <router-view/>
   </div>
 </template>
+<script>
+      const tableData = [
+        //作为数组输入数据
+        {
+          date: "2022-04-19",
+          name: "鸡蛋",
+          number: "10",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "洋葱",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+          address: "上海市普陀区金沙江路 1517 弄",
+        },
+        {
+          date: "2022-04-19",
+          name: "黄瓜",
+          number: "6",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
 
+          address: "上海市普陀区金沙江路 1519 弄",
+        },
+        {
+          date: "2022-04-19",
+          name: "番茄",
+          number: "4",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "咸鸭蛋",
+          number: "?",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "年糕",
+          number: "?",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "火腿",
+          number: "?",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "拉面",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "香肠",
+          number: "?",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "鲈鱼",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "牛排",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "火锅菜",
+          number: "",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "腌肉",
+          number: "",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "鸡排",
+          number: "",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "牛肉卷",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+        {
+          date: "2022-04-19",
+          name: "烤肠",
+          number: "2",
+          disabled: true,
+          numberEdit: false,
+          foodEdit: false,
+        },
+      ];
+      localStorage.setItem('food', JSON.stringify(tableData))
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
