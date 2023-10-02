@@ -54,7 +54,7 @@ export default {
       } else {
         //localStorage.getItem(key):获取指定key本地存储的值
         //localStorage.setItem(key,value)：将value存储到key字段
-        alert("请输入菜品");
+        this.$alert("请输入菜品");
       }
     },
     clear() {

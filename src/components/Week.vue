@@ -7,8 +7,8 @@
         >
           <el-table-column prop="sjd" label="时间段" width="80" align="center">
           </el-table-column>
-          <el-table-column prop="jc" label="节次" width="80" align="center">
-          </el-table-column>
+          <!-- <el-table-column prop="jc" label="节次" width="80"  align="center">
+          </el-table-column> -->
           <el-table-column prop="mon" label="星期一" align="center">
             <template slot-scope="scope">
               <!-- <h4>{{ scope.row.mon.title }}</h4> -->
@@ -169,7 +169,7 @@
         for (let i = 0; i < this.length; i++) {
           let one = {
             sjd: '',
-            jc: i + 1,
+            // jc: i + 1,
             mon: {},
             tue: {},
             wed: {},
@@ -179,12 +179,13 @@
             sun: {}
           }
           if (i < 4) {
-            one.sjd = '早上'
+            one.sjd = '早餐'
           } else if (i > 3 && i < (this.afternoonLength + 4)) {
-            one.sjd = '中午'
+            one.sjd = '午餐'
           } else {
-            one.sjd = ''
+            one.sjd = '晚餐'
           }
+          debugger;
           this.timetable.push(one)
         }
       },
@@ -238,7 +239,7 @@
             }
           }
         }
-        if (columnIndex === 2) {
+        if (columnIndex === 1) {
           if (row.mon.title !== undefined) {
             return {
               rowspan: row.mon.end - row.mon.start + 1,
@@ -251,7 +252,7 @@
             }
           }
         }
-        if (columnIndex === 3) {
+        if (columnIndex === 2) {
           if (row.tue.title !== undefined) {
             return {
               rowspan: row.tue.end - row.tue.start + 1,
@@ -264,7 +265,7 @@
             }
           }
         }
-        if (columnIndex === 4) {
+        if (columnIndex === 3) {
           if (row.wed.title !== undefined) {
             return {
               rowspan: row.wed.end - row.wed.start + 1,
@@ -277,7 +278,7 @@
             }
           }
         }
-        if (columnIndex === 5) {
+        if (columnIndex === 4) {
           if (row.thu.title !== undefined) {
             return {
               rowspan: row.thu.end - row.thu.start + 1,
@@ -290,7 +291,7 @@
             }
           }
         }
-        if (columnIndex === 6) {
+        if (columnIndex === 5) {
           if (row.fri.title !== undefined) {
             return {
               rowspan: row.fri.end - row.fri.start + 1,
@@ -303,7 +304,7 @@
             }
           }
         }
-        if (columnIndex === 7) {
+        if (columnIndex === 6) {
           if (row.sat.title !== undefined) {
             return {
               rowspan: row.sat.end - row.sat.start + 1,
@@ -316,7 +317,7 @@
             }
           }
         }
-        if (columnIndex === 8) {
+        if (columnIndex === 7) {
           if (row.sun.title !== undefined) {
             return {
               rowspan: row.sun.end - row.sun.start + 1,

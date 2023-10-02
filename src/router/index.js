@@ -6,7 +6,7 @@ import test22 from '../views/test22.vue'
 import menu from '../views/menu.vue'
 import menu2 from '../views/menu2.vue'
 import store from '../views/store.vue'
-import ButtonView from '../views/ButtonView.vue'
+import RequestBtn from '../views/RequestBtn.vue'
 import BookStore from '../views/BookStore.vue'
 import Alfred from '../views/Alfred.vue'
 import Flavor from '../views/Flavor.vue'
@@ -41,9 +41,9 @@ const routes = [
     component: BookStore
   },
   {
-    path: '/ButtonView',
-    name: 'ButtonView',
-    component: ButtonView
+    path: '/RequestBtn',
+    name: 'RequestBtn',
+    component: RequestBtn
   },
   {
     path: '/test11',

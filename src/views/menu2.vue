@@ -92,9 +92,9 @@ export default {
       if (availableRecipes.length > 0) {
         const randomIndex = Math.floor(Math.random() * availableRecipes.length);
         const recipe = availableRecipes[randomIndex];
-        alert(`推荐制作：${recipe.name}`);
+        this.$alert(`推荐制作：${recipe.name}`);
       } else {
-        alert("没有可制作的菜品，请先购买食材");
+        this.$alert("没有可制作的菜品，请先购买食材");
       }
     }
   }

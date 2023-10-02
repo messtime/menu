@@ -1,6 +1,9 @@
 <template>
     <div class="cook-book">
         <el-button type="success" v-on:click="generateMenu">随机点击生成</el-button>
+        <el-button type="success" v-on:click="saveMenu">保存到服务器</el-button>
+        <el-button type="success" v-on:click="getMenu">获取服务器数据</el-button>
+
         <br />
         <br />
         <Week :events="events1">
@@ -20,6 +23,7 @@ import drink from "@/data/drink.js";
 import semi_finished from "@/data/semi_finished.js";
 import vegetable_dish from "@/data/vegetable_dish.js";
 import bilibiliTable from "@/data/bilibili.js"
+import axios from "axios";
 export default {
     components: {
         Week,
@@ -41,7 +45,7 @@ export default {
         }
     },
     mounted() {
-        if(localStorage.getItem('events1')) {
+        if (localStorage.getItem('events1')) {
             this.events1 = JSON.parse(localStorage.getItem('events1'))
         } else {
             this.generateMenu();
@@ -72,7 +76,7 @@ export default {
             //     let itemIndex = i*3;
             //     for (let j = 1; j < 12; j += 4) {
             //         let select = this.tableData[Math.floor(Math.random() * this.tableData.length)]; //将allarr数组的值赋给select
-                    
+
             //         result[itemIndex] = {
             //             xq: i + 1,
             //             title: select.food,
@@ -85,11 +89,11 @@ export default {
             //     }
             // }
             for (let i = 0; i < 7; i++) {
-                let itemIndex = i*3;
+                let itemIndex = i * 3;
                 // let itemIndex = 21 + i*3;
                 for (let j = 1; j < 12; j += 4) {
                     let select = this.bilibiliTable[Math.floor(Math.random() * this.bilibiliTable.length)]; //将allarr数组的值赋给select
-                    
+
                     result[itemIndex] = {
                         xq: i + 1,
                         title: select.food,
@@ -103,6 +107,45 @@ export default {
             }
             this.events1 = result;
             localStorage.setItem('events1', JSON.stringify(result))
+
+        },
+        getMenu() {
+            let self = this;
+            axios
+                .get(apiPrefix + "application/getMenu")
+                .then(function (response) {
+                    console.log(response);
+                    debugger;
+                    if (response.data) {
+                        self.events1 = response.data.data.data;
+                        localStorage.setItem('events1', JSON.stringify(response.data.data.data))
+                    }
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    self.$alert(error);
+                });
+        },
+        saveMenu() {
+            let self = this;
+            let data = this.events1;
+            axios
+                .post(apiPrefix + "application/setMenu", {
+                    name: "第一个参数name", // 参数 name
+                    data: data, // 参数 data
+                })
+                .then(function (response) {
+                    console.log(response);
+                    if (response.data) {
+                        localStorage.setItem('events1', JSON.stringify(data))
+                        self.$alert('保存成功');
+                    }
+                })
+                .catch(function (error) {
+                    console.log(error);
+                    self.$alert(error);
+                });
+
         },
         initFood() {
             this.allArr.forEach((menuItem) => {

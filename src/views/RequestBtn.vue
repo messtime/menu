@@ -24,7 +24,6 @@
 // }
 import axios from "axios";
 export default {
-  name: "menuxxx1", //调用组件
   components: {
     //注册组件为空
   },
@@ -39,42 +38,46 @@ export default {
   },
   methods: {
     sendMsg() {
+      let self = this;
+      let data = JSON.parse(localStorage.getItem('events1'));
       axios
-        .post("http://192.168.1.25:8881/application/sendMsg", {
-          name: "娃娃", // 参数 firstName
-          test: "哈哈", // 参数 lastName
+        .post(apiPrefix + "application/setMenu", {
+          name: "第一个参数name", // 参数 name
+          data: data, // 参数 data
         })
         .then(function (response) {
           console.log(response);
           if (response.data) {
-            this.sendData = response.data;
+            self.sendData = response.data;
           }
         })
         .catch(function (error) {
           console.log(error);
-          alert(error);
+          self.$alert(error);
         });
     },
     getMsg() {
+      let self = this;
       axios
-        .get("http://192.168.1.25:8881/application/getMenu")
+        .get(apiPrefix + "application/getMenu")
         .then(function (response) {
           console.log(response);
           debugger;
           if (response.data) {
-            this.getData = response.data;
+            self.getData = response.data.data.data;
           }
         })
         .catch(function (error) {
           console.log(error);
-          alert(error);
+          self.$alert(error);
         });
     },
   },
   mounted() {
+    let self = this;
     var btn = document.getElementById("btn");
     btn.onclick = function () {
-      alert("click");
+      self.$alert("click");
     };
   },
 };
