@@ -3,7 +3,7 @@
     <nav>
       <router-link to="/home">Home</router-link>
       <router-link to="/about">About</router-link>
-      <router-link to="/test11">test11</router-link>
+      <router-link to="/test11">allMenu</router-link>
       <router-link to="/store">store</router-link>
       <router-link to="/RequestBtn">RequestBtn</router-link>
       <router-link to="/BookStore">BookStore</router-link>
@@ -14,6 +14,8 @@
     </nav>
 
     <router-view />
+    <br>
+    <br>
   </div>
 </template>
 <script>

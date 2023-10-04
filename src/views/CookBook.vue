@@ -3,11 +3,16 @@
         <el-button type="success" v-on:click="generateMenu">随机点击生成</el-button>
         <el-button type="success" v-on:click="saveMenu">保存到服务器</el-button>
         <el-button type="success" v-on:click="getMenu">获取服务器数据</el-button>
+        <el-button type="success" v-on:click="rotate">旋转表格</el-button>
 
         <br />
         <br />
-        <Week :events="events1">
-        </Week>
+        <div :class="{ rotate: isRotate }" class="rotate-box">
+            <Week :events="events1">
+            </Week>
+        </div>
+   
+
     </div>
 </template>
 <script>
@@ -40,6 +45,7 @@ export default {
                     end: 4
                 },
             ],
+            isRotate: false,
             tableData: [],
             bilibiliTable,
         }
@@ -147,6 +153,9 @@ export default {
                 });
 
         },
+        rotate() {
+            this.isRotate = !this.isRotate;
+        },
         initFood() {
             this.allArr.forEach((menuItem) => {
                 menuItem.list.forEach((listItem) => {
@@ -164,3 +173,37 @@ export default {
     }
 }
 </script>
+<style lang="scss"> 
+.cook-book {
+    .rotate-box {
+        transition: all 0.5s;
+    }
+     .rotate {
+        text-align: center;
+         transform-origin: left top;
+         transform: rotate(90deg) translateY(-100%);
+         margin: 0 auto;
+         width: 262px;
+        //  width: 50%;
+         &::after {
+            background-color: red;
+            width: 10px;
+         }
+          .el-table {
+             overflow: unset;
+         }
+
+         .el-table__header-wrapper {
+             width: fit-content;
+         }
+
+         .el-table__body-wrapper {
+             width: fit-content;
+             padding-right: 40px;
+         } 
+         .el-table--border::after {
+            display: none;
+         }
+     }
+ }
+</style>
