@@ -10,17 +10,19 @@
       <el-button type="success" v-on:click="generate">点击随机生成</el-button>
     </div>
     <div class="table-container">
-      <el-table :data="cardPwdArr" style="width: 280px;margin: 0 auto; display: inline-block;">
-        <el-table-column prop="name" label="特殊卡名称" width="auto">
+      <el-table :data="cardPwdArr" style="width: 200px;margin: 0 auto; display: inline-block;overflow: hidden;">
+        <el-table-column prop="name" label="名称" width="70px">
         </el-table-column>
-        <el-table-column prop="pwd" label="特殊密码" width="auto">
+        <el-table-column prop="card" label="卡号" width="70px">
+        </el-table-column>
+        <el-table-column prop="pwd" label="mm" width="50px">
         </el-table-column>
       </el-table>
-      <span style="width: 40px;display: inline-block;"> </span>
-      <el-table :data="dataArr" style="width: 130px;margin: 0 auto;    display: inline-block;">
-        <el-table-column type="index" label="编号" width="auto">
+      <!-- <span style="width: 5px;display: inline-block;"> </span> -->
+      <el-table :data="dataArr" style="width: 120px;margin: 0 auto; font-size: 20px; display: inline-block;">
+        <el-table-column type="index" label="编号" width="60px">
         </el-table-column>
-        <el-table-column prop="value" label="数额" width="auto">
+        <el-table-column prop="value" label="数额" width="60px">
         </el-table-column>
       </el-table>
     </div>
@@ -37,22 +39,29 @@ export default {
     return {
       dataArr: [],
       cardPwdArr: [{
-        name: "lw 建行卡   8338",
+        name: "lw建行",
+        card: '8338',
         pwd: '19',
       }, {
-        name: "lw 招商卡   9474",
+        name: "lw招商",
+        card: '9474',
         pwd: '19',
       }, {
-        name: "lw妈 农行卡 1945",
+        name: "yy农行",
+        card: '1945',
         pwd: '19',
       }, {
-        name: "tq 建行卡 8639",
+        name: "sl建行",
+        card: '8639',
+
         pwd: '19',
       }, {
-        name: "tq妈 平安卡 tq手机",
+        name: "zj平安",
+        card: 'tq手机',
         pwd: '62',
       }, {
-        name: "tq妈 建行卡 tq手机",
+        name: "zj建行",
+        card: 'tq手机',
         pwd: '62',
       },
       ]
@@ -100,5 +109,11 @@ export default {
 <style lang="scss" scoped>
 .credit-card {
   text-align: center;
+  margin-top: -80px;
+
+  .el-table__body-wrapper {
+    overflow: hidden !important;
+
+  }
 }
 </style>
