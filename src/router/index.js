@@ -1,95 +1,102 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import test11 from '../views/test11.vue'
-import test22 from '../views/test22.vue'
-import menu from '../views/menu.vue'
-import menu2 from '../views/menu2.vue'
-import store from '../views/store.vue'
-import RequestBtn from '../views/RequestBtn.vue'
-import BookStore from '../views/BookStore.vue'
-import Alfred from '../views/Alfred.vue'
-import Flavor from '../views/Flavor.vue'
-import CookBook from '../views/CookBook.vue'
-
-Vue.use(VueRouter)
+import Vue from "vue";
+import VueRouter from "vue-router";
+import HomeView from "../views/HomeView.vue";
+import test11 from "../views/test11.vue";
+import test22 from "../views/test22.vue";
+import menu from "../views/menu.vue";
+import menu2 from "../views/menu2.vue";
+import store from "../views/store.vue";
+import RequestBtn from "../views/RequestBtn.vue";
+import BookStore from "../views/BookStore.vue";
+import Alfred from "../views/Alfred.vue";
+import Flavor from "../views/Flavor.vue";
+import CookBook from "../views/CookBook.vue";
+import CreditCardView from "../views/CreditCardView.vue";
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/home',
-    name: 'home',
-    component: HomeView
+    path: "/home",
+    name: "home",
+    component: HomeView,
   },
   {
-    path: '/CookBook',
-    name: 'CookBook',
-    component: CookBook
+    path: "/creditCard",
+    name: "creditCard",
+    component: CreditCardView,
   },
   {
-    path: '/Flavor',
-    name: 'Flavor',
-    component: Flavor
+    path: "/CookBook",
+    name: "CookBook",
+    component: CookBook,
   },
   {
-    path: '/Alfred',
-    name: 'Alfred',
-    component: Alfred
+    path: "/Flavor",
+    name: "Flavor",
+    component: Flavor,
   },
   {
-    path: '/BookStore',
-    name: 'BookStore',
-    component: BookStore
+    path: "/Alfred",
+    name: "Alfred",
+    component: Alfred,
   },
   {
-    path: '/RequestBtn',
-    name: 'RequestBtn',
-    component: RequestBtn
+    path: "/BookStore",
+    name: "BookStore",
+    component: BookStore,
   },
   {
-    path: '/test11',
-    name: 'test11',
-    component: test11
+    path: "/RequestBtn",
+    name: "RequestBtn",
+    component: RequestBtn,
   },
   {
-    path: '/test22',
-    name: 'test22',
-    component: test22
+    path: "/test11",
+    name: "test11",
+    component: test11,
   },
   {
-    path: '/menu',
-    name: 'menu',
-    component: menu
+    path: "/test22",
+    name: "test22",
+    component: test22,
   },
   {
-    path: '/store',
-    name: 'store',
-    component: store
+    path: "/menu",
+    name: "menu",
+    component: menu,
   },
   {
-    path: '/menu2',
-    name: 'menu2',
-    component: menu2
+    path: "/store",
+    name: "store",
+    component: store,
   },
   {
-    path: '/',
-    name: 'about',
+    path: "/menu2",
+    name: "menu2",
+    component: menu2,
+  },
+  {
+    path: "/",
+    name: "about",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: '/about',
-    name: 'about',
+    path: "/about",
+    name: "about",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+  },
+];
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

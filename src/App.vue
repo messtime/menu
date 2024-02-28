@@ -2,6 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/home">Home</router-link>
+      <router-link to="/creditCard">creditCard</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/test11">allMenu</router-link>
       <router-link to="/store">store</router-link>
