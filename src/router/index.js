@@ -12,9 +12,21 @@ import Alfred from "../views/Alfred.vue";
 import Flavor from "../views/Flavor.vue";
 import CookBook from "../views/CookBook.vue";
 import CreditCardView from "../views/CreditCardView.vue";
+import NoteBook from "../views/NoteBook.vue";
+import slswitch from "../views/slswitch.vue";
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/NoteBook",
+    name: "NoteBook",
+    component: NoteBook,
+  },
+  {
+    path: "/slswitch",
+    name: "slswitch",
+    component: slswitch,
+  },
   {
     path: "/home",
     name: "home",
@@ -86,7 +98,7 @@ const routes = [
   },
   {
     path: "/about",
-    name: "about",
+    name: "about1",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.

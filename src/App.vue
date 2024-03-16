@@ -1,22 +1,37 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/home">Home</router-link>
-      <router-link to="/creditCard">creditCard</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/test11">allMenu</router-link>
-      <router-link to="/store">store</router-link>
-      <router-link to="/RequestBtn">RequestBtn</router-link>
-      <router-link to="/BookStore">BookStore</router-link>
-      <router-link to="/Alfred">Alfred</router-link>
-      <router-link to="/Flavor">Flavor</router-link>
-      <router-link to="/CookBook">CookBook</router-link>
+    <el-button
+      class="pageLink"
+      @click="drawer = true"
+      type="primary"
+      style="margin-left: 16px"
+    >
+    </el-button>
 
-    </nav>
+    <el-drawer
+      title="WelcomeMyIsland"
+      :visible.sync="drawer"
+      :direction="direction"
+    >
+      <nav>
+        <router-link to="/home">Home</router-link>
+        <router-link to="/creditCard">creditCard</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link to="/test11">allMenu</router-link>
+        <router-link to="/store">store</router-link>
+        <router-link to="/RequestBtn">RequestBtn</router-link>
+        <router-link to="/BookStore">BookStore</router-link>
+        <router-link to="/Alfred">Alfred</router-link>
+        <router-link to="/Flavor">Flavor</router-link>
+        <router-link to="/CookBook">CookBook</router-link>
+        <router-link to="/NoteBook">NoteBook</router-link>
+        <!-- <router-link to="/slswitch">slswitch</router-link> -->
+      </nav>
+    </el-drawer>
 
     <router-view />
-    <br>
-    <br>
+    <br />
+    <br />
   </div>
 </template>
 <script>
@@ -29,7 +44,8 @@ export default {
   data() {
     //所定义的组件的数据
     return {
-
+      drawer: false,
+      direction: "ltr",
     };
   },
   methods: {
@@ -39,9 +55,11 @@ export default {
         .get(apiPrefix + "application/getMenu")
         .then(function (response) {
           console.log(response);
-          debugger;
           if (response.data) {
-            localStorage.setItem('events1', JSON.stringify(response.data.data.data))
+            localStorage.setItem(
+              "events1",
+              JSON.stringify(response.data.data.data)
+            );
           }
         })
         .catch(function (error) {
@@ -51,7 +69,7 @@ export default {
     },
   },
   mounted() {
-    this.getMsg();
+    // this.getMsg();
     const tableData = [
       //作为数组输入数据
       {
@@ -186,10 +204,9 @@ export default {
         foodEdit: false,
       },
     ];
-    localStorage.setItem('food', JSON.stringify(tableData))
+    localStorage.setItem("food", JSON.stringify(tableData));
   },
 };
-
 </script>
 <style>
 #app {
@@ -207,12 +224,17 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
-  padding: 20px;
+  padding: 10px;
   font-size: large;
-  display: inline-block;
+  display: block;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+/* in this case no space mean they are select the same element */
+.el-button.pageLink {
+  margin-top: 20px;
+  display: block;
 }
 </style>
