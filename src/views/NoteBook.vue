@@ -4,7 +4,7 @@
     <p>路由填写</p>
     <el-tree
       class="filter-tree"
-      :data="data"
+      :data="treedata"
       :props="defaultProps"
       default-expand-all
       ref="tree"
@@ -16,10 +16,11 @@
 
 <script>
 // debugger;
+//
 export default {
   data() {
     return {
-      data: [
+      treedata: [
         {
           id: 1,
           label: "menu",

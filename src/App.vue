@@ -4,7 +4,7 @@
       class="pageLink"
       @click="drawer = true"
       type="primary"
-      style="margin-left: 16px"
+      style="margin-left: 16px; margin-bottom: 20px"
     >
     </el-button>
 
@@ -13,23 +13,53 @@
       :visible.sync="drawer"
       :direction="direction"
     >
+      <span style="margin-left: 10px"
+        ><el-switch
+          v-model="value"
+          active-color="#13ce66"
+          inactive-color="#ff4949"
+        >
+        </el-switch
+      ></span>
       <nav>
-        <router-link to="/home">Home</router-link>
-        <router-link to="/creditCard">creditCard</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/test11">allMenu</router-link>
-        <router-link to="/store">store</router-link>
-        <router-link to="/RequestBtn">RequestBtn</router-link>
-        <router-link to="/BookStore">BookStore</router-link>
-        <router-link to="/Alfred">Alfred</router-link>
-        <router-link to="/Flavor">Flavor</router-link>
-        <router-link to="/CookBook">CookBook</router-link>
-        <router-link to="/NoteBook">NoteBook</router-link>
-        <!-- <router-link to="/slswitch">slswitch</router-link> -->
+        <router-link style="display: inline-block" to="/home">Home</router-link>
+        <router-link style="display: inline-block" to="/creditCard"
+          >creditCard</router-link
+        >
+        <router-link style="display: inline-block" to="/about"
+          >About</router-link
+        >
+        <router-link style="display: inline-block" to="/test11"
+          >allMenu</router-link
+        >
+        <router-link style="display: inline-block" to="/store"
+          >store</router-link
+        >
+        <router-link style="display: inline-block" to="/RequestBtn"
+          >RequestBtn</router-link
+        >
+        <router-link style="display: inline-block" to="/BookStore"
+          >BookStore</router-link
+        >
+        <router-link style="display: inline-block" to="/Alfred"
+          >Alfred</router-link
+        >
+        <router-link style="display: inline-block" to="/Flavor"
+          >Flavor</router-link
+        >
+        <router-link style="display: inline-block" to="/CookBook"
+          >CookBook</router-link
+        >
+        <router-link style="display: inline-block" to="/NoteBook"
+          >NoteBook</router-link
+        >
+        <router-link style="display: inline-block" to="/slswitch"
+          >slswitch
+        </router-link>
       </nav>
     </el-drawer>
 
-    <router-view />
+    <router-view :switchvaluedata="value" />
     <br />
     <br />
   </div>
@@ -46,6 +76,7 @@ export default {
     return {
       drawer: false,
       direction: "ltr",
+      value: false,
     };
   },
   methods: {
