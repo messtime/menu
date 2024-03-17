@@ -6,12 +6,47 @@
 
 <template>
   <div class="credit-card" style="padding: 0 30px">
+    <!-- <div class="container">
+      <el-tabs
+        tabPosition="left"
+        v-model="activeName"
+        :span-method="objectSpanMethod"
+        @tab-click="handleClick"
+      >
+        <el-tab-pane label="幺玖捌" name="first">
+          <el-table
+            :data="cardPwdArr"
+            height="200"
+            style="display: inline-block"
+          >
+            <el-table-column prop="person" width="65px"> </el-table-column>
+            <el-table-column prop="name" width="65px"> </el-table-column>
+            <el-table-column prop="card" width="65px">
+            </el-table-column> </el-table
+        ></el-tab-pane>
+        <el-tab-pane label="陆贰" name="second"
+          ><el-table
+            :data="cardPwdArr2"
+            height="200"
+            style="display: inline-block"
+          >
+            <el-table-column prop="person" width="65px"> </el-table-column>
+            <el-table-column prop="name" width="65px"> </el-table-column>
+            <el-table-column prop="card" width="65px">
+            </el-table-column> </el-table
+        ></el-tab-pane>
+      </el-tabs>
+    </div> -->
+    <!-- ------ -->
     <el-button v-on:click="generate" style="width: 100%">随机生成</el-button>
     <div class="table-container">
       <el-table
+        ref="multipleTable"
         :data="dataArr"
         style="margin: 0 auto; font-size: 20px; display: inline-block"
+        @selection-change="handleSelectionChange"
       >
+        <!-- <el-table-column type="selection" width="55"> </el-table-column> -->
         <el-table-column type="index" label="编号" width="60px">
         </el-table-column>
         <el-table-column prop="value" label="数额" width="60px">
@@ -21,7 +56,9 @@
           prop="value"
           width="120px"
           :label="item"
-          ><el-checkbox></el-checkbox
+        >
+          <template slot-scope="scope">
+            <el-checkbox v-model="scope.row.checked"></el-checkbox> </template
         ></el-table-column>
       </el-table>
     </div>
@@ -65,6 +102,7 @@ export default {
   },
   methods: {
     handleClick(tab, event) {
+      debugger;
       console.log(tab, event);
     },
     handleChange(val) {
@@ -74,6 +112,13 @@ export default {
       this.$message("click on item " + val[val.length - 1]);
       this.selectCard = val;
       this.cardSelect = this.selectCard;
+    },
+    handleSelectionChange(val) {
+      debugger;
+      this.multipleSelection = val;
+      for (let i = 0; i < val.length; i++) {
+        this.dataArr[val[i].index].checked = true;
+      }
     },
     generate() {
       const arr = [];
@@ -95,11 +140,11 @@ export default {
           continue;
         }
         if (value > 700 && isMoreThan700) {
-          arr.push({ value, index });
+          arr.push({ value, index, checked: false });
           isMoreThan700 = false;
           index++;
         } else if (value < 700 && !isMoreThan700) {
-          arr.push({ value, index });
+          arr.push({ value, index, checked: false });
           isMoreThan700 = true;
           index++;
         }
