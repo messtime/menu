@@ -228,7 +228,18 @@ export default {
 :deep .el-checkbox-group .el-checkbox-button .el-checkbox-button__inner {
   border-radius: 30px;
   border-left: 1px solid #dcdfe6;
+  background-color: #f0f0f0;
   padding: 10px;
+}
+:deep .el-checkbox-button.is-checked .el-checkbox-button__inner {
+  // color: #fff;
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+}
+:deep .el-checkbox-button.is-focus .el-checkbox-button__inner {
+  // color: #409eff;
+  border-color: #409eff;
 }
 // .XXXX {
 //   display: block;
