@@ -1,16 +1,53 @@
 <template>
   <div class="noteBook" style="text-align: left; margin-left: 20px">
     <H1>Note book</H1>
-    <p>路由填写</p>
-    <el-tree
-      class="filter-tree"
-      :data="treedata"
-      :props="defaultProps"
-      default-expand-all
-      ref="tree"
-      :render-content="renderContent"
-    >
-    </el-tree>
+    <div>
+      <p>路由填写</p>
+      <el-tree
+        class="filter-tree"
+        :data="treedata"
+        :props="defaultProps"
+        default-expand-all
+        ref="tree"
+        :render-content="renderContent"
+      >
+      </el-tree>
+    </div>
+    <div>
+      <p>参数传递</p>
+      <div>
+        <code>
+          <pre
+            style="
+              background-color: beige;
+              font-size: larger;
+              margin: 0 40px 0 0;
+            "
+          >
+@click="handleClick(count)" 
+
+v-for="(item, index) in games_import[count]"
+
+router-view :switchvaluedata="value"
+
+props: {
+    switchvaluedata: Boolean,
+  }
+
+watch: {
+    switchvaluedata: {
+      handler(newValue, oldValue) {
+        if (this.switchvaluedata == true) {
+          this.activeNames = this.act;
+        }
+      },
+    },
+  }
+</pre
+          >
+        </code>
+      </div>
+    </div>
   </div>
 </template>
 

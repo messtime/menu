@@ -5,66 +5,8 @@
 -->
 
 <template>
-  <div class="credit-card">
-    <div class="container">
-      <el-tabs
-        tabPosition="left"
-        v-model="activeName"
-        :span-method="objectSpanMethod"
-        @tab-click="handleClick"
-      >
-        <!-- @tab-click="handleClick" -->
-        <el-tab-pane label="幺玖捌" name="first">
-          <el-table
-            :data="cardPwdArr"
-            height="200"
-            style="display: inline-block"
-          >
-            <el-table-column prop="person" width="65px"> </el-table-column>
-            <el-table-column prop="name" width="65px"> </el-table-column>
-            <el-table-column prop="card" width="65px">
-            </el-table-column> </el-table
-        ></el-tab-pane>
-        <el-tab-pane label="陆贰" name="second"
-          ><el-table
-            :data="cardPwdArr2"
-            height="200"
-            style="display: inline-block"
-          >
-            <el-table-column prop="person" width="65px"> </el-table-column>
-            <el-table-column prop="name" width="65px"> </el-table-column>
-            <el-table-column prop="card" width="65px">
-            </el-table-column> </el-table
-        ></el-tab-pane>
-      </el-tabs>
-    </div>
-    <div style="margin: 20px 5px; display: inline-block">
-      <el-row :gutter="20">
-        <el-col :span="8"
-          ><el-button v-on:click="generate">随机生成</el-button></el-col
-        >
-        <el-col :span="8" :pull="0.5"
-          ><el-dropdown @command="handleCommand">
-            <el-button>
-              choose<i class="el-icon-arrow-down el-icon--right"></i>
-            </el-button>
-            <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item
-                v-for="(item, index) in cards"
-                :command="item.name + item.card"
-                icon="el-icon-plus"
-                >{{ item.name + item.card }}</el-dropdown-item
-              >
-            </el-dropdown-menu>
-          </el-dropdown></el-col
-        >
-        <el-col :span="8"
-          ><el-button @click="addTab(editableTabsValue)">
-            add column
-          </el-button></el-col
-        >
-      </el-row>
-    </div>
+  <div class="credit-card" style="padding: 0 30px">
+    <el-button v-on:click="generate" style="width: 100%">随机生成</el-button>
     <div class="table-container">
       <el-table
         :data="dataArr"
@@ -79,106 +21,60 @@
           prop="value"
           width="120px"
           :label="item"
-          ><el-checkbox v-model="checked"></el-checkbox
+          ><el-checkbox></el-checkbox
         ></el-table-column>
       </el-table>
+    </div>
+    <div>
+      <el-collapse @change="handleChange" v-model="activeNames">
+        <el-collapse-item title="list of cards" name="1">
+          <el-checkbox-group
+            v-model="checkcards_choose"
+            @change="handleCheckAllChange"
+          >
+            <el-checkbox-button
+              v-for="item in cards_choose"
+              :label="item.bank + item.number[1]"
+              :key="item.number[2]"
+              >{{
+                item.person + item.bank + item.number[2]
+              }}</el-checkbox-button
+            >
+          </el-checkbox-group>
+        </el-collapse-item>
+      </el-collapse>
     </div>
   </div>
 </template>
 
 <script>
+import cards_choose from "@/data/cards_choose";
 export default {
   name: "CreditCardView",
   components: {},
   data() {
     return {
-      activeName: "second",
-      input: "",
+      cards_choose,
+      activeNames: ["1"],
       selectCard: "",
       cardSelect: [],
-      arrInput: [],
       dataArr: [],
-      cards: [
-        {
-          name: "建行",
-          card: "8338",
-        },
-        {
-          name: "招商",
-          card: "9474",
-        },
-        {
-          name: "农行",
-          card: "1945",
-        },
-        {
-          name: "建行",
-          card: "8639",
-        },
-
-        {
-          name: "平安",
-          card: "tq手机",
-        },
-        {
-          name: "建行",
-          card: "tq手机",
-        },
-      ],
-      cardPwdArr: [
-        {
-          name: "建行",
-          card: "8338",
-
-          pwd: "19",
-          person: "lw",
-        },
-        {
-          name: "招商",
-          card: "9474",
-          pwd: "19",
-          person: "lw",
-        },
-        {
-          name: "农行",
-          card: "1945",
-          pwd: "19",
-          person: "yy",
-        },
-        {
-          name: "建行",
-          card: "8639",
-
-          pwd: "19",
-          person: "sl",
-        },
-      ],
-      cardPwdArr2: [
-        {
-          name: "平安",
-          card: "tq手机",
-          pwd: "62",
-          person: "zj",
-        },
-        {
-          name: "建行",
-          card: "tq手机",
-          pwd: "62",
-          person: "zj",
-        },
-      ],
+      checkcards_choose: [],
+      multipleSelection: [],
     };
   },
   methods: {
     handleClick(tab, event) {
       console.log(tab, event);
     },
-    handleCommand(command) {
-      this.$message("click on item " + command);
-      this.selectCard = command;
-      this.cardSelect.push(this.selectCard);
+    handleChange(val) {
+      console.log(val);
     },
-
+    handleCheckAllChange(val) {
+      this.$message("click on item " + val[val.length - 1]);
+      this.selectCard = val;
+      this.cardSelect = this.selectCard;
+    },
     generate() {
       const arr = [];
       let isMoreThan700 = true;
@@ -199,11 +95,11 @@ export default {
           continue;
         }
         if (value > 700 && isMoreThan700) {
-          arr.push({ value });
+          arr.push({ value, index });
           isMoreThan700 = false;
           index++;
         } else if (value < 700 && !isMoreThan700) {
-          arr.push({ value });
+          arr.push({ value, index });
           isMoreThan700 = true;
           index++;
         }
@@ -271,6 +167,10 @@ export default {
   // display: inline-block;
 }
 
+.el-checkbox-button {
+  margin: 5px;
+}
+
 .addpage {
   display: inline-block;
   position: absolute;
@@ -280,18 +180,11 @@ export default {
 .el-icon-arrow-down {
   font-size: 12px;
 }
-
-.el-input {
-  width: min-content;
-  min-width: 65px;
-  height: fit-content;
+:deep .el-checkbox-group .el-checkbox-button .el-checkbox-button__inner {
+  border-radius: 30px;
+  border-left: 1px solid #dcdfe6;
+  padding: 10px;
 }
-
-.el-input_inner {
-  padding: 0 10px;
-  font-size: larger;
-}
-
 // .XXXX {
 //   display: block;
 // }

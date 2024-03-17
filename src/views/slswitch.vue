@@ -3,11 +3,11 @@
     <el-collapse
       v-model="activeNames"
       @change="handleChange"
-      style="margin-left: 20px"
+      style="margin-left: 30px"
     >
       <el-collapse-item
         v-for="count in 20"
-        :title="'(' + count + ')'"
+        :title="'game' + ' ' + 'list' + ' ' + '[' + ' ' + count + ' ' + ']'"
         :name="count"
       >
         <el-button
@@ -45,6 +45,8 @@ export default {
       handler(newValue, oldValue) {
         if (this.switchvaluedata == true) {
           this.activeNames = this.act;
+        } else {
+          this.activeNames = [];
         }
       },
     },

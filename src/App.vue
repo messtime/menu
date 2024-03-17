@@ -1,18 +1,31 @@
 <template>
-  <div id="app">
-    <el-button
-      class="pageLink"
-      @click="drawer = true"
-      type="primary"
-      style="margin-left: 16px; margin-bottom: 20px"
+  <div id="app" style="padding-top: 60px">
+    <div
+      class="topCtn"
+      style="
+        background-color: white;
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        padding: 10px;
+        top: 0;
+        left: 0;
+      "
     >
-    </el-button>
+      <el-button
+        class="pageLink"
+        @click="drawer = true"
+        type="primary"
+        plain
+        style="display: inline-block; position: absolute; left: 40px"
+        >!
+      </el-button>
+      <div style="display: inline-block; padding: 10px 20px">
+        welcome myIsland
+      </div>
+    </div>
 
-    <el-drawer
-      title="WelcomeMyIsland"
-      :visible.sync="drawer"
-      :direction="direction"
-    >
+    <el-drawer :visible.sync="drawer" :direction="direction">
       <span style="margin-left: 10px"
         ><el-switch
           v-model="value"
@@ -264,8 +277,4 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 /* in this case no space mean they are select the same element */
-.el-button.pageLink {
-  margin-top: 20px;
-  display: block;
-}
 </style>

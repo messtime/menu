@@ -101,7 +101,7 @@ body {
     padding: 40px;
     margin: auto 10px;
     position: relative;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     transition: all 1s;
     background-color: blueviolet;
   
@@ -121,7 +121,7 @@ body {
     position: fixed;
     float: left;
     width: fit-content;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: -200px;
     transition: all 1s;
   }
