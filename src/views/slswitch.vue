@@ -7,7 +7,7 @@
     >
       <el-collapse-item
         v-for="count in 20"
-        :title="'game' + ' ' + 'list' + ' ' + '[' + ' ' + count + ' ' + ']'"
+        :title="'Game List ' + count"
         :name="count"
       >
         <el-button

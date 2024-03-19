@@ -12,6 +12,7 @@ import Alfred from "../views/Alfred.vue";
 import Flavor from "../views/Flavor.vue";
 import CookBook from "../views/CookBook.vue";
 import CreditCardView from "../views/CreditCardView.vue";
+// import CreditCardViewcopy from "../views/CreditCardViewcopy.vue";
 import NoteBook from "../views/NoteBook.vue";
 import slswitch from "../views/slswitch.vue";
 Vue.use(VueRouter);
@@ -37,6 +38,7 @@ const routes = [
     name: "creditCard",
     component: CreditCardView,
   },
+
   {
     path: "/CookBook",
     name: "CookBook",

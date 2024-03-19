@@ -5,51 +5,54 @@
 -->
 
 <template>
-  <div class="credit-card" style="padding: 0 30px">
-    <!-- <div class="container">
-      <el-tabs
-        tabPosition="left"
-        v-model="activeName"
-        :span-method="objectSpanMethod"
-        @tab-click="handleClick"
+  <div class="credit-card" style="padding: 0 10px">
+    <el-row :gutter="10">
+      <el-col :span="8"
+        ><el-button v-on:click="generate" style="width: 100%"
+          >随机生成</el-button
+        ></el-col
       >
-        <el-tab-pane label="幺玖捌" name="first">
-          <el-table
-            :data="cardPwdArr"
-            height="200"
-            style="display: inline-block"
+      <el-col :span="8"
+        ><el-button v-on:click="saveMenu" style="width: 100%"
+          >保存</el-button
+        ></el-col
+      >
+      <el-col :span="8"
+        ><el-button v-on:click="exportimg" style="width: 100%"
+          >导出图片</el-button
+        ></el-col
+      >
+    </el-row>
+    <div class="cardsList">
+      <el-collapse @change="handleChange" v-model="activeNames">
+        <el-collapse-item name="1">
+          <el-checkbox-group
+            v-model="checkcards_choose"
+            @change="handleReplaceStr"
           >
-            <el-table-column prop="person" width="65px"> </el-table-column>
-            <el-table-column prop="name" width="65px"> </el-table-column>
-            <el-table-column prop="card" width="65px">
-            </el-table-column> </el-table
-        ></el-tab-pane>
-        <el-tab-pane label="陆贰" name="second"
-          ><el-table
-            :data="cardPwdArr2"
-            height="200"
-            style="display: inline-block"
+            <el-checkbox-button
+              v-bind:class="{ lw: isActive }"
+              size="mini"
+              v-for="item in cards_choose"
+              :label="
+                mimacode[item.passward] + ' ' + item.bank + item.number[1]
+              "
+              :key="item.number[2]"
+              >{{ item.bank + item.number[2] }}</el-checkbox-button
+            >
+            <!-- </el-tooltip> -->
+          </el-checkbox-group>
+          <el-button v-on:click="changeActive" style="width: 100%; border: 0"
+            >------------------------------</el-button
           >
-            <el-table-column prop="person" width="65px"> </el-table-column>
-            <el-table-column prop="name" width="65px"> </el-table-column>
-            <el-table-column prop="card" width="65px">
-            </el-table-column> </el-table
-        ></el-tab-pane>
-      </el-tabs>
-    </div> -->
-    <!-- ------ -->
-    <el-button v-on:click="generate" style="width: 100%">随机生成</el-button>
+        </el-collapse-item>
+      </el-collapse>
+    </div>
     <div class="table-container">
-      <el-table
-        ref="multipleTable"
-        :data="dataArr"
-        style="margin: 0 auto; font-size: 20px; display: inline-block"
-        @selection-change="handleSelectionChange"
-      >
-        <!-- <el-table-column type="selection" width="55"> </el-table-column> -->
-        <el-table-column type="index" label="编号" width="60px">
-        </el-table-column>
-        <el-table-column prop="value" label="数额" width="60px">
+      <el-table :data="dataArr" style="margin: 0 auto; display: inline-block">
+        <!-- <el-table-column type="selection" fixed label="操作" width="60px">
+        </el-table-column> -->
+        <el-table-column type="index" label="编号" width="50px">
         </el-table-column>
         <el-table-column
           v-for="item in cardSelect"
@@ -57,29 +60,17 @@
           width="120px"
           :label="item"
         >
-          <template slot-scope="scope">
-            <el-checkbox v-model="scope.row.checked"></el-checkbox> </template
+          <template slot-scope="scope"
+            ><el-checkbox v-model="scope.row.checked"></el-checkbox>
+            <el-input
+              type="number"
+              step="9"
+              min="600"
+              max="800"
+              v-model="scope.row.value"
+            ></el-input></template
         ></el-table-column>
       </el-table>
-    </div>
-    <div>
-      <el-collapse @change="handleChange" v-model="activeNames">
-        <el-collapse-item title="list of cards" name="1">
-          <el-checkbox-group
-            v-model="checkcards_choose"
-            @change="handleCheckAllChange"
-          >
-            <el-checkbox-button
-              v-for="item in cards_choose"
-              :label="item.bank + item.number[1]"
-              :key="item.number[2]"
-              >{{
-                item.person + item.bank + item.number[2]
-              }}</el-checkbox-button
-            >
-          </el-checkbox-group>
-        </el-collapse-item>
-      </el-collapse>
     </div>
   </div>
 </template>
@@ -93,33 +84,72 @@ export default {
     return {
       cards_choose,
       activeNames: ["1"],
+      isActive: false,
+      // errorClass: "",
       selectCard: "",
       cardSelect: [],
       dataArr: [],
+      checkedList: [],
       checkcards_choose: [],
       multipleSelection: [],
+      mimacode: { "@": "叁伍", "!": "幺玖捌", "^": "陆贰" },
     };
   },
-  methods: {
-    handleClick(tab, event) {
-      debugger;
-      console.log(tab, event);
+  watch: {
+    isActive: {
+      handler(newValue, oldValue) {
+        for (let i = 0; i < this.cards_choose.length; i++) {
+          let activeClass = false;
+          if (this.cards_choose[i].id == 1) {
+            return true;
+          }
+        }
+        this.isActive = activeClass;
+      },
     },
+    deep: true,
+  },
+
+  methods: {
+    changeActive() {
+      const newActive = [];
+      this.activeNames = newActive;
+    },
+    saveMenu() {},
+    exportimg() {},
     handleChange(val) {
       console.log(val);
     },
-    handleCheckAllChange(val) {
-      this.$message("click on item " + val[val.length - 1]);
-      this.selectCard = val;
+    // handleSelectionChange(val) {
+    //   for (let j = 0; j < val.length; j++) {
+    //     for (let i = 0; i < this.dataArr.length; i++) {
+    //       this.dataArr[i].checked = false;
+    //       this.cardsList[j]=this.dataArr[i].checked
+    //     }
+
+    //     // this.multipleSelection = val;
+    //     for (let i = 0; i < val.length; i++) {
+    //       this.dataArr[val[i].index].checked = true;
+    //     }
+    //   }
+    // },
+    handleReplaceStr(val) {
+      // debugger;
+      const newStr = [];
+      for (let i = 0; i < val.length; i++) {
+        newStr[i] = val[i].replace("幺玖捌 ", "!");
+        newStr[i] = newStr[i].replace("叁伍 ", "@");
+        newStr[i] = newStr[i].replace("陆贰 ", "^");
+      }
+      this.$message({
+        message: "已选择: " + val[val.length - 1],
+        type: "success",
+        duration: 1000,
+      });
+      this.selectCard = newStr;
       this.cardSelect = this.selectCard;
     },
-    handleSelectionChange(val) {
-      debugger;
-      this.multipleSelection = val;
-      for (let i = 0; i < val.length; i++) {
-        this.dataArr[val[i].index].checked = true;
-      }
-    },
+
     generate() {
       const arr = [];
       let isMoreThan700 = true;
@@ -151,17 +181,6 @@ export default {
       }
       this.dataArr = arr;
     },
-    // cardPwdArr2Fun() {
-    //   // this.cardPwdArr = arr;
-    //   debugger;
-    //   for (let i = 0; i < this.cardPwdArr.length; i++) {
-    //     let item = this.cardPwdArr[i]
-    //     if (item.person !== 'zj') continue;
-    //     if (item.person == 'zj') {
-    //       this.cardPwdArr2.push(item)
-    //     }
-    //   }
-    // }
 
     objectSpanMethod({ row, column, rowIndex, columnIndex }) {
       if (columnIndex === 0) {
@@ -192,44 +211,25 @@ export default {
 <style lang="scss" scoped>
 .credit-card {
   text-align: left;
-  // margin-top: -80px;
-  // margin-left: 20px;
-
-  .el-table__body-wrapper {
-    overflow: hidden !important;
-  }
-
-  .el-tab-pane {
-    margin-top: -45px;
-  }
-}
-
-.el-table .el-table__cell {
-  // padding: 2px 0;
-}
-
-.el-tabs.el-tabs--left {
-  // display: inline-block;
 }
 
 .el-checkbox-button {
   margin: 5px;
 }
+:deep .el-input__inner {
+  background: 000;
 
-.addpage {
-  display: inline-block;
-  position: absolute;
-  text-align: right;
+  border: 0;
+  padding: 0;
+  width: 55%;
 }
 
-.el-icon-arrow-down {
-  font-size: 12px;
-}
 :deep .el-checkbox-group .el-checkbox-button .el-checkbox-button__inner {
   border-radius: 30px;
   border-left: 1px solid #dcdfe6;
   // background-color: #f0f0f0;
-  padding: 10px;
+  padding: 8px;
+  font-size: small;
 }
 :deep .el-checkbox-button.is-checked .el-checkbox-button__inner {
   // color: #fff;
@@ -241,8 +241,21 @@ export default {
   // color: #409eff;
   border-color: #409eff;
 }
-// .XXXX {
-//   display: block;
-// }
-// -----------------------------------------
+:deep .el-collapse-item__header {
+  position: absolute;
+  z-index: 3;
+  top: 8px;
+  right: 40px;
+  border-bottom: 0;
+}
+.el-collapse {
+  border-top: 0;
+  border-bottom: 0;
+}
+:deep .el-collapse-item__content {
+  padding: 8px;
+}
+:deep .lw.el-checkbox-button .el-checkbox-button__inner {
+  border-color: red;
+}
 </style>
