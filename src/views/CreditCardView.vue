@@ -31,7 +31,7 @@
             @change="handleReplaceStr"
           >
             <el-checkbox-button
-              v-bind:class="{ lw: isActive }"
+              v-bind:class="{ lw: item.id == 1 }"
               size="mini"
               v-for="item in cards_choose"
               :label="
@@ -84,7 +84,7 @@ export default {
     return {
       cards_choose,
       activeNames: ["1"],
-      isActive: false,
+      // isActive: false,
       // errorClass: "",
       selectCard: "",
       cardSelect: [],
@@ -95,27 +95,45 @@ export default {
       mimacode: { "@": "叁伍", "!": "幺玖捌", "^": "陆贰" },
     };
   },
-  watch: {
-    isActive: {
-      handler(newValue, oldValue) {
-        for (let i = 0; i < this.cards_choose.length; i++) {
-          let activeClass = false;
-          if (this.cards_choose[i].id == 1) {
-            return true;
-          }
-        }
-        this.isActive = activeClass;
-      },
-    },
-    deep: true,
-  },
+  // watch: {
+  //   isActive: {
+  //     handler(newValue, oldValue) {
+  //       for (let i = 0; i < this.cards_choose.length; i++) {
+  //         let activeClass = false;
+  //         if (this.cards_choose[i].id == 1) {
+  //           return true;
+  //         }
+  //       }
+  //       this.isActive = activeClass;
+  //     },
+  //   },
+  //   deep: true,
+  // },
 
   methods: {
     changeActive() {
       const newActive = [];
       this.activeNames = newActive;
     },
-    saveMenu() {},
+    saveMenu() {
+      localStorage.setItem("dataArr", JSON.stringify(this.dataArr));
+      localStorage.setItem(
+        "checkcards_choose",
+        JSON.stringify(this.checkcards_choose)
+      );
+      localStorage.setItem("cardSelect", JSON.stringify(this.cardSelect));
+    },
+    getMenuFromLocal() {
+      const localData = localStorage.getItem("dataArr");
+      const checkcards_choose = localStorage.getItem("checkcards_choose");
+      const cardSelect = localStorage.getItem("cardSelect");
+
+      if (localData && cardSelect && checkcards_choose) {
+        this.dataArr = JSON.parse(localData);
+        this.checkcards_choose = JSON.parse(checkcards_choose);
+        this.cardSelect = JSON.parse(cardSelect);
+      }
+    },
     exportimg() {},
     handleChange(val) {
       console.log(val);
@@ -201,8 +219,8 @@ export default {
 
   mounted() {
     // debugger;
-
     this.generate();
+    this.getMenuFromLocal();
     // this.cardPwdArr2Fun();
   },
 };
