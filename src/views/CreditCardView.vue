@@ -7,17 +7,23 @@
 <template>
   <div class="credit-card" style="padding: 0 10px">
     <el-row :gutter="10">
-      <el-col :span="8"
+      <el-col :span="6"
         ><el-button v-on:click="generate" style="width: 100%"
           >随机生成</el-button
         ></el-col
       >
-      <el-col :span="8"
+      <el-col :span="6"
         ><el-button v-on:click="saveMenu" style="width: 100%"
           >保存</el-button
         ></el-col
       >
-      <el-col :span="8"
+      <el-col :span="6"
+        ><el-button v-on:click="getMenuFromLocal" style="width: 100%"
+          >获取数据</el-button
+        ></el-col
+      >
+
+      <el-col :span="6"
         ><el-button v-on:click="exportimg" style="width: 100%"
           >导出图片</el-button
         ></el-col
@@ -42,16 +48,31 @@
             >
             <!-- </el-tooltip> -->
           </el-checkbox-group>
-          <el-button v-on:click="changeActive" style="width: 100%; border: 0"
-            >------------------------------</el-button
-          >
+          <el-button @click="changeActive" style="width: 100%; border: 0">
+          </el-button>
         </el-collapse-item>
       </el-collapse>
     </div>
+    <div>
+      <el-date-picker
+        v-model="value1"
+        type="date"
+        placeholder="选择日期"
+        value-format="timestamp"
+      >
+      </el-date-picker
+      ><el-input
+        type="textarea"
+        :rows="2"
+        placeholder="note"
+        v-model="textarea"
+      >
+      </el-input>
+    </div>
+
     <div class="table-container">
       <el-table :data="dataArr" style="margin: 0 auto; display: inline-block">
-        <!-- <el-table-column type="selection" fixed label="操作" width="60px">
-        </el-table-column> -->
+        <el-table-column type="selection" fixed width="60px"></el-table-column>
         <el-table-column type="index" label="编号" width="50px">
         </el-table-column>
         <el-table-column
@@ -61,7 +82,7 @@
           :label="item"
         >
           <template slot-scope="scope"
-            ><el-checkbox v-model="scope.row.checked"></el-checkbox>
+            ><el-checkbox></el-checkbox>
             <el-input
               type="number"
               step="9"
@@ -82,6 +103,8 @@ export default {
   components: {},
   data() {
     return {
+      textarea: "",
+      value1: new Date().getTime(),
       cards_choose,
       activeNames: ["1"],
       // isActive: false,
@@ -89,7 +112,8 @@ export default {
       selectCard: "",
       cardSelect: [],
       dataArr: [],
-      checkedList: [],
+      // checkedList: [],
+      // inputcontent: [],
       checkcards_choose: [],
       multipleSelection: [],
       mimacode: { "@": "叁伍", "!": "幺玖捌", "^": "陆贰" },
@@ -121,17 +145,32 @@ export default {
         "checkcards_choose",
         JSON.stringify(this.checkcards_choose)
       );
+
       localStorage.setItem("cardSelect", JSON.stringify(this.cardSelect));
+      localStorage.setItem(
+        "inputcontent",
+        JSON.stringify({
+          // value1: this.value1,
+          textarea: this.textarea,
+        })
+      );
     },
     getMenuFromLocal() {
       const localData = localStorage.getItem("dataArr");
       const checkcards_choose = localStorage.getItem("checkcards_choose");
       const cardSelect = localStorage.getItem("cardSelect");
+      let inputcontent = localStorage.getItem("inputcontent");
 
       if (localData && cardSelect && checkcards_choose) {
         this.dataArr = JSON.parse(localData);
         this.checkcards_choose = JSON.parse(checkcards_choose);
         this.cardSelect = JSON.parse(cardSelect);
+        // this.inputcontent = JSON.parse(inputcontent);
+      }
+      if (inputcontent) {
+        inputcontent = JSON.parse(inputcontent);
+        // this.value1 = inputcontent.value1;
+        this.textarea = inputcontent.textarea;
       }
     },
     exportimg() {},
