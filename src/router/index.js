@@ -15,6 +15,7 @@ import CreditCardView from "../views/CreditCardView.vue";
 // import CreditCardViewcopy from "../views/CreditCardViewcopy.vue";
 import NoteBook from "../views/NoteBook.vue";
 import slswitch from "../views/slswitch.vue";
+import test33 from "../views/test33.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
     path: "/NoteBook",
     name: "NoteBook",
     component: NoteBook,
+  },
+  {
+    path: "/test33",
+    name: "test33",
+    component: test33,
   },
   {
     path: "/slswitch",

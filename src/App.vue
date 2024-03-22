@@ -69,6 +69,9 @@
         <router-link style="display: inline-block" to="/slswitch"
           >slswitch
         </router-link>
+        <router-link style="display: inline-block" to="/test33"
+          >test33
+        </router-link>
       </nav>
     </el-drawer>
 

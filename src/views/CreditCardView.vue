@@ -71,18 +71,18 @@
     </div>
 
     <div class="table-container">
-      <el-table :data="dataArr" style="margin: 0 auto; display: inline-block">
-        <el-table-column type="selection" fixed width="60px"></el-table-column>
-        <el-table-column type="index" label="编号" width="50px">
+      <el-table :data="dataArr">
+        <!-- <el-table-column type="selection" fixed width="60px"></el-table-column> -->
+        <el-table-column prop="index" label="编号" width="50px">
         </el-table-column>
         <el-table-column
           v-for="item in cardSelect"
           prop="value"
-          width="120px"
+          width="100px"
           :label="item"
         >
           <template slot-scope="scope"
-            ><el-checkbox></el-checkbox>
+            ><el-checkbox v-model="scope.row.checked"></el-checkbox>
             <el-input
               type="number"
               step="9"
@@ -275,7 +275,7 @@ export default {
 }
 :deep .el-input__inner {
   background: 000;
-
+  // height: 20px;
   border: 0;
   padding: 0;
   width: 55%;
@@ -314,5 +314,8 @@ export default {
 }
 :deep .lw.el-checkbox-button .el-checkbox-button__inner {
   border-color: red;
+}
+:deep .el-input--suffix .el-input__inner {
+  padding-right: 0px;
 }
 </style>
