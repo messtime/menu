@@ -13,7 +13,7 @@
       style="margin-left: 30px"
       ><el-collapse-item>
         <template slot="title">
-          <a target="_blank" href="https://tinfoil.io/">switch 520</a
+          <a target="_blank" href="https://www.gamer520.com/">switch 520</a
           ><span>&nbsp;</span><i class="header-icon el-icon-info"></i>
         </template>
         <el-button @click="handleClick(url)">sifu</el-button></el-collapse-item
