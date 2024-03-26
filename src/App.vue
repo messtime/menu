@@ -25,15 +25,19 @@
       </div>
     </div>
 
-    <el-drawer :visible.sync="drawer" :direction="direction">
-      <span style="margin-left: 10px"
-        ><el-switch
-          v-model="value"
-          active-color="#13ce66"
-          inactive-color="#ff4949"
-        >
-        </el-switch
-      ></span>
+    <el-drawer
+      :with-header="false"
+      :visible.sync="drawer"
+      :direction="direction"
+      size="min-content"
+    >
+      <el-switch
+        style="margin-top: 20px"
+        v-model="value"
+        active-color="#13ce66"
+        inactive-color="#ff4949"
+      >
+      </el-switch>
       <nav>
         <router-link style="display: inline-block" to="/home">Home</router-link>
         <router-link style="display: inline-block" to="/creditCard"

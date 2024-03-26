@@ -55,25 +55,27 @@
     </div>
     <div>
       <el-date-picker
+        size="small"
         v-model="value1"
         type="date"
         placeholder="选择日期"
         value-format="timestamp"
       >
       </el-date-picker
-      ><el-input
-        type="textarea"
-        :rows="2"
-        placeholder="note"
-        v-model="textarea"
-      >
-      </el-input>
+      ><span style="font-size: small">差 </span
+      ><span>
+        <el-select v-model="selectValue" placeholder="轮数">
+          <el-option v-for="item in numberNote" :label="item" :value="item">
+            <span style="float: left">{{ item }}</span>
+          </el-option>
+        </el-select>
+      </span>
     </div>
 
     <div class="table-container">
       <el-table :data="dataArr">
         <!-- <el-table-column type="selection" fixed width="60px"></el-table-column> -->
-        <el-table-column prop="index" label="编号" width="50px">
+        <el-table-column prop="index" label="编号" fixed width="50px">
         </el-table-column>
         <el-table-column
           v-for="item in cardSelect"
@@ -117,6 +119,8 @@ export default {
       checkcards_choose: [],
       multipleSelection: [],
       mimacode: { "@": "叁伍", "!": "幺玖捌", "^": "陆贰" },
+      numberNote: [1, 2, 3, 4, 5, 6],
+      selectValue: "",
     };
   },
   // watch: {
@@ -259,7 +263,7 @@ export default {
   mounted() {
     // debugger;
     this.generate();
-    this.getMenuFromLocal();
+    // this.getMenuFromLocal();
     // this.cardPwdArr2Fun();
   },
 };
@@ -268,8 +272,13 @@ export default {
 <style lang="scss" scoped>
 .credit-card {
   text-align: left;
+  :deep .el-button {
+    padding: 12px 10px;
+  }
 }
-
+:deep .el-select > .el-input {
+  width: 90px;
+}
 .el-checkbox-button {
   margin: 5px;
 }
@@ -278,7 +287,7 @@ export default {
   // height: 20px;
   border: 0;
   padding: 0;
-  width: 55%;
+  // width: 55%;
 }
 
 :deep .el-checkbox-group .el-checkbox-button .el-checkbox-button__inner {
