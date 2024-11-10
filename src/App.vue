@@ -1,8 +1,6 @@
 <template>
   <div id="app" style="padding-top: 60px">
-    <div
-      class="topCtn"
-      style="
+    <div class="topCtn" style="
         background-color: white;
         position: fixed;
         z-index: 3;
@@ -10,71 +8,34 @@
         padding: 10px;
         top: 0;
         left: 0;
-      "
-    >
-      <el-button
-        class="pageLink"
-        @click="drawer = true"
-        type="primary"
-        plain
-        style="display: inline-block; position: absolute; left: 40px"
-        >!
+      ">
+      <el-button class="pageLink" @click="drawer = true" type="primary" plain
+        style="display: inline-block; position: absolute; left: 40px">!
       </el-button>
       <div style="display: inline-block; padding: 10px 20px">
         welcome myIsland
       </div>
     </div>
 
-    <el-drawer
-      :with-header="false"
-      :visible.sync="drawer"
-      :direction="direction"
-      size="min-content"
-    >
-      <el-switch
-        style="margin-top: 20px"
-        v-model="value"
-        active-color="#13ce66"
-        inactive-color="#ff4949"
-      >
+    <el-drawer :with-header="false" :visible.sync="drawer" :direction="direction" size="min-content">
+      <el-switch style="margin-top: 20px" v-model="value" active-color="#13ce66" inactive-color="#ff4949">
       </el-switch>
       <nav>
         <router-link style="display: inline-block" to="/home">Home</router-link>
-        <router-link style="display: inline-block" to="/creditCard"
-          >creditCard</router-link
-        >
-        <router-link style="display: inline-block" to="/about"
-          >About</router-link
-        >
-        <router-link style="display: inline-block" to="/test11"
-          >allMenu</router-link
-        >
-        <router-link style="display: inline-block" to="/store"
-          >store</router-link
-        >
-        <router-link style="display: inline-block" to="/RequestBtn"
-          >RequestBtn</router-link
-        >
-        <router-link style="display: inline-block" to="/BookStore"
-          >BookStore</router-link
-        >
-        <router-link style="display: inline-block" to="/Alfred"
-          >Alfred</router-link
-        >
-        <router-link style="display: inline-block" to="/Flavor"
-          >Flavor</router-link
-        >
-        <router-link style="display: inline-block" to="/CookBook"
-          >CookBook</router-link
-        >
-        <router-link style="display: inline-block" to="/NoteBook"
-          >NoteBook</router-link
-        >
-        <router-link style="display: inline-block" to="/slswitch"
-          >slswitch
+        <router-link style="display: inline-block" to="/CountDown">CountDown</router-link>
+        <router-link style="display: inline-block" to="/creditCard">creditCard</router-link>
+        <router-link style="display: inline-block" to="/about">About</router-link>
+        <router-link style="display: inline-block" to="/test11">allMenu</router-link>
+        <router-link style="display: inline-block" to="/store">store</router-link>
+        <router-link style="display: inline-block" to="/RequestBtn">RequestBtn</router-link>
+        <router-link style="display: inline-block" to="/BookStore">BookStore</router-link>
+        <router-link style="display: inline-block" to="/Alfred">Alfred</router-link>
+        <router-link style="display: inline-block" to="/Flavor">Flavor</router-link>
+        <router-link style="display: inline-block" to="/CookBook">CookBook</router-link>
+        <router-link style="display: inline-block" to="/NoteBook">NoteBook</router-link>
+        <router-link style="display: inline-block" to="/slswitch">slswitch
         </router-link>
-        <router-link style="display: inline-block" to="/test33"
-          >test33
+        <router-link style="display: inline-block" to="/test33">test33
         </router-link>
       </nav>
     </el-drawer>
@@ -283,5 +244,6 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
 /* in this case no space mean they are select the same element */
 </style>

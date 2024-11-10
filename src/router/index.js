@@ -14,6 +14,8 @@ import CookBook from "../views/CookBook.vue";
 import CreditCardView from "../views/CreditCardView.vue";
 // import CreditCardViewcopy from "../views/CreditCardViewcopy.vue";
 import NoteBook from "../views/NoteBook.vue";
+import CountDown from "../views/CountDown.vue";
+
 import slswitch from "../views/slswitch.vue";
 import test33 from "../views/test33.vue";
 Vue.use(VueRouter);
@@ -24,6 +26,12 @@ const routes = [
     name: "NoteBook",
     component: NoteBook,
   },
+  {
+    path: "/CountDown",
+    name: "CountDown",
+    component: CountDown,
+  },
+
   {
     path: "/test33",
     name: "test33",
