@@ -8,14 +8,16 @@
 
     <div class="child">
 
-      <el-button type="primary" @click="updateNowData">Start</el-button>
-      <el-button type="primary" @click="resetData">Reset</el-button>
+
 
       <el-progress :stroke-width="100" :percentage="percentage" color='#EBEEF5' :define-back-color="customColorMethod()"
         :show-text="textChange" style=" padding: 50px;" :text-inside="true" :format="showTime"></el-progress>
+      <div class="buttonFather"><el-button type="primary" @click="updateNowData">Start</el-button>
+        <el-button type="primary" @click="resetData">Reset</el-button>
+      </div>
 
       <div style="font-size: 40px;">当前时间 {{ formatDate(nowDate) }}</div>
-      <div style="font-size: 40px;">截止时间 {{ formatDate(new Date(+oneHourLater)) }}</div>
+      <div style="font-size: 40px;">截止时间 {{ formatDate(new Date(+ruleTimeLater)) }}</div>
     </div>
   </div>
 
@@ -32,8 +34,9 @@ export default {
     return {
       nowDate: new Date(),
       percentage: 0,
-      oneHourLater: localStorage.getItem('oneHourLater'),
+      ruleTimeLater: localStorage.getItem('ruleTimeLater'),
       timeInterval: null,
+      diffRule: null,
     };
   },
   computed: {
@@ -66,30 +69,42 @@ export default {
     getDiff() {
 
       const now = new Date().getTime();
-      // 截止时间不能更新
-      if (!this.oneHourLater) {
-        this.oneHourLater = now + 60 * 60 * 1000;
-        localStorage.setItem('oneHourLater', this.oneHourLater);
+      const nightRule = new Date();
+      const nightTime = new Date(nightRule.getFullYear(), nightRule.getMonth(), nightRule.getDate(), 21);
+      if (!this.diffRule) {
+        this.diffRule = (nightTime - now) / (60 * 1000);
       }
-      const diff = this.oneHourLater - now;
+      // console.log(diffRule);
+      // 截止时间不能更新
+      if (!this.ruleTimeLater) {
+        if (this.diffRule >= 30) { this.ruleTimeLater = now + 30 * 60 * 1000; }
+        else {
+          this.ruleTimeLater = nightTime;
+        }
+        localStorage.setItem('ruleTimeLater', this.ruleTimeLater);
+      }
+      const diff = this.ruleTimeLater - now;
       return diff;
+
     },
+
     showTime(percentage) {
       // console.log('showTime showTime', percentage);
       return Math.floor(percentage) + '% ' + this.deadline()
     },
 
     resetData() {
-      this.oneHourLater = null;
+      this.ruleTimeLater = null;
       this.percentage = 0;
-      localStorage.removeItem('oneHourLater');
+      this.diffRule = null;
+      localStorage.removeItem('ruleTimeLater');
       if (this.timeInterval) {
         clearInterval(this.timeInterval)
       }
     },
     updateNowData() {
-      if (this.oneHourLater) {
-        if (new Date() > this.oneHourLater) {
+      if (this.ruleTimeLater) {
+        if (new Date() > this.ruleTimeLater) {
           this.percentage = 100;
           if (this.timeInterval) {
             clearInterval(this.timeInterval)
@@ -98,6 +113,12 @@ export default {
         }
       }
 
+      // diff 一次性判断
+      let thirtyFlag = false;
+      const diff = this.getDiff() / (60 * 1000);
+      if (diff == 30) {
+        thirtyFlag = true;
+      }
       this.timeInterval = setInterval(() => {
         if (this.percentage >= 100) {
           if (this.timeInterval) {
@@ -105,11 +126,19 @@ export default {
           }
           return;
         }
+
         this.nowDate = new Date();
-        const percentageDiff = this.getDiff() / (60 * 60 * 1000);
-        // console.log(percentageDiff)
+        const diff = this.getDiff() / (60 * 1000);
+        let percentageDiff = null;
+        if (thirtyFlag) {
+          percentageDiff = diff / 30;
+        } else {
+          percentageDiff = diff / this.diffRule
+        }
+
+        console.log(percentageDiff)
         this.percentage = (1 - percentageDiff) * 100;
-        // console.log('this.percentage', this.percentage)
+        console.log('this.percentage', this.percentage)
 
       }, 1000);
     },
