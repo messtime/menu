@@ -4,27 +4,21 @@
  * @Description: 
 -->
 <template>
-  <div>
-    <div id="btn">默认按钮</div>
-    <el-progress :percentage="percentage" :color="customColor"></el-progress>
+  <div class="father">
 
-    <el-progress :percentage="percentage" :color="customColorMethod"></el-progress>
+    <div class="child">
 
-    <el-progress :percentage="percentage" :color="customColors"></el-progress>
-    <div>
-      <el-button-group>
-        <el-button icon="el-icon-minus" @click="decrease"></el-button>
-        <el-button icon="el-icon-plus" @click="increase"></el-button>
-      </el-button-group>
+      <el-button type="primary" @click="updateNowData">Start</el-button>
+      <el-button type="primary" @click="resetData">Reset</el-button>
+
+      <el-progress :stroke-width="100" :percentage="percentage" color='#EBEEF5' :define-back-color="customColorMethod()"
+        :show-text="textChange" style=" padding: 50px;" :text-inside="true" :format="showTime"></el-progress>
+
+      <div style="font-size: 40px;">当前时间 {{ formatDate(nowDate) }}</div>
+      <div style="font-size: 40px;">截止时间 {{ formatDate(new Date(+oneHourLater)) }}</div>
     </div>
-    <!-- <el-button type="success" @click="getMsg">获取服务端数据</el-button> -->
-
-    <div>{{ nowDate }}</div>
-
-    <!-- <el-button type="success" @click="sendMsg">发送数据给服务端</el-button> -->
-
-
   </div>
+
 </template>
 <script>
 
@@ -37,61 +31,118 @@ export default {
     //所定义的组件的数据
     return {
       nowDate: new Date(),
-      percentage: 20,
-      customColor: '#409eff',
-      customColors: [
-        { color: '#f56c6c', percentage: 20 },
-        { color: '#e6a23c', percentage: 40 },
-        { color: '#5cb87a', percentage: 60 },
-        { color: '#1989fa', percentage: 80 },
-        { color: '#6f7ad3', percentage: 100 }
-      ]
-
+      percentage: 0,
+      oneHourLater: localStorage.getItem('oneHourLater'),
+      timeInterval: null,
     };
   },
+  computed: {
+    textChange() {
+      if (this.percentage < 1) {
+        return false;
+      } else {
+        return true;
+      }
+    },
+  },
   methods: {
-    customColorMethod(percentage) {
-      if (percentage < 30) {
-        return '#909399';
-      } else if (percentage < 70) {
+
+    customColorMethod() {
+      if (this.percentage < 40) {
+        return '#67c23a';
+      } else if (this.percentage >= 40 && this.percentage <= 80) {
         return '#e6a23c';
       } else {
-        return '#67c23a';
+        return '#f56c6c';
       }
     },
-    increase() {
-      this.percentage += 10;
-      if (this.percentage > 100) {
-        this.percentage = 100;
-      }
+    deadline() {
+      const diff = this.getDiff();
+
+      const diffMinute = Math.floor(diff / (60 * 1000)); //计算相关的分钟
+      const diffSecond = diff / 1000 - diffMinute * 60; //计算相关的秒
+      return diffMinute.toString().padStart(2, "0") + ':' + Math.floor(diffSecond).toString().padStart(2, "0");
     },
-    decrease() {
-      this.percentage -= 10;
-      if (this.percentage < 0) {
-        this.percentage = 0;
+    getDiff() {
+
+      const now = new Date().getTime();
+      // 截止时间不能更新
+      if (!this.oneHourLater) {
+        this.oneHourLater = now + 60 * 60 * 1000;
+        localStorage.setItem('oneHourLater', this.oneHourLater);
+      }
+      const diff = this.oneHourLater - now;
+      return diff;
+    },
+    showTime(percentage) {
+      // console.log('showTime showTime', percentage);
+      return Math.floor(percentage) + '% ' + this.deadline()
+    },
+
+    resetData() {
+      this.oneHourLater = null;
+      this.percentage = 0;
+      localStorage.removeItem('oneHourLater');
+      if (this.timeInterval) {
+        clearInterval(this.timeInterval)
       }
     },
     updateNowData() {
-      setInterval(() => {
+      if (this.oneHourLater) {
+        if (new Date() > this.oneHourLater) {
+          this.percentage = 100;
+          if (this.timeInterval) {
+            clearInterval(this.timeInterval)
+          }
+          return;
+        }
+      }
+
+      this.timeInterval = setInterval(() => {
+        if (this.percentage >= 100) {
+          if (this.timeInterval) {
+            clearInterval(this.timeInterval)
+          }
+          return;
+        }
         this.nowDate = new Date();
+        const percentageDiff = this.getDiff() / (60 * 60 * 1000);
+        // console.log(percentageDiff)
+        this.percentage = (1 - percentageDiff) * 100;
+        // console.log('this.percentage', this.percentage)
+
       }, 1000);
     },
-    // getMsg() {
-
-    // },
+    formatDate(date) {
+      const year = date.getFullYear().toString().padStart(4, "0");
+      const month = (date.getMonth() + 1).toString().padStart(2, "0");
+      const day = date.getDate().toString().padStart(2, "0");
+      const hour = date.getHours().toString().padStart(2, "0");
+      const minute = date.getMinutes().toString().padStart(2, "0");
+      const second = date.getSeconds().toString().padStart(2, "0");
+      return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+    },
   },
   mounted() {
-    this.updateNowData();
+    // this.updateNowData();
   },
 };
 </script>
-<style scoped>
-#btn {
-  height: 20px;
-  padding: 5px 10px;
-  color: green;
-  border: 1px solid #000;
-  border-radius: 10px;
-  display: inline-block;
+<style lang="scss" scoped>
+.father {
+  height: calc(100% - 94px);
+  width: 100%;
+  position: absolute;
+}
+
+.child {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+:deep .el-progress-bar__innerText {
+  font-size: 40px;
+  margin-right: 20px;
 }
 </style>
